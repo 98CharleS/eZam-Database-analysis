@@ -8,6 +8,8 @@ from plotly.subplots import make_subplots
 df_gdp = pd.read_csv('data/tenders_by_gdp.csv', sep=';', encoding='utf-8-sig')
 df_pop = pd.read_csv('data/tenders_by_population.csv', sep=';', encoding='utf-8-sig')
 df_split = pd.read_csv('data/tenders_by_population_warsaw_split.csv', sep=';', encoding='utf-8-sig')
+df_capita = pd.read_csv('data/tenders_by_gdp_per_capita.csv', sep=';', encoding='utf-8-sig')
+
 
 # --- Trend line helper ---
 def trend_line(x, y):
@@ -19,14 +21,20 @@ def trend_line(x, y):
     r2 = r ** 2
     return x_line, y_line, r, r2
 
-# --- Build subplots ---
+
+# --- Build subplots: 2 rows ---
 fig = make_subplots(
-    rows=1, cols=3,
+    rows=2, cols=3,
     subplot_titles=(
-        'Liczba przetargów vs PKB',
-        'Liczba przetargów vs Populacja',
-        'Populacja (z rozbiciem na Warszawę)'
-    )
+        'Przetargi vs PKB',
+        'Przetargi vs Populacja',
+        'Przetargi vs Populacja (z rozbiciem na Warszawę)',
+        'PKB vs Populacja województw',
+        'Przetargi vs PKB per capita',
+        ''
+    ),
+    vertical_spacing=0.15,
+    horizontal_spacing=0.08
 )
 
 # --- Chart 1: Tenders vs GDP ---
@@ -36,7 +44,7 @@ x1_line, y1_line, r1, r2_1 = trend_line(x1, y1)
 
 fig.add_trace(go.Scatter(
     x=x1, y=y1, mode='markers+text', text=df_gdp['wojewodztwo'],
-    textposition='top center', textfont=dict(size=9),
+    textposition='top center', textfont=dict(size=8),
     marker=dict(size=8, color='#185FA5'), showlegend=False
 ), row=1, col=1)
 
@@ -53,7 +61,7 @@ x2_line, y2_line, r2, r2_2 = trend_line(x2, y2)
 
 fig.add_trace(go.Scatter(
     x=x2, y=y2, mode='markers+text', text=df_pop['wojewodztwo'],
-    textposition='top center', textfont=dict(size=9),
+    textposition='top center', textfont=dict(size=8),
     marker=dict(size=8, color='#185FA5'), showlegend=False
 ), row=1, col=2)
 
@@ -70,7 +78,7 @@ x3_line, y3_line, r3, r2_3 = trend_line(x3, y3)
 
 fig.add_trace(go.Scatter(
     x=x3, y=y3, mode='markers+text', text=df_split['wojewodztwo'],
-    textposition='top center', textfont=dict(size=9),
+    textposition='top center', textfont=dict(size=8),
     marker=dict(size=8, color='#185FA5'), showlegend=False
 ), row=1, col=3)
 
@@ -80,21 +88,62 @@ fig.add_trace(go.Scatter(
     name=f'Trend split (R²={r2_3:.3f}, r={r3:.3f})'
 ), row=1, col=3)
 
+# --- Chart 4: GDP vs Population ---
+x4 = df_capita['ludnosc']
+y4 = df_capita['gdp_mln_pln']
+x4_line, y4_line, r4, r2_4 = trend_line(x4, y4)
+
+fig.add_trace(go.Scatter(
+    x=x4, y=y4, mode='markers+text', text=df_capita['wojewodztwo'],
+    textposition='top center', textfont=dict(size=8),
+    marker=dict(size=8, color='#7F77DD'), showlegend=False
+), row=2, col=1)
+
+fig.add_trace(go.Scatter(
+    x=x4_line, y=y4_line, mode='lines',
+    line=dict(color='#D85A30', width=2, dash='dash'),
+    name=f'Trend PKB/pop. (R²={r2_4:.3f}, r={r4:.3f})'
+), row=2, col=1)
+
+# --- Chart 5: Tenders vs GDP per capita ---
+x5 = df_capita['gdp_per_capita_pln']
+y5 = df_capita['total_tenders']
+x5_line, y5_line, r5, r2_5 = trend_line(x5, y5)
+
+fig.add_trace(go.Scatter(
+    x=x5, y=y5, mode='markers+text', text=df_capita['wojewodztwo'],
+    textposition='top center', textfont=dict(size=8),
+    marker=dict(size=8, color='#185FA5'), showlegend=False
+), row=2, col=2)
+
+fig.add_trace(go.Scatter(
+    x=x5_line, y=y5_line, mode='lines',
+    line=dict(color='#D85A30', width=2, dash='dash'),
+    name=f'Trend per capita (R²={r2_5:.3f}, r={r5:.3f})'
+), row=2, col=2)
+
 # --- Layout ---
 fig.update_layout(
     title=dict(text='Analiza przetargów publicznych w Polsce (2021–2025)', font=dict(size=16)),
-    height=600,
-    width=1500, # Zwiększyłem szerokość dla lepszej czytelności legendy
-    legend=dict(orientation='h', yanchor='bottom', y=-0.25, xanchor='center', x=0.5),
+    height=900,
+    width=1500,
+    legend=dict(orientation='h', yanchor='bottom', y=-0.12, xanchor='center', x=0.5),
     plot_bgcolor='white',
     paper_bgcolor='white',
 )
 
-# Oś X i Y
-titles = ['PKB (mln PLN)', 'Populacja', 'Populacja (split)']
-for i in range(1, 4):
-    fig.update_xaxes(title_text=titles[i-1], row=1, col=i, showgrid=True, gridcolor='#f0f0f0')
-    fig.update_yaxes(title_text='Liczba przetargów', row=1, col=i, showgrid=True, gridcolor='#f0f0f0')
+# --- Axis labels ---
+fig.update_xaxes(title_text='PKB (mln PLN)', row=1, col=1, showgrid=True, gridcolor='#f0f0f0')
+fig.update_xaxes(title_text='Populacja', row=1, col=2, showgrid=True, gridcolor='#f0f0f0')
+fig.update_xaxes(title_text='Populacja (split)', row=1, col=3, showgrid=True, gridcolor='#f0f0f0')
+fig.update_xaxes(title_text='Populacja', row=2, col=1, showgrid=True, gridcolor='#f0f0f0')
+fig.update_xaxes(title_text='PKB per capita (PLN)', row=2, col=2, showgrid=True, gridcolor='#f0f0f0')
+
+fig.update_yaxes(title_text='Liczba przetargów', row=1, col=1, showgrid=True, gridcolor='#f0f0f0')
+fig.update_yaxes(title_text='Liczba przetargów', row=1, col=2, showgrid=True, gridcolor='#f0f0f0')
+fig.update_yaxes(title_text='Liczba przetargów', row=1, col=3, showgrid=True, gridcolor='#f0f0f0')
+fig.update_yaxes(title_text='PKB (mln PLN)', row=2, col=1, showgrid=True, gridcolor='#f0f0f0')
+fig.update_yaxes(title_text='Liczba przetargów', row=2, col=2, showgrid=True, gridcolor='#f0f0f0')
 
 # --- Save & show ---
 os.makedirs('output', exist_ok=True)
