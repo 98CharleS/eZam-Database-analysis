@@ -14,10 +14,27 @@ W związku z powyższym jedynie podczas analizy korelacji ilości populacji do i
 ### Liczba przetargów względem PKB województw
 Liczba przetargów w województwie jest wysoce skorelowana ze wskaźnikiem PKB danego województwa.
 Współczynnik Pearsona `r=0.974` oznacza bardzo silną dodatnią korelację.
-Współczynnik determinacj `R²=0.949` wskazuje, że model liniowy bardzo dobrze opisuje zróżnicowanie liczby przetargów w oparciu o PKB.
+Współczynnik determinacji `R²=0.949` wskazuje, że model liniowy bardzo dobrze opisuje zróżnicowanie liczby przetargów w oparciu o PKB.
 Na wykresie widać, że województwo **Mazowieckie** wyraźnie odstaje od pozostałych elementów zbioru zarówno na osi reprezentującej liczbę przetargów jak i PKB, ale jest niemal idealnie w osi trendu.
 ### Liczba przetargów względem populacji województw
 Liczba przetargów w województwach jest również wysoce skorelowana z ilością mieszkańców w danych województwie, lecz nie tak mocno jak w przypadku PKB.
 Współczynnik Pearsona `r=0.953` oznacza bardzo silną dodatnią korelację.
-Współczynnik determinacj `R²=0.908` wskazuje, że model liniowy dobrze opisuje zróżnicowanie liczby przetargów w oparciu o populację.
-Na wykresie widać, że również w tym przypadku województwo **Mazowieckie** wyraźnie odstaje od pozostałych elementów zbioru zarówno na osi reprezentującej liczbę przetargów jak i ludności, lecz tym razem jest znacznie oddale od linii trendu w kierunku większej liczby przetargów na osobę niż pozostałe elementy zbioru.
+Współczynnik determinacji `R²=0.908` wskazuje, że model liniowy dobrze opisuje zróżnicowanie liczby przetargów w oparciu o populację.
+Na wykresie widać, że również w tym przypadku **województwo Mazowieckie** wyraźnie odstaje od pozostałych elementów zbioru zarówno na osi reprezentującej liczbę przetargów jak i ludności, lecz tym razem jest znacznie oddale od linii trendu w kierunku większej liczby przetargów na osobę niż pozostałe elementy zbioru.
+### Liczba przetargów względem populacji województw z wykluczeniem Warszawy z województwa Mazowieckiego
+Po odesparowaniu **miasta Warszawy** od reszty **województwa Mazowieckiego** ogólna korelacja spadła.
+>Współczynnik Pearsona `r=0.874` oznacza 
+>Współczynnik determinacji `R²=0.764` wskazuje, że
+
+Pomimo tego, że korelacja spadła względem wykresu **Liczba przetargów względem populacji województw** na wykresie widać, że **województwo Mazowieckie** po wykluczeniu **miasta Warszawy** zbliżyło się do linii trendu oraz województwa zgromadzone są wokół linii trendu. Wyjąktiem pozostaje **miasto Warszawa**, które na tle zbioru wyróźnia się wysoką liczbą przetargów na osobę.
+### Populacja względem PKB
+W celu sprawdzenia zależności pomiędzy dwoma analizowanymi czynnikami stworzyłem wykres przedstawiający PKB województw w zestawieniu do populacji.
+>Współczynnik Pearsona `r=0.951` oznacza 
+>Współczynnik determinacji `R²=0.904` wskazuje, że
+
+Liczba ludności rośnie w tym samym kierunku do PKB województwa. Warto zauważyć na tym wykresie również odmnienną pozycję **województwa Mazowieckiego**, którego PKB jest wyraźnie wyższe względem ludności niż w przypadku innych województw.
+### Liczba przetargów względem PKB per capita
+>Współczynnik Pearsona `r=0,880` oznacza 
+>Współczynnik determinacji `R²=0.775` wskazuje, że
+
+Pomimo realtywnie wysokich wartości współczynnika Pearsona i determinacji na wykresie widać znacznie większe rozproszenie elementów zbioru niż w poprzednich wykresach
