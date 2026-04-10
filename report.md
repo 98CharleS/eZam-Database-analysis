@@ -1,9 +1,11 @@
 # Analiza uzyskanych danych 
 Z pośród dostępnych artrbutów `TenderType` oraz `procedureResult` wszędzie zawierały wartość NULL. Dodatkowo wszystkie przetargi w analizowanym zakresie posiadały taką samą wartość ????????? w kolumnie `isTenderAmountBelowEU`. W celu poprawy czytelnośći i integralności danych kolumny te zostały odrzucone.
 # Analiza sezonowości rozkładu przetargów
-
+Które dziedziny wykazują największe wahania, a jakie najmniejsze?
 # Analiza rozkładu przetargów względem dzedzin
-
+## Top5 overall
+## Top5 w województwach
+Czy we wszystkich województwach sytuacja się powtarza? Czy czasami są odstępstwa?+
 # Analiza rozkładu przetargów względem innych czynników
 ## Wstęp
 Nie ma dostępnych danych udziału **miasta Warszawy** w ogólnym PKB kraju. Jedyne dostępne dane przedstawiają udział **Regionu Warszawskiego Stołecznego** według podziału **NUTS 2**. Przekształcenie danych uzyskanych z platformy eZamówienia na system **NUTS 2** mogłoby doprowadzić do złej alokacji jednostek samorządu terytorialnego ze względu na oryginalną strukturę danych zawierających `organizationProvince`, które przedstawia województwo zamawiającego oraz `organizationCity`, które przedstawia miejscowość zamawiającego. Ze względu na skalę wynikającą z ilości miejscowości wchodzących w skład **Regionu Warszawskiego Stołecznego**, a jednocześnie małą precyzyjność oryginalnych danych przedstawiających lokalizację przetargu w odniesieniu do uładu administracyjnego konwersja danych do formatu **NUTS 2** i wzbogacenie ich o dane odnośnie populacji w gmianch wchodzących w skład **Regionu Warszawskiego Stołecznego** obarczone jest zbyt dużym ryzykiem złej agregacji dancyh podczas procesu konwersji. 
