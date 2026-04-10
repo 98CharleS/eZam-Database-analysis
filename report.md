@@ -1,6 +1,5 @@
 # Analiza uzyskanych danych 
-Z pośród dostępnych artrbutów możemy wyróżnic parę, które nie są wykorzystywane i wpływają negatywnie na czytelność danych.
-
+Z pośród dostępnych artrbutów `TenderType` oraz `procedureResult` wszędzie zawierały wartość NULL. Dodatkowo wszystkie przetargi w analizowanym zakresie posiadały taką samą wartość ????????? w kolumnie `isTenderAmountBelowEU`. W celu poprawy czytelnośći i integralności danych kolumny te zostały odrzucone.
 # Analiza sezonowości rozkładu przetargów
 
 # Analiza rozkładu przetargów względem dzedzin
