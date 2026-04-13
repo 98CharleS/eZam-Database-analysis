@@ -5,11 +5,13 @@ Z pośród dostępnych artrbutów `TenderType` oraz `procedureResult` wszędzie 
 ## CPV na dziedziny - co jest najpopularniejsze
 ## Top5 CPV - co jest dokładnie najpopularniejsze
 ## Top5 CPV w województwach - czy województwa wyglądają podobnie czy są jakieś zmiany?
-## Top5 CPV overall w czasie - czy są zmiany najbardziej popularnych CPV? 
-Czy we wszystkich województwach sytuacja się powtarza? Czy czasami są odstępstwa?+
+
 
 # Analiza sezonowości rozkładu przetargów
-Które dziedziny wykazują największe wahania, a jakie najmniejsze?
+## Top5 CPV overall w czasie - czy są zmiany najbardziej popularnych CPV? 
+Czy we wszystkich województwach sytuacja się powtarza? Czy czasami są odstępstwa?+
+## 1. Jak zmienia się ogólna liczba w czasie
+## 2. Które dziedziny wykazują największe wahania, a jakie najmniejsze?
 
 # Analiza rozkładu przetargów względem innych czynników
 ## Wstęp
