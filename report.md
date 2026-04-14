@@ -25,7 +25,7 @@ Czy we wszystkich województwach sytuacja się powtarza? Czy czasami są odstęp
 Nie ma dostępnych danych udziału **miasta Warszawy** w ogólnym PKB kraju. Jedyne dostępne dane przedstawiają udział **Regionu Warszawskiego Stołecznego** według podziału **NUTS 2**. Przekształcenie danych uzyskanych z platformy eZamówienia na system **NUTS 2** mogłoby doprowadzić do złej alokacji jednostek samorządu terytorialnego ze względu na oryginalną strukturę danych zawierających `organizationProvince`, które przedstawia województwo zamawiającego oraz `organizationCity`, które przedstawia miejscowość zamawiającego. Ze względu na skalę wynikającą z ilości miejscowości wchodzących w skład **Regionu Warszawskiego Stołecznego**, a jednocześnie małą precyzyjność oryginalnych danych przedstawiających lokalizację przetargu w odniesieniu do uładu administracyjnego konwersja danych do formatu **NUTS 2** i wzbogacenie ich o dane odnośnie populacji w gmianch wchodzących w skład **Regionu Warszawskiego Stołecznego** obarczone jest zbyt dużym ryzykiem złej agregacji dancyh podczas procesu konwersji. 
 W związku z powyższym jedynie podczas analizy korelacji ilości populacji do ilości przetargów możliwe było wyłączeniem miasta Warszawy jako osobnej jednostki.
 
-## Przedstawienie wyników
+## Analiza danych
 ### Liczba przetargów względem PKB województw
 Liczba przetargów w województwie jest wysoce skorelowana ze wskaźnikiem PKB danego województwa.
 Współczynnik Pearsona `r=0.974` oznacza bardzo silną dodatnią korelację.
@@ -52,13 +52,18 @@ Liczba ludności rośnie w tym samym kierunku do PKB województwa. Warto zauważ
 >Współczynnik Pearsona `r=0,880` oznacza 
 >Współczynnik determinacji `R²=0.775` wskazuje, że
 
-Pomimo realtywnie wysokich wartości współczynnika Pearsona i determinacji na wykresie widać znacznie większe rozproszenie elementów zbioru niż w poprzednich wykresach
+Pomimo realtywnie wysokich wartości współczynnika Pearsona i determinacji na wykresie widać znacznie większe rozproszenie elementów zbioru niż w poprzednich wykresach.
 
 # Podsumowanie
 1. Opis danych
 2. Opis popularności
 3. Opis zmian w czasie
 4. Czynniki zewnętrzne
+PKB jest najlepszym czynnikiem, na którego podstawie możemy przewidzieć liczbę przetargów. Wysoka korelacja liczby przetargów oznacza, że regiony o mocniej rozwiniętej gospodarce regionalnej generują więcej przetargów. Jest to logiczna korelacja lecz pokazuje, że Polska rozwija się równomiernie pomimo licznych programów (!TUTAJ PODAĆ PRZYKŁADY!), które miały na celu wspieranie `rozwoju w mniej rozwiniętych` (!napisać to lepiej!) regionach.
+Tezę o równomiernym rozwoju Polski udowadniają też wykresy ilości przetargów do liczby ludności, na których widać liniowy wzrost liczby przetargów wraz z liczbą ludności. Wyjątkiem tutaj pozostaje **miato Warszawa**, które generuje znacznie więcej przetargów na osobę niż wynikałoby to z trendu co dokładnie widać w zawyżonym wyniku **województwa Mazowieckiego** na drugim wykresie i na wykresie trzecim z wyciągniętym **miastem Warszawa**, który posiada dużo mniejszą (!napisać dokładnie jaką!) wartość dopasowania modelu niż wykres całym **województwem Mazowieckim**. Anomalie związaną z zawyżonym wynikiem **województwa Mazowieckiego** widać równiez na wykresie 4 i dobitnie na wykresie 5 gdzie reszta województw reprezentuje podobny poziom liczby przetargów i PKB per capita gromadząc się w lewym dolnym rogu kiedy **województwo Mazowieckie** znajduje się odizolowane w przeciwnym rogu. Brak wyraźnego trendu na wykresie 5 pokazuje, że bogatsze województwa nie koniecznie muszą generować więcej przetargów.
+W celu lepszego zbadania zasadności korelacji liczby przetargów z PKB należałoby wyłączyć **miasto Warszawę** lub **Warszawski Region Stołeczny** z **województwa Mazowieckiego** co z przyczyn wyjaśnionych we wstępie nie zostało wykonane. 
+
+
 
 # Wnioski
 1. Do czego można wykorzystać badania i pracę?
