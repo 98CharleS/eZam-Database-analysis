@@ -27,7 +27,6 @@ W związku z powyższym jedynie podczas analizy korelacji liczby ludności do li
 
 ## Analiza danych
 ### Liczba przetargów względem PKB województw
-
 Liczba przetargów w województwie jest wysoce skorelowana ze wskaźnikiem PKB danego województwa.
 Współczynnik Pearsona `r=0.974` oznacza bardzo silną dodatnią korelację.
 Współczynnik determinacji `R²=0.949` wskazuje, że model liniowy bardzo dobrze opisuje zróżnicowanie liczby przetargów w oparciu o PKB.
@@ -61,11 +60,10 @@ Pomimo relatywnie wysokich wartości **współczynnika Pearsona i determinacji**
 2. Opis popularności
 3. Opis zmian w czasie
 4. Czynniki zewnętrzne
-PKB jest najlepszym czynnikiem, na którego podstawie możemy przewidzieć liczbę przetargów. Wysoka korelacja liczby przetargów oznacza, że regiony o mocniej rozwiniętej gospodarce regionalnej generują więcej przetargów. Jest to logiczna korelacja lecz pokazuje, że Polska rozwija się równomiernie pomimo licznych programów (!TUTAJ PODAĆ PRZYKŁADY!), które miały na celu wspieranie `rozwoju w mniej rozwiniętych` (!napisać to lepiej!) regionach.
-Tezę o równomiernym rozwoju Polski udowadniają też wykresy ilości przetargów do liczby ludności, na których widać liniowy wzrost liczby przetargów wraz z liczbą ludności. Wyjątkiem tutaj pozostaje **miato Warszawa**, które generuje znacznie więcej przetargów na osobę niż wynikałoby to z trendu co dokładnie widać w zawyżonym wyniku **województwa Mazowieckiego** na drugim wykresie i na wykresie trzecim z wyciągniętym **miastem Warszawa**, który posiada dużo mniejszą (!napisać dokładnie jaką!) wartość dopasowania modelu niż wykres całym **województwem Mazowieckim**. Anomalie związaną z zawyżonym wynikiem **województwa Mazowieckiego** widać równiez na wykresie 4 i dobitnie na wykresie 5 gdzie reszta województw reprezentuje podobny poziom liczby przetargów i PKB per capita gromadząc się w lewym dolnym rogu kiedy **województwo Mazowieckie** znajduje się odizolowane w przeciwnym rogu. Brak wyraźnego trendu na wykresie 5 pokazuje, że bogatsze województwa nie koniecznie muszą generować więcej przetargów.
-W celu lepszego zbadania zasadności korelacji liczby przetargów z PKB należałoby wyłączyć **miasto Warszawę** lub **Warszawski Region Stołeczny** z **województwa Mazowieckiego** co z przyczyn wyjaśnionych we wstępie nie zostało wykonane. 
-
-
+PKB jest najlepszym czynnikiem, na podstawie którego można przewidzieć liczbę przetargów. Wysoka korelacja liczby przetargów z PKB oznacza, że regiony o silniejszej gospodarce regionalnej generują więcej przetargów. Jest to logiczna zależność, lecz pokazuje, że aktywność przetargowa w Polsce pozostaje silnie skoncentrowana w najbardziej rozwiniętych gospodarczo regionach. Może to świadczyć o utrzymujących się dysproporcjach regionalnych pomimo licznych programów, takich jak **Program Operacyjny Polska Wschodnia 2014–2020 (PO PW)**, **Fundusze Europejskie dla Polski Wschodniej 2021–2027 (FEPW)** oraz **Regionalne Programy Operacyjne (RPO)** finansowane z funduszy UE, które miały na celu wyrównywanie dysproporcji rozwojowych między województwami.
+Tezę o utrzymującej się koncentracji aktywności przetargowej potwierdzają wykresy liczby przetargów do liczby ludności, na których widać liniowy wzrost liczby przetargów wraz z liczbą ludności. Wyjątkiem pozostaje **miasto Warszawa**, które generuje znacznie więcej przetargów na osobę, niż wynikałoby to z trendu. Widać to dokładnie w zawyżonym wyniku **województwa Mazowieckiego** na wykresie drugim oraz na wykresie trzecim z wydzielonym **miastem Warszawa**, którego wartość dopasowania modelu (`R²=0.764`) jest o ponad 18 punktów procentowych niższa niż wykresu z całym **województwem Mazowieckim** (`R²=0.949`).
+Anomalię związaną z zawyżonym wynikiem **województwa Mazowieckiego** widać również na wykresie czwartym, a dobitnie na wykresie piątym, gdzie pozostałe województwa reprezentują podobny poziom liczby przetargów i PKB per capita, skupiając się w lewym dolnym rogu, podczas gdy **województwo Mazowieckie** znajduje się odizolowane w przeciwnym. Słabsze dopasowanie modelu na wykresie piątym pokazuje, że sama zamożność per capita nie jest dobrym predyktorem liczby przetargów — liczy się przede wszystkim bezwzględna skala gospodarcza regionu.
+W celu lepszego zbadania zasadności korelacji liczby przetargów z PKB należałoby wyłączyć **miasto Warszawę** lub **Warszawski Region Stołeczny** z **województwa Mazowieckiego**, co z przyczyn wyjaśnionych we wstępie nie zostało wykonane.
 
 # Wnioski
 1. Do czego można wykorzystać badania i pracę?
