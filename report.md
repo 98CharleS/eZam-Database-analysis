@@ -13,6 +13,13 @@ Z pośród dostępnych artrbutów `TenderType` oraz `procedureResult` wszędzie 
 W pobranych danych w kolumnie `cpvCode` znajdowało się wiele kodów CPV. Wynika to z charakterystyki struktury ogłoszeń o przetargach, gdzie wstępuje jeden główny kod CPV, następnie może występować wiele dodatkowych kodów CPV, których kluczowość dla całości przedmiotu przetargu może być zróżnicowana. 
 Ze względu na to, że niemożliwa jest ocena istotności dodatkowego kodu CPV dla całości przetargu, a różna liczba dodatkowych kodów zaburzyłaby statystykę częstotliwości w odniesieniu do liczby przetargów, analizie poddano wyłącznie główny kod CPV dostępny w atrybutach każdego wpisu. Przyjęte podejście zapewnia standaryzację, spójność i czytelność wyników.
 ## CPV na dziedziny - co jest najpopularniejsze
+Kody CPV są dokładnym przedstawieniem zakresu przetargu, lecz ze względu szczegółówość jest ich bardzo wiele (!podać ilość!) i dzielą wszystkie przetargi na wąskie zakresy, które są ciężkie do przedstawienia wizualnego i generalizacji. Dla generalizacji kody CPV zaagregowano w 45 dziedzin obejmujące szerszy zakres.
++------------------------------------------------------------------------------------+
+
+! TUTAJ WYKRES KOŁOWY !
+
++------------------------------------------------------------------------------------+
+Najwięcej przetargów dotyczy **Robót budowlanych - 32,2%** i jest wyraźnym liderem 
 ## Top5 CPV - co jest dokładnie najpopularniejsze
 ## Top5 CPV w województwach - czy województwa wyglądają podobnie czy są jakieś zmiany?
 
