@@ -4,7 +4,7 @@ za pomocą API ([eZam-Database-extraction](https://github.com/98CharleS/eZam-Dat
 które zostały następnie sformatowane i opracowane 
 ([eZam-Database-formating](https://github.com/98CharleS/eZam-Database-formating)) 
 w celu uzyskania standaryzacji, czytelności i możliwości obsługi w innych programach.
-Zbiór danych liczy ##### elementów i obejmuje przetargi z okresu 01.01.2020–31.12.2025.
+Zbiór danych liczy 517 840 elementów i obejmuje przetargi z okresu 01.01.2020–31.12.2025.
 # Omówienie i analiza uzyskanych danych 
 Z pośród dostępnych artrbutów `TenderType` oraz `procedureResult` wszędzie zawierały wartość NULL. Dodatkowo wszystkie przetargi w analizowanym zakresie posiadały taką samą wartość ????????? w kolumnie `isTenderAmountBelowEU`. W celu poprawy czytelnośći i integralności danych kolumny te zostały odrzucone.
 
