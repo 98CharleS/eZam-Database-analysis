@@ -16,7 +16,21 @@ Ze względu na to, że niemożliwa jest ocena istotności dodatkowego kodu CPV d
 
 <img width="2117" height="1314" alt="image" src="https://github.com/user-attachments/assets/4655b18d-7fd7-4c8f-9918-7c6096da2900" />
 
-W analizowanej bazie danych wystepuje **5047** kodów CPV. Widoczna jest bardzo duża dysproporcja pomiędzy liczbą przetargów podlegająych pod poszczególne kody CPV. **51,79%** wszystkich kodów CPV wystąpiło **mniej niż 10 razy** w bazie danych, **mniej niż 100 razy** wystąpiło aż **87,18%** kodów CPV, a **mniej niż 1 000 razy** wystąpiło aż **98,18%** zbioru. W tym samym zbiorze najpopularniejszy kod CPV - "**45000000-7 Roboty budowlane**" wystąpił jako główny kod CPV w **58 906** przetargach co stanowiło **11,38%** wszystkich przetargów ze zbioru. Świadczy to o tym, że zbiór ma rozkład silnie prawoskośny z długim ogonem.
+W analizowanej bazie danych wystepuje **5047** kodów CPV. Widoczna jest bardzo duża dysproporcja pomiędzy liczbą przetargów podlegająych pod poszczególne kody CPV. **51,79%** wszystkich kodów CPV wystąpiło **mniej niż 10 razy** w bazie danych, **mniej niż 100 razy** wystąpiło aż **87,18%** kodów CPV, a **mniej niż 1 000 razy** wystąpiło aż **98,18%** zbioru. 
+Wszystkie kody CPV, które stanowią w zbiorze 1% lub więcej przedstawia poniższa tabela:
+
+| Kod CPV | Nazwa | Liczba przetargów | Udział % |
+|---------|-------|-------------------|----------|
+| **45000000-7** | Roboty budowlane | 58 906 | **11,38%** |
+| 45200000-8 | Roboty drogowe | 9 423 | 1,82% |
+| 45231000-6 | Roboty w zakresie budowy dróg | 9 148 | 1,77% |
+| 71200000-3 | Usługi inżynierskie w zakresie projektowania | 8 356 | 1,61% |
+| 79700000-3 | Usługi ochroniarskie | 6 220 | 1,20% |
+| 45300000-9 | Roboty remontowe i renowacyjne | 5 944 | 1,15% |
+| 45243000-0 | Roboty w zakresie nawierzchni dróg | 5 160 | 1,00% 
+
+Najpopularniejszy kod CPV - "**45000000-7 Roboty budowlane**" wystąpił jako główny kod CPV w **58 906** przetargach co stanowiło **11,38%** wszystkich przetargów ze zbioru. Następny najpopularniejszy kod **45200000-8 Roboty drogowe** wystąpił w **9 423** przetargach co było liczbą ponad 6-krotnie mniejszą. Różnice pomiędzy ilościami przetargów z danymi kodami CPV maleją wraz ze spadkiem liczby przetargów. 
+Taki rozkład danych świadczy o tym, że zbiór charakteryzuje się rozkładem silnie prawoskośnym z długim ogonem.
 
 ## CPV na dziedziny - co jest najpopularniejsze
 
