@@ -30,18 +30,33 @@ Wszystkie kody CPV, które stanowią w zbiorze 1% lub więcej przedstawia poniż
 | 45300000-9 | Roboty remontowe i renowacyjne | 5 944 | 1,15% |
 | 45243000-0 | Roboty w zakresie nawierzchni dróg | 5 160 | 1,00% 
 
-Najpopularniejszy kod CPV - "**45000000-7 Roboty budowlane**" wystąpił jako główny kod CPV w **58 906** przetargach co stanowiło **11,38%** wszystkich przetargów ze zbioru. Następny najpopularniejszy kod **45200000-8 Roboty drogowe** wystąpił w **9 423** przetargach co było liczbą ponad 6-krotnie mniejszą. Różnice pomiędzy ilościami przetargów z danymi kodami CPV maleją wraz ze spadkiem liczby przetargów.
+Najpopularniejszy kod CPV - "**45000000-7 Roboty budowlane**" wystąpił jako główny kod CPV w **58 906** przetargach co stanowiło **11,38%** wszystkich przetargów ze zbioru. Następny najpopularniejszy kod **45200000-8 Roboty drogowe** wystąpił w **9 423** przetargach co było liczbą ponad **6-krotnie mniejszą**. Różnice pomiędzy ilościami przetargów z danymi kodami CPV maleją wraz ze spadkiem liczby przetargów.
 Taki rozkład danych świadczy o tym, że zbiór charakteryzuje się rozkładem silnie prawoskośnym z długim ogonem.
 
 ## Analiza rozkładu działów przetargów
 
-<img width="2114" height="1306" alt="image" src="https://github.com/user-attachments/assets/ea3247d3-7a2c-4988-bc0a-b1541c2fec86" />
-
 **Kody CPV** są dokładnym przedstawieniem tematyki przetargu, lecz ze względu szczegółówość jest ich bardzo wiele i dzielą wszystkie przetargi na wąskie zakresy, które są ciężkie do przedstawienia wizualnego i generalizacji. Dla uproszczenia **kody CPV zaagregowano w 45 działów** obejmujące szerszy zakres. Działy przyjęto zgodnie z obowiązującym podziałem wynikającym z [Rozporządzenie Komisji (WE) nr 213/2008 z dnia 28 listopada 2007 r ](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32008R0213).
 
-Najwięcej przetargów dotyczy **Robót budowlanych - 32,25%** i jest to wyraźny lider. Potwierdza to obserwacje z poprzedniej analizty gdzie kody CPV związane z Robotami budowlanymi skupiały najwięcej przetargów.
+<img width="2114" height="1306" alt="image" src="https://github.com/user-attachments/assets/ea3247d3-7a2c-4988-bc0a-b1541c2fec86" />
 
+10 najliczniejszych działów przedstawia poniższa tabela:
 
+| Kod | Nazwa | Liczba przetargów | Udział % |
+|-----|-------|-------------------|----------|
+| **45** | Roboty budowlane | 167 010 | **32,25%** |
+| 33 | Sprzęt medyczny i farmaceutyczny | 39 843 | 7,69% |
+| 71 | Usługi architektoniczne i inżynieryjne | 31 379 | 6,06% |
+| 90 | Usługi środowiskowe i sanitarne | 23 543 | 4,55% |
+| 15 | Artykuły spożywcze i napoje | 22 319 | 4,31% |
+| 9 | Produkty naftowe, paliwa i energia | 20 268 | 3,91% |
+| 34 | Sprzęt transportowy i pojazdy | 19 757 | 3,82% |
+| 30 | Sprzęt komputerowy i biurowy | 19 462 | 3,76% |
+| 79 | Usługi biznesowe i doradcze | 15 855 | 3,06% |
+| 39 | Meble i wyposażenie wnętrz | 14 948 | 2,89% |
+
+Najwięcej przetargów dotyczyło działu **Roboty budowlane**, który skupiał **32,25%** wszystkich przetargów i stanowił wyraźnego lidera zestawienia. Potwierdza to obserwacje z poprzedniej analizy, w której **kody CPV** związane z robotami budowlanymi również dominowały pod względem liczebności. Pomiędzy pierwszym a drugim miejscem wystąpiła istotna dysproporcja – kolejny dział, **Sprzęt medyczny i farmaceutyczny**, skupiał **7,69%** przetargów, co oznacza, że był **4,19-krotnie mniej liczny niż lider**. Różnica ta, choć znacząca, jest wyraźnie mniejsza niż analogiczna dysproporcja zaobserwowana na poziomie pojedynczych **kodów CPV**, gdzie lider przewyższał następnika ponad 6-krotnie.
+Dalsze pozycje rankingu zajmowały działy: **Usługi architektoniczne i inżynieryjne (6,06%), Usługi środowiskowe i sanitarne (4,55%)** oraz **Artykuły spożywcze i napoje (4,31%)**. Różnice pomiędzy kolejnymi działami w tej części zestawienia są już znacznie mniejsze i stopniowo maleją wraz ze spadkiem liczby przetargów. Działy zajmujące pozycje od 6. do 10. – **Produkty naftowe, paliwa i energia, Sprzęt transportowy i pojazdy, Sprzęt komputerowy i biurowy, Usługi biznesowe i doradcze oraz Meble i wyposażenie wnętrz –** skupiały odpowiednio od **3,91% do 2,89%** przetargów, tworząc relatywnie zwartą grupę o zbliżonych udziałach.
+Zjawisko mniejszego rozwarstwienia wynika z naturalnego efektu agregacji – grupowanie kodów CPV w działy niweluje ekstremalne różnice widoczne przy bardziej szczegółowym poziomie klasyfikacji. Rozkład tych danych również wykazuje charakter silnie prawoskośny z długim ogonem, co oznacza, że zdecydowana większość przetargów koncentruje się w nielicznych działach, podczas gdy pozostałe kategorie – w tym **Usługi związane z przemysłem naftowym** z zaledwie 18 przetargami – stanowią marginalny udział w zbiorze.
 
 ## Top5 CPV w województwach - czy województwa wyglądają podobnie czy są jakieś zmiany?
 
