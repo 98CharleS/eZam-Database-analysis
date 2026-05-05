@@ -87,6 +87,8 @@ Zjawisko mniejszego rozwarstwienia wynika z naturalnego efektu agregacji – gru
 
 
 # Analiza sezonowości rozkładu przetargów
+<img width="1261" height="721" alt="obraz" src="https://github.com/user-attachments/assets/b6bceb05-1fa1-423e-a48e-e63c494535c0" />
+
 ## Top5 CPV overall w czasie - czy są zmiany najbardziej popularnych CPV? 
 Czy we wszystkich województwach sytuacja się powtarza? Czy czasami są odstępstwa?+
 ## 1. Jak zmienia się ogólna liczba w czasie
