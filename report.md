@@ -79,6 +79,10 @@ Zjawisko mniejszego rozwarstwienia wynika z naturalnego efektu agregacji – gru
 
 <img width="1211" height="724" alt="obraz" src="https://github.com/user-attachments/assets/7e84bcfe-b486-45f1-8f79-9d1b274c362d" />
 
+### Legenda
+
+<img width="1036" height="675" alt="obraz" src="https://github.com/user-attachments/assets/f2af6d88-c725-4257-bf38-5a7f67df0322" />
+
 ### Tabela zbiorcza
 
 
