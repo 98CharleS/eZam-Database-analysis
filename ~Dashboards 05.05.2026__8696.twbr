@@ -428,161 +428,6 @@
         </objects>
       </object-graph>
     </datasource>
-    <datasource caption='tenders_by_cpv' inline='true' name='federated.0hsi5g61rcg0f015tg70m04n8ogp' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='tenders_by_cpv' name='textscan.08mubmp1c3argd1bdjtn60jzsr15'>
-            <connection class='textscan' directory='D:/eZamDB/eZam-Database-analysis/data' filename='tenders_by_cpv.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <relation connection='textscan.08mubmp1c3argd1bdjtn60jzsr15' name='tenders_by_cpv.csv' table='[tenders_by_cpv#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='pl_PL' separator=';'>
-            <column datatype='string' name='cpv_code' ordinal='0' />
-            <column datatype='string' name='cpv_description' ordinal='1' />
-            <column datatype='integer' name='total_tenders' ordinal='2' />
-          </columns>
-        </relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[tenders_by_cpv.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;binary&quot;</attribute>
-              <attribute datatype='string' name='currency'>&quot;zł&quot;</attribute>
-              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;pl_PL&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>cpv_code</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[cpv_code]</local-name>
-            <parent-name>[tenders_by_cpv.csv]</parent-name>
-            <remote-alias>cpv_code</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>cpv_description</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[cpv_description]</local-name>
-            <parent-name>[tenders_by_cpv.csv]</parent-name>
-            <remote-alias>cpv_description</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>total_tenders</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[total_tenders]</local-name>
-            <parent-name>[tenders_by_cpv.csv]</parent-name>
-            <remote-alias>total_tenders</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='tenders_by_cpv.csv' datatype='table' name='[__tableau_internal_object_id__].[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]' role='measure' type='quantitative' />
-      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Oliwia/AppData/Local/Temp/TableauTemp/#TableauTemp_11t7l1q0w9o0y015wx8ew0kc61wx.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/05/2026 03:49:33 PM' username='tableau_internal_user'>
-          <relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>cpv_code</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[cpv_code]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>cpv_code</remote-alias>
-              <ordinal>0</ordinal>
-              <family>tenders_by_cpv.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>5047</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>cpv_description</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[cpv_description]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>cpv_description</remote-alias>
-              <ordinal>1</ordinal>
-              <family>tenders_by_cpv.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>5047</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>total_tenders</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[total_tenders]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>total_tenders</remote-alias>
-              <ordinal>2</ordinal>
-              <family>tenders_by_cpv.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>314</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Poland&quot;' />
-      </semantic-values>
-      <date-options start-of-week='monday' />
-      <object-graph>
-        <objects>
-          <object caption='tenders_by_cpv.csv' id='tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA'>
-            <properties context=''>
-              <relation connection='textscan.08mubmp1c3argd1bdjtn60jzsr15' name='tenders_by_cpv.csv' table='[tenders_by_cpv#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='pl_PL' separator=';'>
-                  <column datatype='string' name='cpv_code' ordinal='0' />
-                  <column datatype='string' name='cpv_description' ordinal='1' />
-                  <column datatype='integer' name='total_tenders' ordinal='2' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='Extract' table='[Extract].[Extract]' type='table' />
-            </properties>
-          </object>
-        </objects>
-      </object-graph>
-    </datasource>
     <datasource caption='tenders_by_province_and_division' inline='true' name='federated.0lhi0rp1uoxjiv1h08cgr0fb20vv' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -812,7 +657,8 @@
       </column>
       <column caption='top5_cpv_by_province_2021.csv+' datatype='table' name='[__tableau_internal_object_id__].[_8B4DB2E161D34131ADD118F95B20A69E]' role='measure' type='quantitative' />
       <column caption='tenders_by_province_and_division.csv' datatype='table' name='[__tableau_internal_object_id__].[tenders_by_province_and_division.csv_19F55FEABE02445C9C78B7B289B280FF]' role='measure' type='quantitative' />
-      <column datatype='string' name='[cpv_description]' role='dimension' type='nominal' />
+      <column caption='CPV Code' datatype='string' name='[cpv_code]' role='dimension' type='nominal' />
+      <column caption='CPV Description' datatype='string' name='[cpv_description]' role='dimension' type='nominal' />
       <column datatype='string' name='[division_name]' role='dimension' type='nominal' />
       <column datatype='string' name='[province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
       <column datatype='string' name='[wojewodztwo]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
@@ -1287,6 +1133,161 @@
         </relationships>
       </object-graph>
     </datasource>
+    <datasource caption='tenders_by_cpv' inline='true' name='federated.0hsi5g61rcg0f015tg70m04n8ogp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tenders_by_cpv' name='textscan.08mubmp1c3argd1bdjtn60jzsr15'>
+            <connection class='textscan' directory='D:/eZamDB/eZam-Database-analysis/data' filename='tenders_by_cpv.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.08mubmp1c3argd1bdjtn60jzsr15' name='tenders_by_cpv.csv' table='[tenders_by_cpv#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='pl_PL' separator=';'>
+            <column datatype='string' name='cpv_code' ordinal='0' />
+            <column datatype='string' name='cpv_description' ordinal='1' />
+            <column datatype='integer' name='total_tenders' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tenders_by_cpv.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;binary&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;zł&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;pl_PL&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cpv_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cpv_code]</local-name>
+            <parent-name>[tenders_by_cpv.csv]</parent-name>
+            <remote-alias>cpv_code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cpv_description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cpv_description]</local-name>
+            <parent-name>[tenders_by_cpv.csv]</parent-name>
+            <remote-alias>cpv_description</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_tenders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_tenders]</local-name>
+            <parent-name>[tenders_by_cpv.csv]</parent-name>
+            <remote-alias>total_tenders</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='tenders_by_cpv.csv' datatype='table' name='[__tableau_internal_object_id__].[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Oliwia/AppData/Local/Temp/TableauTemp/#TableauTemp_1bdxd900rk7l8216ps93l0j04vth.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/05/2026 04:20:11 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>cpv_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cpv_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cpv_code</remote-alias>
+              <ordinal>0</ordinal>
+              <family>tenders_by_cpv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5047</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cpv_description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cpv_description]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cpv_description</remote-alias>
+              <ordinal>1</ordinal>
+              <family>tenders_by_cpv.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5047</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_tenders</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_tenders]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_tenders</remote-alias>
+              <ordinal>2</ordinal>
+              <family>tenders_by_cpv.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>314</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Poland&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='tenders_by_cpv.csv' id='tenders_by_cpv.csv_F94676340F7D494EA9C4574FCCE0D5AA'>
+            <properties context=''>
+              <relation connection='textscan.08mubmp1c3argd1bdjtn60jzsr15' name='tenders_by_cpv.csv' table='[tenders_by_cpv#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='pl_PL' separator=';'>
+                  <column datatype='string' name='cpv_code' ordinal='0' />
+                  <column datatype='string' name='cpv_description' ordinal='1' />
+                  <column datatype='integer' name='total_tenders' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
   </datasources>
   <mapsources>
     <mapsource name='Tableau' />
@@ -1296,7 +1297,7 @@
       <activation auto-clear='true' type='on-select' />
       <source type='sheet' worksheet='Pie Map of tenders per region' />
       <command command='tsc:brush'>
-        <param name='field-captions' value='cpv_description' />
+        <param name='field-captions' value='CPV Description' />
         <param name='target' value='Pie Map of tenders per region' />
       </command>
     </action>
@@ -1436,7 +1437,7 @@
                 <alias key='&quot;top5_cpv_by_province_2025.csv&quot;' value='2025' />
               </aliases>
             </column>
-            <column datatype='string' name='[cpv_description]' role='dimension' type='nominal' />
+            <column caption='CPV Description' datatype='string' name='[cpv_description]' role='dimension' type='nominal' />
             <column datatype='integer' name='[liczba_przetargow]' role='measure' type='quantitative' />
             <column-instance column='[Table Name]' derivation='None' name='[none:Table Name:nk]' pivot='key' type='nominal' />
             <column-instance column='[cpv_description]' derivation='None' name='[none:cpv_description:nk]' pivot='key' type='nominal' />
@@ -1552,7 +1553,7 @@
             <mapsource name='Tableau' />
           </mapsources>
           <datasource-dependencies datasource='federated.0lhi0rp1uoxjiv1h08cgr0fb20vv'>
-            <column datatype='string' name='[cpv_description]' role='dimension' type='nominal' />
+            <column caption='CPV Description' datatype='string' name='[cpv_description]' role='dimension' type='nominal' />
             <column datatype='integer' name='[liczba_przetargow]' role='measure' type='quantitative' />
             <column-instance column='[cpv_description]' derivation='None' name='[none:cpv_description:nk]' pivot='key' type='nominal' />
             <column-instance column='[wojewodztwo]' derivation='None' name='[none:wojewodztwo:nk]' pivot='key' type='nominal' />
@@ -1570,6 +1571,7 @@
           <style-rule element='header'>
             <format attr='border-style' value='solid' />
             <format attr='border-width' value='3' />
+            <format attr='width' field='[federated.0lhi0rp1uoxjiv1h08cgr0fb20vv].[none:cpv_description:nk]' value='499' />
           </style-rule>
           <style-rule element='map'>
             <format attr='washout' value='0.0' />
@@ -1717,18 +1719,73 @@
       </devicelayouts>
       <simple-id uuid='{2AED19C0-C32D-4A91-8EBA-E4B1BC42377F}' />
     </dashboard>
-    <dashboard enable-sort-zone-taborder='true' name='Dashboard 2'>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1 (2)'>
       <style />
-      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <size maxheight='1060' maxwidth='1520' minheight='860' minwidth='1120' sizing-mode='range' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98140' id='3' name='Tabela' w='97538' x='1231' y='930'>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='4' />
-            </zone-style>
+          <zone h='98144' id='7' param='horz' type-v2='layout-flow' w='98948' x='526' y='928'>
+            <zone h='98144' id='5' type-v2='layout-basic' w='98948' x='526' y='928'>
+              <zone h='98144' id='20' name='Tabela' w='98948' x='526' y='928'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones />
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8368B3D8-EEE5-416F-8F5F-8B7305BBC10F}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1 (3)'>
+      <style />
+      <size maxheight='1060' maxwidth='1520' minheight='860' minwidth='1120' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98144' id='7' param='horz' type-v2='layout-flow' w='98948' x='526' y='928'>
+            <zone h='98144' id='5' type-v2='layout-basic' w='59211' x='526' y='928'>
+              <zone h='98144' id='3' name='Pie Map of tenders per region' show-title='false' w='59211' x='526' y='928'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='604' h='98144' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='39737' x='59737' y='928'>
+              <zone h='79002' id='8' name='Pie Map of tenders per region' pane-specification-id='0' param='[federated.0lhi0rp1uoxjiv1h08cgr0fb20vv].[none:cpv_description:nk]' type-v2='color' w='39737' x='59737' y='928'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='13225' id='9' name='Pie Map of tenders per region' pane-specification-id='0' param='[federated.0lhi0rp1uoxjiv1h08cgr0fb20vv].[sum:liczba_przetargow:qk]' type-v2='size' w='39737' x='59737' y='79930'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
           </zone>
           <zone-style>
             <format attr='border-color' value='#000000' />
@@ -1742,8 +1799,36 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98144' id='18' param='vert' type-v2='layout-flow' w='98948' x='526' y='928'>
+                <zone fixed-size='280' h='98144' id='3' is-fixed='true' name='Pie Map of tenders per region' show-title='false' w='88422' x='526' y='928'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2784' id='8' name='Pie Map of tenders per region' pane-specification-id='0' param='[federated.0lhi0rp1uoxjiv1h08cgr0fb20vv].[none:cpv_description:nk]' type-v2='color' w='10526' x='88948' y='928'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2784' id='9' name='Pie Map of tenders per region' pane-specification-id='0' param='[federated.0lhi0rp1uoxjiv1h08cgr0fb20vv].[sum:liczba_przetargow:qk]' type-v2='size' w='10526' x='88948' y='3712'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -1754,7 +1839,7 @@
           </zones>
         </devicelayout>
       </devicelayouts>
-      <simple-id uuid='{0680BB39-7A9F-4534-97B7-7C72E110CC59}' />
+      <simple-id uuid='{01B37B4B-AFA3-49E1-8B3C-7BE6B2EAAA14}' />
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.25' source-height='115'>
@@ -1814,6 +1899,29 @@
       </cards>
       <simple-id uuid='{A4AF86E6-2657-4481-AF91-DF3260036076}' />
     </window>
+    <window class='worksheet' name='Years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C4F2F47B-67F3-4BA8-B5C2-D7989A0E31BE}' />
+    </window>
     <window class='worksheet' name='Pie Map with total div'>
       <cards>
         <edge name='left'>
@@ -1843,30 +1951,7 @@
       </cards>
       <simple-id uuid='{78DA3EE4-F6E8-47AD-A535-683395B5F696}' />
     </window>
-    <window class='worksheet' name='Years'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{C4F2F47B-67F3-4BA8-B5C2-D7989A0E31BE}' />
-    </window>
-    <window class='worksheet' name='Pie Map of tenders per region'>
+    <window class='worksheet' maximized='true' name='Pie Map of tenders per region' tab-color='#dec77b'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1887,7 +1972,7 @@
           </strip>
         </edge>
         <edge name='right'>
-          <strip size='160'>
+          <strip size='176'>
             <card type='currpage' />
             <card pane-specification-id='0' param='[federated.0lhi0rp1uoxjiv1h08cgr0fb20vv].[none:cpv_description:nk]' type='color' />
             <card pane-specification-id='0' param='[federated.0lhi0rp1uoxjiv1h08cgr0fb20vv].[sum:liczba_przetargow:qk]' type='size' />
@@ -1897,7 +1982,7 @@
       <viewpoint>
         <current-page>
           <multibucket>
-            <bucket>&quot;top5_cpv_by_province_2021.csv&quot;</bucket>
+            <bucket>&quot;top5_cpv_by_province_2024.csv&quot;</bucket>
           </multibucket>
         </current-page>
       </viewpoint>
@@ -1932,15 +2017,24 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{4DD129C0-D330-45AA-979F-FCC9BEE3F855}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 2'>
+    <window class='dashboard' name='Dashboard 1 (3)' tab-color='#dec77b'>
+      <viewpoints>
+        <viewpoint name='Pie Map of tenders per region'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{59CEA1C5-A336-4CDA-9D33-3F23B9B3143A}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1 (2)' tab-color='#dec77b'>
       <viewpoints>
         <viewpoint name='Tabela' />
       </viewpoints>
-      <active id='3' />
-      <simple-id uuid='{5F040C80-0B25-45F9-981C-543B50E8FDDD}' />
+      <active id='-1' />
+      <simple-id uuid='{EF3BD26A-0BFD-48EC-80DD-4D48C1EF3C54}' />
     </window>
   </windows>
 </workbook>
