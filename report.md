@@ -60,18 +60,24 @@ Zjawisko mniejszego rozwarstwienia wynika z naturalnego efektu agregacji – gru
 
 ## Top5 CPV w województwach - czy województwa wyglądają podobnie czy są jakieś zmiany?
 ### 2021
-<img width="1505" height="1039" alt="image" src="https://github.com/user-attachments/assets/f4b5ad1c-9463-4712-ae9c-5a31d005afc7" />
+
+<img width="1219" height="726" alt="obraz" src="https://github.com/user-attachments/assets/59ba843c-bdc2-478a-b9ba-7d75d787e63e" />
 
 ### 2022
 
+<img width="1214" height="724" alt="obraz" src="https://github.com/user-attachments/assets/f17f2ac6-1545-48f1-bde9-48d74f102082" />
 
 ### 2023
 
+<img width="1213" height="725" alt="obraz" src="https://github.com/user-attachments/assets/e44a4f0d-3b9e-4684-b2c4-ebb24a2cd457" />
 
 ### 2024
 
+<img width="1216" height="728" alt="obraz" src="https://github.com/user-attachments/assets/ce24d1ec-72be-494c-8f42-62f3fba05d9d" />
 
 ### 2025
+
+<img width="1211" height="724" alt="obraz" src="https://github.com/user-attachments/assets/7e84bcfe-b486-45f1-8f79-9d1b274c362d" />
 
 ### Tabela zbiorcza
 
