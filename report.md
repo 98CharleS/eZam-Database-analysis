@@ -59,12 +59,438 @@ Dalsze pozycje rankingu zajmowały działy: **Usługi architektoniczne i inżyni
 Zjawisko mniejszego rozwarstwienia wynika z naturalnego efektu agregacji – grupowanie kodów CPV w działy niweluje ekstremalne różnice widoczne przy bardziej szczegółowym poziomie klasyfikacji. Rozkład tych danych również wykazuje charakter silnie prawoskośny z długim ogonem, co oznacza, że zdecydowana większość przetargów koncentruje się w nielicznych działach, podczas gdy pozostałe kategorie – w tym **Usługi związane z przemysłem naftowym** z zaledwie 18 przetargami – stanowią marginalny udział w zbiorze.
 
 ## Top5 CPV w województwach - czy województwa wyglądają podobnie czy są jakieś zmiany?
-2021
-<img width="1505" height="1039" alt="image" src="https://github.com/user-attachments/assets/f4b5ad1c-9463-4712-ae9c-5a31d005afc7" />
+### 2021
 
+<img width="1219" height="726" alt="obraz" src="https://github.com/user-attachments/assets/59ba843c-bdc2-478a-b9ba-7d75d787e63e" />
 
+### 2022
+
+<img width="1214" height="724" alt="obraz" src="https://github.com/user-attachments/assets/f17f2ac6-1545-48f1-bde9-48d74f102082" />
+
+### 2023
+
+<img width="1213" height="725" alt="obraz" src="https://github.com/user-attachments/assets/e44a4f0d-3b9e-4684-b2c4-ebb24a2cd457" />
+
+### 2024
+
+<img width="1216" height="728" alt="obraz" src="https://github.com/user-attachments/assets/ce24d1ec-72be-494c-8f42-62f3fba05d9d" />
+
+### 2025
+
+<img width="1211" height="724" alt="obraz" src="https://github.com/user-attachments/assets/7e84bcfe-b486-45f1-8f79-9d1b274c362d" />
+
+### Legenda
+
+<img width="1036" height="675" alt="obraz" src="https://github.com/user-attachments/assets/f2af6d88-c725-4257-bf38-5a7f67df0322" />
+
+### Tabela zbiorcza
+
+|   Rok | Województwo         | Kod CPV    | Opis CPV                                                                                                                                  |   Liczba przetargów |
+|------:|:--------------------|:-----------|:------------------------------------------------------------------------------------------------------------------------------------------|--------------------:|
+|  2021 | Dolnośląskie        | 45000000-7 | Roboty budowlane                                                                                                                          |                 684 |
+|  2021 | Dolnośląskie        | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 109 |
+|  2021 | Dolnośląskie        | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 108 |
+|  2021 | Dolnośląskie        | 45200000-9 | Roboty budowlane w zakresie wznoszenia kompletnych obiektów budowlanych lub ich części oraz roboty w zakresie inżynierii lądowej i wodnej |                  79 |
+|  2021 | Dolnośląskie        | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  76 |
+|  2022 | Dolnośląskie        | 45000000-7 | Roboty budowlane                                                                                                                          |                1053 |
+|  2022 | Dolnośląskie        | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 166 |
+|  2022 | Dolnośląskie        | 45200000-9 | Roboty budowlane w zakresie wznoszenia kompletnych obiektów budowlanych lub ich części oraz roboty w zakresie inżynierii lądowej i wodnej |                 155 |
+|  2022 | Dolnośląskie        | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 131 |
+|  2022 | Dolnośląskie        | 30213100-6 | Komputery przenośne                                                                                                                       |                 118 |
+|  2023 | Dolnośląskie        | 45000000-7 | Roboty budowlane                                                                                                                          |                 869 |
+|  2023 | Dolnośląskie        | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 132 |
+|  2023 | Dolnośląskie        | 45200000-9 | Roboty budowlane w zakresie wznoszenia kompletnych obiektów budowlanych lub ich części oraz roboty w zakresie inżynierii lądowej i wodnej |                 113 |
+|  2023 | Dolnośląskie        | 33100000-1 | Urządzenia medyczne                                                                                                                       |                 111 |
+|  2023 | Dolnośląskie        | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 102 |
+|  2024 | Dolnośląskie        | 45000000-7 | Roboty budowlane                                                                                                                          |                 980 |
+|  2024 | Dolnośląskie        | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 129 |
+|  2024 | Dolnośląskie        | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 119 |
+|  2024 | Dolnośląskie        | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 114 |
+|  2024 | Dolnośląskie        | 15100000-9 | Produkty zwierzęce, mięso i produkty mięsne                                                                                               |                  91 |
+|  2025 | Dolnośląskie        | 45000000-7 | Roboty budowlane                                                                                                                          |                1144 |
+|  2025 | Dolnośląskie        | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 121 |
+|  2025 | Dolnośląskie        | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 116 |
+|  2025 | Dolnośląskie        | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  97 |
+|  2025 | Dolnośląskie        | 66510000-8 | Usługi ubezpieczeniowe                                                                                                                    |                  97 |
+|  2021 | Kujawsko-pomorskie  | 45000000-7 | Roboty budowlane                                                                                                                          |                 575 |
+|  2021 | Kujawsko-pomorskie  | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 100 |
+|  2021 | Kujawsko-pomorskie  | 66510000-8 | Usługi ubezpieczeniowe                                                                                                                    |                  82 |
+|  2021 | Kujawsko-pomorskie  | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  65 |
+|  2021 | Kujawsko-pomorskie  | 45233140-2 | Roboty drogowe                                                                                                                            |                  63 |
+|  2022 | Kujawsko-pomorskie  | 45000000-7 | Roboty budowlane                                                                                                                          |                 811 |
+|  2022 | Kujawsko-pomorskie  | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 120 |
+|  2022 | Kujawsko-pomorskie  | 66510000-8 | Usługi ubezpieczeniowe                                                                                                                    |                 118 |
+|  2022 | Kujawsko-pomorskie  | 45233140-2 | Roboty drogowe                                                                                                                            |                 113 |
+|  2022 | Kujawsko-pomorskie  | 30213100-6 | Komputery przenośne                                                                                                                       |                 101 |
+|  2023 | Kujawsko-pomorskie  | 45000000-7 | Roboty budowlane                                                                                                                          |                 659 |
+|  2023 | Kujawsko-pomorskie  | 66510000-8 | Usługi ubezpieczeniowe                                                                                                                    |                 146 |
+|  2023 | Kujawsko-pomorskie  | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 143 |
+|  2023 | Kujawsko-pomorskie  | 45233140-2 | Roboty drogowe                                                                                                                            |                  97 |
+|  2023 | Kujawsko-pomorskie  | 33100000-1 | Urządzenia medyczne                                                                                                                       |                  69 |
+|  2024 | Kujawsko-pomorskie  | 45000000-7 | Roboty budowlane                                                                                                                          |                 710 |
+|  2024 | Kujawsko-pomorskie  | 66510000-8 | Usługi ubezpieczeniowe                                                                                                                    |                 212 |
+|  2024 | Kujawsko-pomorskie  | 45233140-2 | Roboty drogowe                                                                                                                            |                 100 |
+|  2024 | Kujawsko-pomorskie  | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                  98 |
+|  2024 | Kujawsko-pomorskie  | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  78 |
+|  2025 | Kujawsko-pomorskie  | 45000000-7 | Roboty budowlane                                                                                                                          |                 788 |
+|  2025 | Kujawsko-pomorskie  | 66510000-8 | Usługi ubezpieczeniowe                                                                                                                    |                 215 |
+|  2025 | Kujawsko-pomorskie  | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                  78 |
+|  2025 | Kujawsko-pomorskie  | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  76 |
+|  2025 | Kujawsko-pomorskie  | 34110000-1 | Samochody osobowe                                                                                                                         |                  71 |
+|  2021 | Lubelskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 383 |
+|  2021 | Lubelskie           | 80500000-9 | Usługi szkoleniowe                                                                                                                        |                 103 |
+|  2021 | Lubelskie           | 45233140-2 | Roboty drogowe                                                                                                                            |                  89 |
+|  2021 | Lubelskie           | 45233000-9 | Roboty w zakresie konstruowania, fundamentowania oraz wykonywania nawierzchni autostrad, dróg                                             |                  85 |
+|  2021 | Lubelskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  81 |
+|  2022 | Lubelskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 805 |
+|  2022 | Lubelskie           | 45233140-2 | Roboty drogowe                                                                                                                            |                 152 |
+|  2022 | Lubelskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 149 |
+|  2022 | Lubelskie           | 45233000-9 | Roboty w zakresie konstruowania, fundamentowania oraz wykonywania nawierzchni autostrad, dróg                                             |                 143 |
+|  2022 | Lubelskie           | 80530000-8 | Usługi szkolenia zawodowego                                                                                                               |                 116 |
+|  2023 | Lubelskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 696 |
+|  2023 | Lubelskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 214 |
+|  2023 | Lubelskie           | 45233000-9 | Roboty w zakresie konstruowania, fundamentowania oraz wykonywania nawierzchni autostrad, dróg                                             |                 187 |
+|  2023 | Lubelskie           | 45233140-2 | Roboty drogowe                                                                                                                            |                 169 |
+|  2023 | Lubelskie           | 45200000-9 | Roboty budowlane w zakresie wznoszenia kompletnych obiektów budowlanych lub ich części oraz roboty w zakresie inżynierii lądowej i wodnej |                  97 |
+|  2024 | Lubelskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 799 |
+|  2024 | Lubelskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 125 |
+|  2024 | Lubelskie           | 90500000-2 | Usługi związane z odpadami                                                                                                                |                 109 |
+|  2024 | Lubelskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 103 |
+|  2024 | Lubelskie           | 45200000-9 | Roboty budowlane w zakresie wznoszenia kompletnych obiektów budowlanych lub ich części oraz roboty w zakresie inżynierii lądowej i wodnej |                  94 |
+|  2025 | Lubelskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 706 |
+|  2025 | Lubelskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 125 |
+|  2025 | Lubelskie           | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                 110 |
+|  2025 | Lubelskie           | 31122000-7 | Jednostki prądotwórcze                                                                                                                    |                 109 |
+|  2025 | Lubelskie           | 80500000-9 | Usługi szkoleniowe                                                                                                                        |                 100 |
+|  2021 | Lubuskie            | 45000000-7 | Roboty budowlane                                                                                                                          |                 266 |
+|  2021 | Lubuskie            | 45233140-2 | Roboty drogowe                                                                                                                            |                  54 |
+|  2021 | Lubuskie            | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  39 |
+|  2021 | Lubuskie            | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  33 |
+|  2021 | Lubuskie            | 90500000-2 | Usługi związane z odpadami                                                                                                                |                  31 |
+|  2022 | Lubuskie            | 45000000-7 | Roboty budowlane                                                                                                                          |                 439 |
+|  2022 | Lubuskie            | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  91 |
+|  2022 | Lubuskie            | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  57 |
+|  2022 | Lubuskie            | 30213100-6 | Komputery przenośne                                                                                                                       |                  54 |
+|  2022 | Lubuskie            | 45233140-2 | Roboty drogowe                                                                                                                            |                  54 |
+|  2023 | Lubuskie            | 45000000-7 | Roboty budowlane                                                                                                                          |                 397 |
+|  2023 | Lubuskie            | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  87 |
+|  2023 | Lubuskie            | 45233140-2 | Roboty drogowe                                                                                                                            |                  50 |
+|  2023 | Lubuskie            | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  47 |
+|  2023 | Lubuskie            | 45233000-9 | Roboty w zakresie konstruowania, fundamentowania oraz wykonywania nawierzchni autostrad, dróg                                             |                  45 |
+|  2024 | Lubuskie            | 45000000-7 | Roboty budowlane                                                                                                                          |                 352 |
+|  2024 | Lubuskie            | 45200000-9 | Roboty budowlane w zakresie wznoszenia kompletnych obiektów budowlanych lub ich części oraz roboty w zakresie inżynierii lądowej i wodnej |                  55 |
+|  2024 | Lubuskie            | 45233140-2 | Roboty drogowe                                                                                                                            |                  49 |
+|  2024 | Lubuskie            | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  45 |
+|  2024 | Lubuskie            | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  43 |
+|  2025 | Lubuskie            | 45000000-7 | Roboty budowlane                                                                                                                          |                 332 |
+|  2025 | Lubuskie            | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                 138 |
+|  2025 | Lubuskie            | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  63 |
+|  2025 | Lubuskie            | 34110000-1 | Samochody osobowe                                                                                                                         |                  57 |
+|  2025 | Lubuskie            | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  46 |
+|  2021 | Mazowieckie         | 45000000-7 | Roboty budowlane                                                                                                                          |                1168 |
+|  2021 | Mazowieckie         | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 358 |
+|  2021 | Mazowieckie         | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                 232 |
+|  2021 | Mazowieckie         | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 200 |
+|  2021 | Mazowieckie         | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 195 |
+|  2022 | Mazowieckie         | 45000000-7 | Roboty budowlane                                                                                                                          |                1971 |
+|  2022 | Mazowieckie         | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 441 |
+|  2022 | Mazowieckie         | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 307 |
+|  2022 | Mazowieckie         | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 275 |
+|  2022 | Mazowieckie         | 45233140-2 | Roboty drogowe                                                                                                                            |                 267 |
+|  2023 | Mazowieckie         | 45000000-7 | Roboty budowlane                                                                                                                          |                1861 |
+|  2023 | Mazowieckie         | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 414 |
+|  2023 | Mazowieckie         | 45233140-2 | Roboty drogowe                                                                                                                            |                 290 |
+|  2023 | Mazowieckie         | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 274 |
+|  2023 | Mazowieckie         | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                 272 |
+|  2024 | Mazowieckie         | 45000000-7 | Roboty budowlane                                                                                                                          |                1979 |
+|  2024 | Mazowieckie         | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 318 |
+|  2024 | Mazowieckie         | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 312 |
+|  2024 | Mazowieckie         | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                 292 |
+|  2024 | Mazowieckie         | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 231 |
+|  2025 | Mazowieckie         | 45000000-7 | Roboty budowlane                                                                                                                          |                1886 |
+|  2025 | Mazowieckie         | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                 347 |
+|  2025 | Mazowieckie         | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 347 |
+|  2025 | Mazowieckie         | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 287 |
+|  2025 | Mazowieckie         | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 243 |
+|  2021 | Małopolskie         | 45000000-7 | Roboty budowlane                                                                                                                          |                 615 |
+|  2021 | Małopolskie         | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 222 |
+|  2021 | Małopolskie         | 45233140-2 | Roboty drogowe                                                                                                                            |                 200 |
+|  2021 | Małopolskie         | 90620000-9 | Usługi odśnieżania                                                                                                                        |                 134 |
+|  2021 | Małopolskie         | 45233142-6 | Roboty w zakresie naprawy dróg                                                                                                            |                 116 |
+|  2022 | Małopolskie         | 45000000-7 | Roboty budowlane                                                                                                                          |                 942 |
+|  2022 | Małopolskie         | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 288 |
+|  2022 | Małopolskie         | 45233140-2 | Roboty drogowe                                                                                                                            |                 246 |
+|  2022 | Małopolskie         | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                 172 |
+|  2022 | Małopolskie         | 90620000-9 | Usługi odśnieżania                                                                                                                        |                 150 |
+|  2023 | Małopolskie         | 45000000-7 | Roboty budowlane                                                                                                                          |                 868 |
+|  2023 | Małopolskie         | 45233140-2 | Roboty drogowe                                                                                                                            |                 271 |
+|  2023 | Małopolskie         | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 240 |
+|  2023 | Małopolskie         | 45233142-6 | Roboty w zakresie naprawy dróg                                                                                                            |                 156 |
+|  2023 | Małopolskie         | 90620000-9 | Usługi odśnieżania                                                                                                                        |                 148 |
+|  2024 | Małopolskie         | 45000000-7 | Roboty budowlane                                                                                                                          |                 891 |
+|  2024 | Małopolskie         | 45233140-2 | Roboty drogowe                                                                                                                            |                 228 |
+|  2024 | Małopolskie         | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 191 |
+|  2024 | Małopolskie         | 33600000-6 | Produkty farmaceutyczne                                                                                                                   |                 187 |
+|  2024 | Małopolskie         | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                 186 |
+|  2025 | Małopolskie         | 45000000-7 | Roboty budowlane                                                                                                                          |                 954 |
+|  2025 | Małopolskie         | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 244 |
+|  2025 | Małopolskie         | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                 194 |
+|  2025 | Małopolskie         | 45233140-2 | Roboty drogowe                                                                                                                            |                 191 |
+|  2025 | Małopolskie         | 33600000-6 | Produkty farmaceutyczne                                                                                                                   |                 157 |
+|  2021 | Opolskie            | 45000000-7 | Roboty budowlane                                                                                                                          |                 266 |
+|  2021 | Opolskie            | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  43 |
+|  2021 | Opolskie            | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                  38 |
+|  2021 | Opolskie            | 09310000-5 | Elektryczność                                                                                                                             |                  37 |
+|  2021 | Opolskie            | 45200000-9 | Roboty budowlane w zakresie wznoszenia kompletnych obiektów budowlanych lub ich części oraz roboty w zakresie inżynierii lądowej i wodnej |                  29 |
+|  2022 | Opolskie            | 45000000-7 | Roboty budowlane                                                                                                                          |                 451 |
+|  2022 | Opolskie            | 09310000-5 | Elektryczność                                                                                                                             |                  64 |
+|  2022 | Opolskie            | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                  50 |
+|  2022 | Opolskie            | 33140000-3 | Materiały medyczne                                                                                                                        |                  46 |
+|  2022 | Opolskie            | 30200000-1 | Urządzenia komputerowe                                                                                                                    |                  45 |
+|  2023 | Opolskie            | 45000000-7 | Roboty budowlane                                                                                                                          |                 318 |
+|  2023 | Opolskie            | 45233000-9 | Roboty w zakresie konstruowania, fundamentowania oraz wykonywania nawierzchni autostrad, dróg                                             |                  44 |
+|  2023 | Opolskie            | 33140000-3 | Materiały medyczne                                                                                                                        |                  41 |
+|  2023 | Opolskie            | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  41 |
+|  2023 | Opolskie            | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  39 |
+|  2024 | Opolskie            | 45000000-7 | Roboty budowlane                                                                                                                          |                 345 |
+|  2024 | Opolskie            | 33140000-3 | Materiały medyczne                                                                                                                        |                  54 |
+|  2024 | Opolskie            | 45233000-9 | Roboty w zakresie konstruowania, fundamentowania oraz wykonywania nawierzchni autostrad, dróg                                             |                  39 |
+|  2024 | Opolskie            | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  36 |
+|  2024 | Opolskie            | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                  36 |
+|  2025 | Opolskie            | 45000000-7 | Roboty budowlane                                                                                                                          |                 415 |
+|  2025 | Opolskie            | 33140000-3 | Materiały medyczne                                                                                                                        |                  50 |
+|  2025 | Opolskie            | 15000000-8 | Żywność, napoje, tytoń i produkty pokrewne                                                                                                |                  47 |
+|  2025 | Opolskie            | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                  44 |
+|  2025 | Opolskie            | 45233140-2 | Roboty drogowe                                                                                                                            |                  42 |
+|  2021 | Podkarpackie        | 45000000-7 | Roboty budowlane                                                                                                                          |                 592 |
+|  2021 | Podkarpackie        | 45233142-6 | Roboty w zakresie naprawy dróg                                                                                                            |                 116 |
+|  2021 | Podkarpackie        | 45233222-1 | Roboty budowlane w zakresie układania chodników i asfaltowania                                                                            |                 109 |
+|  2021 | Podkarpackie        | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  93 |
+|  2021 | Podkarpackie        | 45233140-2 | Roboty drogowe                                                                                                                            |                  87 |
+|  2022 | Podkarpackie        | 45000000-7 | Roboty budowlane                                                                                                                          |                 868 |
+|  2022 | Podkarpackie        | 45233140-2 | Roboty drogowe                                                                                                                            |                 165 |
+|  2022 | Podkarpackie        | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 138 |
+|  2022 | Podkarpackie        | 30200000-1 | Urządzenia komputerowe                                                                                                                    |                 126 |
+|  2022 | Podkarpackie        | 45233142-6 | Roboty w zakresie naprawy dróg                                                                                                            |                 125 |
+|  2023 | Podkarpackie        | 45000000-7 | Roboty budowlane                                                                                                                          |                 806 |
+|  2023 | Podkarpackie        | 45233140-2 | Roboty drogowe                                                                                                                            |                 192 |
+|  2023 | Podkarpackie        | 45233222-1 | Roboty budowlane w zakresie układania chodników i asfaltowania                                                                            |                 124 |
+|  2023 | Podkarpackie        | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  88 |
+|  2023 | Podkarpackie        | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  88 |
+|  2024 | Podkarpackie        | 45000000-7 | Roboty budowlane                                                                                                                          |                 879 |
+|  2024 | Podkarpackie        | 45233140-2 | Roboty drogowe                                                                                                                            |                 161 |
+|  2024 | Podkarpackie        | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 125 |
+|  2024 | Podkarpackie        | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                  94 |
+|  2024 | Podkarpackie        | 90620000-9 | Usługi odśnieżania                                                                                                                        |                  85 |
+|  2025 | Podkarpackie        | 45000000-7 | Roboty budowlane                                                                                                                          |                 734 |
+|  2025 | Podkarpackie        | 45233140-2 | Roboty drogowe                                                                                                                            |                 145 |
+|  2025 | Podkarpackie        | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 140 |
+|  2025 | Podkarpackie        | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                  91 |
+|  2025 | Podkarpackie        | 90500000-2 | Usługi związane z odpadami                                                                                                                |                  86 |
+|  2021 | Podlaskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 248 |
+|  2021 | Podlaskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 116 |
+|  2021 | Podlaskie           | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  52 |
+|  2021 | Podlaskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  40 |
+|  2021 | Podlaskie           | 90500000-2 | Usługi związane z odpadami                                                                                                                |                  39 |
+|  2022 | Podlaskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 447 |
+|  2022 | Podlaskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 189 |
+|  2022 | Podlaskie           | 90500000-2 | Usługi związane z odpadami                                                                                                                |                  75 |
+|  2022 | Podlaskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  70 |
+|  2022 | Podlaskie           | 30200000-1 | Urządzenia komputerowe                                                                                                                    |                  66 |
+|  2023 | Podlaskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 400 |
+|  2023 | Podlaskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 191 |
+|  2023 | Podlaskie           | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  99 |
+|  2023 | Podlaskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  81 |
+|  2023 | Podlaskie           | 45233140-2 | Roboty drogowe                                                                                                                            |                  59 |
+|  2024 | Podlaskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 402 |
+|  2024 | Podlaskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 199 |
+|  2024 | Podlaskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  81 |
+|  2024 | Podlaskie           | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  77 |
+|  2024 | Podlaskie           | 09135100-5 | Olej opałowy                                                                                                                              |                  69 |
+|  2025 | Podlaskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 386 |
+|  2025 | Podlaskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 107 |
+|  2025 | Podlaskie           | 31122000-7 | Jednostki prądotwórcze                                                                                                                    |                  79 |
+|  2025 | Podlaskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  73 |
+|  2025 | Podlaskie           | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  72 |
+|  2021 | Pomorskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 514 |
+|  2021 | Pomorskie           | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                 111 |
+|  2021 | Pomorskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 106 |
+|  2021 | Pomorskie           | 45233140-2 | Roboty drogowe                                                                                                                            |                  86 |
+|  2021 | Pomorskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  85 |
+|  2022 | Pomorskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 809 |
+|  2022 | Pomorskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 131 |
+|  2022 | Pomorskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 129 |
+|  2022 | Pomorskie           | 45233140-2 | Roboty drogowe                                                                                                                            |                 121 |
+|  2022 | Pomorskie           | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                 114 |
+|  2023 | Pomorskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 704 |
+|  2023 | Pomorskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 112 |
+|  2023 | Pomorskie           | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  98 |
+|  2023 | Pomorskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  95 |
+|  2023 | Pomorskie           | 45233140-2 | Roboty drogowe                                                                                                                            |                  94 |
+|  2024 | Pomorskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 727 |
+|  2024 | Pomorskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 122 |
+|  2024 | Pomorskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 103 |
+|  2024 | Pomorskie           | 15800000-6 | Różne produkty spożywcze                                                                                                                  |                  87 |
+|  2024 | Pomorskie           | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                  83 |
+|  2025 | Pomorskie           | 45000000-7 | Roboty budowlane                                                                                                                          |                 605 |
+|  2025 | Pomorskie           | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 160 |
+|  2025 | Pomorskie           | 15800000-6 | Różne produkty spożywcze                                                                                                                  |                  90 |
+|  2025 | Pomorskie           | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  86 |
+|  2025 | Pomorskie           | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  76 |
+|  2021 | Warmińsko-mazurskie | 45000000-7 | Roboty budowlane                                                                                                                          |                 322 |
+|  2021 | Warmińsko-mazurskie | 45233140-2 | Roboty drogowe                                                                                                                            |                 120 |
+|  2021 | Warmińsko-mazurskie | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  93 |
+|  2021 | Warmińsko-mazurskie | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  49 |
+|  2021 | Warmińsko-mazurskie | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  44 |
+|  2022 | Warmińsko-mazurskie | 45000000-7 | Roboty budowlane                                                                                                                          |                 433 |
+|  2022 | Warmińsko-mazurskie | 45233140-2 | Roboty drogowe                                                                                                                            |                 136 |
+|  2022 | Warmińsko-mazurskie | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 123 |
+|  2022 | Warmińsko-mazurskie | 30213100-6 | Komputery przenośne                                                                                                                       |                  77 |
+|  2022 | Warmińsko-mazurskie | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  73 |
+|  2023 | Warmińsko-mazurskie | 45000000-7 | Roboty budowlane                                                                                                                          |                 382 |
+|  2023 | Warmińsko-mazurskie | 45233140-2 | Roboty drogowe                                                                                                                            |                 137 |
+|  2023 | Warmińsko-mazurskie | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 110 |
+|  2023 | Warmińsko-mazurskie | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  74 |
+|  2023 | Warmińsko-mazurskie | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  56 |
+|  2024 | Warmińsko-mazurskie | 45000000-7 | Roboty budowlane                                                                                                                          |                 422 |
+|  2024 | Warmińsko-mazurskie | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 104 |
+|  2024 | Warmińsko-mazurskie | 45233140-2 | Roboty drogowe                                                                                                                            |                  93 |
+|  2024 | Warmińsko-mazurskie | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  79 |
+|  2024 | Warmińsko-mazurskie | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  70 |
+|  2025 | Warmińsko-mazurskie | 45000000-7 | Roboty budowlane                                                                                                                          |                 313 |
+|  2025 | Warmińsko-mazurskie | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  95 |
+|  2025 | Warmińsko-mazurskie | 31122000-7 | Jednostki prądotwórcze                                                                                                                    |                  70 |
+|  2025 | Warmińsko-mazurskie | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  63 |
+|  2025 | Warmińsko-mazurskie | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  61 |
+|  2021 | Wielkopolskie       | 45000000-7 | Roboty budowlane                                                                                                                          |                 727 |
+|  2021 | Wielkopolskie       | 45233140-2 | Roboty drogowe                                                                                                                            |                 251 |
+|  2021 | Wielkopolskie       | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 158 |
+|  2021 | Wielkopolskie       | 45233142-6 | Roboty w zakresie naprawy dróg                                                                                                            |                  81 |
+|  2021 | Wielkopolskie       | 60100000-9 | Usługi w zakresie transportu drogowego                                                                                                    |                  80 |
+|  2022 | Wielkopolskie       | 45000000-7 | Roboty budowlane                                                                                                                          |                1063 |
+|  2022 | Wielkopolskie       | 45233140-2 | Roboty drogowe                                                                                                                            |                 293 |
+|  2022 | Wielkopolskie       | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 204 |
+|  2022 | Wielkopolskie       | 30200000-1 | Urządzenia komputerowe                                                                                                                    |                 161 |
+|  2022 | Wielkopolskie       | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                 127 |
+|  2023 | Wielkopolskie       | 45000000-7 | Roboty budowlane                                                                                                                          |                 904 |
+|  2023 | Wielkopolskie       | 45233140-2 | Roboty drogowe                                                                                                                            |                 289 |
+|  2023 | Wielkopolskie       | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 190 |
+|  2023 | Wielkopolskie       | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                 126 |
+|  2023 | Wielkopolskie       | 60100000-9 | Usługi w zakresie transportu drogowego                                                                                                    |                 108 |
+|  2024 | Wielkopolskie       | 45000000-7 | Roboty budowlane                                                                                                                          |                 994 |
+|  2024 | Wielkopolskie       | 45233140-2 | Roboty drogowe                                                                                                                            |                 279 |
+|  2024 | Wielkopolskie       | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                 159 |
+|  2024 | Wielkopolskie       | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 140 |
+|  2024 | Wielkopolskie       | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 130 |
+|  2025 | Wielkopolskie       | 45000000-7 | Roboty budowlane                                                                                                                          |                 920 |
+|  2025 | Wielkopolskie       | 45233140-2 | Roboty drogowe                                                                                                                            |                 228 |
+|  2025 | Wielkopolskie       | 33100000-1 | Urządzenia medyczne                                                                                                                       |                 151 |
+|  2025 | Wielkopolskie       | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 140 |
+|  2025 | Wielkopolskie       | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                 114 |
+|  2021 | Zachodniopomorskie  | 45000000-7 | Roboty budowlane                                                                                                                          |                 365 |
+|  2021 | Zachodniopomorskie  | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  47 |
+|  2021 | Zachodniopomorskie  | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                  46 |
+|  2021 | Zachodniopomorskie  | 45233140-2 | Roboty drogowe                                                                                                                            |                  43 |
+|  2021 | Zachodniopomorskie  | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  42 |
+|  2022 | Zachodniopomorskie  | 45000000-7 | Roboty budowlane                                                                                                                          |                 752 |
+|  2022 | Zachodniopomorskie  | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  92 |
+|  2022 | Zachodniopomorskie  | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  91 |
+|  2022 | Zachodniopomorskie  | 30213100-6 | Komputery przenośne                                                                                                                       |                  80 |
+|  2022 | Zachodniopomorskie  | 45233140-2 | Roboty drogowe                                                                                                                            |                  73 |
+|  2023 | Zachodniopomorskie  | 45000000-7 | Roboty budowlane                                                                                                                          |                 563 |
+|  2023 | Zachodniopomorskie  | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  91 |
+|  2023 | Zachodniopomorskie  | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  75 |
+|  2023 | Zachodniopomorskie  | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  71 |
+|  2023 | Zachodniopomorskie  | 45233140-2 | Roboty drogowe                                                                                                                            |                  63 |
+|  2024 | Zachodniopomorskie  | 45000000-7 | Roboty budowlane                                                                                                                          |                 555 |
+|  2024 | Zachodniopomorskie  | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  75 |
+|  2024 | Zachodniopomorskie  | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  69 |
+|  2024 | Zachodniopomorskie  | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  68 |
+|  2024 | Zachodniopomorskie  | 45453000-7 | Roboty remontowe i renowacyjne                                                                                                            |                  64 |
+|  2025 | Zachodniopomorskie  | 45000000-7 | Roboty budowlane                                                                                                                          |                 484 |
+|  2025 | Zachodniopomorskie  | 45233220-7 | Roboty w zakresie nawierzchni dróg                                                                                                        |                  67 |
+|  2025 | Zachodniopomorskie  | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  65 |
+|  2025 | Zachodniopomorskie  | 90500000-2 | Usługi związane z odpadami                                                                                                                |                  58 |
+|  2025 | Zachodniopomorskie  | 34110000-1 | Samochody osobowe                                                                                                                         |                  51 |
+|  2021 | Łódzkie             | 45000000-7 | Roboty budowlane                                                                                                                          |                 522 |
+|  2021 | Łódzkie             | 45233140-2 | Roboty drogowe                                                                                                                            |                 118 |
+|  2021 | Łódzkie             | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 101 |
+|  2021 | Łódzkie             | 45231300-8 | Roboty budowlane w zakresie budowy wodociągów i rurociągów do odprowadzania ścieków                                                       |                  65 |
+|  2021 | Łódzkie             | 90500000-2 | Usługi związane z odpadami                                                                                                                |                  52 |
+|  2022 | Łódzkie             | 45000000-7 | Roboty budowlane                                                                                                                          |                 858 |
+|  2022 | Łódzkie             | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 170 |
+|  2022 | Łódzkie             | 45233140-2 | Roboty drogowe                                                                                                                            |                 160 |
+|  2022 | Łódzkie             | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 108 |
+|  2022 | Łódzkie             | 45231300-8 | Roboty budowlane w zakresie budowy wodociągów i rurociągów do odprowadzania ścieków                                                       |                 101 |
+|  2023 | Łódzkie             | 45000000-7 | Roboty budowlane                                                                                                                          |                 809 |
+|  2023 | Łódzkie             | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 159 |
+|  2023 | Łódzkie             | 45233140-2 | Roboty drogowe                                                                                                                            |                 157 |
+|  2023 | Łódzkie             | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 101 |
+|  2023 | Łódzkie             | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  71 |
+|  2024 | Łódzkie             | 45000000-7 | Roboty budowlane                                                                                                                          |                 951 |
+|  2024 | Łódzkie             | 45233140-2 | Roboty drogowe                                                                                                                            |                 130 |
+|  2024 | Łódzkie             | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 127 |
+|  2024 | Łódzkie             | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  87 |
+|  2024 | Łódzkie             | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  83 |
+|  2025 | Łódzkie             | 45000000-7 | Roboty budowlane                                                                                                                          |                 882 |
+|  2025 | Łódzkie             | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                 146 |
+|  2025 | Łódzkie             | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 143 |
+|  2025 | Łódzkie             | 30200000-1 | Urządzenia komputerowe                                                                                                                    |                 137 |
+|  2025 | Łódzkie             | 31122000-7 | Jednostki prądotwórcze                                                                                                                    |                 129 |
+|  2021 | Śląskie             | 45000000-7 | Roboty budowlane                                                                                                                          |                 972 |
+|  2021 | Śląskie             | 45233140-2 | Roboty drogowe                                                                                                                            |                 111 |
+|  2021 | Śląskie             | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 110 |
+|  2021 | Śląskie             | 15000000-8 | Żywność, napoje, tytoń i produkty pokrewne                                                                                                |                 102 |
+|  2021 | Śląskie             | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                  92 |
+|  2022 | Śląskie             | 45000000-7 | Roboty budowlane                                                                                                                          |                1454 |
+|  2022 | Śląskie             | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 203 |
+|  2022 | Śląskie             | 15000000-8 | Żywność, napoje, tytoń i produkty pokrewne                                                                                                |                 196 |
+|  2022 | Śląskie             | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 191 |
+|  2022 | Śląskie             | 45233140-2 | Roboty drogowe                                                                                                                            |                 165 |
+|  2023 | Śląskie             | 45000000-7 | Roboty budowlane                                                                                                                          |                1148 |
+|  2023 | Śląskie             | 15000000-8 | Żywność, napoje, tytoń i produkty pokrewne                                                                                                |                 203 |
+|  2023 | Śląskie             | 45233140-2 | Roboty drogowe                                                                                                                            |                 180 |
+|  2023 | Śląskie             | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 178 |
+|  2023 | Śląskie             | 15800000-6 | Różne produkty spożywcze                                                                                                                  |                 132 |
+|  2024 | Śląskie             | 45000000-7 | Roboty budowlane                                                                                                                          |                1270 |
+|  2024 | Śląskie             | 15000000-8 | Żywność, napoje, tytoń i produkty pokrewne                                                                                                |                 169 |
+|  2024 | Śląskie             | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 164 |
+|  2024 | Śląskie             | 45233140-2 | Roboty drogowe                                                                                                                            |                 127 |
+|  2024 | Śląskie             | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                 125 |
+|  2025 | Śląskie             | 45000000-7 | Roboty budowlane                                                                                                                          |                1374 |
+|  2025 | Śląskie             | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                 183 |
+|  2025 | Śląskie             | 79710000-4 | Usługi ochroniarskie                                                                                                                      |                 151 |
+|  2025 | Śląskie             | 45233140-2 | Roboty drogowe                                                                                                                            |                 140 |
+|  2025 | Śląskie             | 15800000-6 | Różne produkty spożywcze                                                                                                                  |                 124 |
+|  2021 | Świętokrzyskie      | 45000000-7 | Roboty budowlane                                                                                                                          |                 277 |
+|  2021 | Świętokrzyskie      | 45233140-2 | Roboty drogowe                                                                                                                            |                 104 |
+|  2021 | Świętokrzyskie      | 33140000-3 | Materiały medyczne                                                                                                                        |                  66 |
+|  2021 | Świętokrzyskie      | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  56 |
+|  2021 | Świętokrzyskie      | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  54 |
+|  2022 | Świętokrzyskie      | 45000000-7 | Roboty budowlane                                                                                                                          |                 520 |
+|  2022 | Świętokrzyskie      | 45233140-2 | Roboty drogowe                                                                                                                            |                 108 |
+|  2022 | Świętokrzyskie      | 33140000-3 | Materiały medyczne                                                                                                                        |                  85 |
+|  2022 | Świętokrzyskie      | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  82 |
+|  2022 | Świętokrzyskie      | 60100000-9 | Usługi w zakresie transportu drogowego                                                                                                    |                  68 |
+|  2023 | Świętokrzyskie      | 45000000-7 | Roboty budowlane                                                                                                                          |                 392 |
+|  2023 | Świętokrzyskie      | 45233140-2 | Roboty drogowe                                                                                                                            |                 134 |
+|  2023 | Świętokrzyskie      | 33140000-3 | Materiały medyczne                                                                                                                        |                 103 |
+|  2023 | Świętokrzyskie      | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  80 |
+|  2023 | Świętokrzyskie      | 45233120-6 | Roboty w zakresie budowy dróg                                                                                                             |                  69 |
+|  2024 | Świętokrzyskie      | 45000000-7 | Roboty budowlane                                                                                                                          |                 387 |
+|  2024 | Świętokrzyskie      | 45233140-2 | Roboty drogowe                                                                                                                            |                 110 |
+|  2024 | Świętokrzyskie      | 33140000-3 | Materiały medyczne                                                                                                                        |                 101 |
+|  2024 | Świętokrzyskie      | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                  95 |
+|  2024 | Świętokrzyskie      | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                  77 |
+|  2025 | Świętokrzyskie      | 45000000-7 | Roboty budowlane                                                                                                                          |                 392 |
+|  2025 | Świętokrzyskie      | 45233140-2 | Roboty drogowe                                                                                                                            |                 112 |
+|  2025 | Świętokrzyskie      | 71320000-7 | Usługi inżynieryjne w zakresie projektowania                                                                                              |                 104 |
+|  2025 | Świętokrzyskie      | 33140000-3 | Materiały medyczne                                                                                                                        |                  98 |
+|  2025 | Świętokrzyskie      | 80000000-4 | Usługi edukacyjne i szkoleniowe                                                                                                           |                  72 |
 
 # Analiza sezonowości rozkładu przetargów
+<img width="1261" height="721" alt="obraz" src="https://github.com/user-attachments/assets/b6bceb05-1fa1-423e-a48e-e63c494535c0" />
+
 ## Top5 CPV overall w czasie - czy są zmiany najbardziej popularnych CPV? 
 Czy we wszystkich województwach sytuacja się powtarza? Czy czasami są odstępstwa?+
 ## 1. Jak zmienia się ogólna liczba w czasie
