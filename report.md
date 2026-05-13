@@ -59,6 +59,11 @@ Dalsze pozycje rankingu zajmowały działy: **Usługi architektoniczne i inżyni
 Zjawisko mniejszego rozwarstwienia wynika z naturalnego efektu agregacji – grupowanie kodów CPV w działy niweluje ekstremalne różnice widoczne przy bardziej szczegółowym poziomie klasyfikacji. Rozkład tych danych również wykazuje charakter silnie prawoskośny z długim ogonem, co oznacza, że zdecydowana większość przetargów koncentruje się w nielicznych działach, podczas gdy pozostałe kategorie – w tym **Usługi związane z przemysłem naftowym** z zaledwie 18 przetargami – stanowią marginalny udział w zbiorze.
 
 ## Top5 CPV w województwach - czy województwa wyglądają podobnie czy są jakieś zmiany?
+
+<img width="1106" height="724" alt="obraz" src="https://github.com/user-attachments/assets/0305f33c-e0e2-46fe-ac50-f6f182213e22" />
+<img width="809" height="424" alt="obraz" src="https://github.com/user-attachments/assets/239a2ee7-1d66-4157-a0f3-75dfe94cad87" />
+
+
 ### 2021
 
 <img width="1219" height="726" alt="obraz" src="https://github.com/user-attachments/assets/59ba843c-bdc2-478a-b9ba-7d75d787e63e" />
