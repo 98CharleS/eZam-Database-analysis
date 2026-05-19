@@ -62,6 +62,7 @@ W dalszej analize stosowany będzie podział zarówno na **działy jak i kody CP
 
 ## Róznice pomiędzy województwami
 ### Odchylenie pomiędzy działami
+Matematyczna analiza struktury działów w wojwództwach przedstawiająca główne tendencje oraz województwa z największym odchyleniem od średniej. 
 ### Najpopularniejsze kody w województwach
 
 <img width="1106" height="724" alt="obraz" src="https://github.com/user-attachments/assets/0305f33c-e0e2-46fe-ac50-f6f182213e22" />
