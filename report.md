@@ -61,8 +61,7 @@ Zjawisko mniejszego rozwarstwienia wynika z naturalnego efektu agregacji – gru
 W dalszej analize stosowany będzie podział zarówno na **działy jak i kody CPV** w zależności od indywidualnej szczegółowści analizowanego zagadeniania.
 
 ## Róznice pomiędzy województwami
-### Odchylenie pomiędzy działami
-Matematyczna analiza struktury działów w wojwództwach przedstawiająca główne tendencje oraz województwa z największym odchyleniem od średniej. 
+
 ### Najpopularniejsze kody w województwach
 
 <img width="1106" height="724" alt="obraz" src="https://github.com/user-attachments/assets/0305f33c-e0e2-46fe-ac50-f6f182213e22" />
@@ -71,29 +70,53 @@ Matematyczna analiza struktury działów w wojwództwach przedstawiająca głów
 We wszystkich województwach najliczniejszym **kodem CPV** były **Roboty budowlane**, które stanowiły od 51,5% do aż 69,9% wszystkich przetargów z grupy 5 najliczniejszych i skupiły łącznie 58 906 przetargów.
 Następnym pod względem liczebności jest **kod CPV Budowa dróg**, który w pozycjach od 2 do 5 wystąpił w 11 z 16 województw skupiając łącznie 7427 przetargów. Zaraz za tym kodem wystąpił kod **Roboty drogowe**, który wystąpił również w 11 województwach na pozycjach od 2 do 5 i skupił 7403 przetargów. Również podobny, choć nieco mniejszy wynik obserwujemy w przypadku **kodu CPV Usługi projektowania**. Skupił 7034 przetargi i wystąpił tak samo w 11 województwach na pozycjach od 2 do 5.
 
+### Odchylenie pomiędzy województwami
+Matematyczna analiza struktury kodów w wojwództwach przedstawiająca główne tendencje oraz województwa z największym odchyleniem od średniej. 
+
 ### 2021
 
 <img width="1219" height="726" alt="obraz" src="https://github.com/user-attachments/assets/59ba843c-bdc2-478a-b9ba-7d75d787e63e" />
+
+Rok 2021 stanowił pierwszą pełną edycję systemu przetargowego funkcjonującego w reżimie znowelizowanego Prawa zamówień publicznych, obowiązującego od 1 stycznia 2021 r. W strukturze zamówień dominował kod CPV 45000000-7 (roboty budowlane), przy czym wolumeny przetargów były zróżnicowane przestrzennie — od 1168 postępowań w województwie mazowieckim do 248 w podlaskim. Na dalszych pozycjach rankingów regionalnych utrwaliły się kategorie infrastruktury drogowej (CPV 45233120-6, 45233140-2), usług inżynieryjnych (71320000-7) oraz ochrony osób i mienia (79710000-4). Wyraźna specyfika regionalna objawiała się m.in. dominacją usług szkoleniowych w województwie lubelskim (CPV 80500000-9, 103 postępowania) — co koresponduje z intensywnym współfinansowaniem projektów z Europejskiego Funduszu Społecznego w tamtym okresie — oraz obecnością usług odśnieżania w Małopolsce (90620000-9, 134 postępowania), odzwierciedlającą warunki geograficzne regionu.
 
 ### 2022
 
 <img width="1214" height="724" alt="obraz" src="https://github.com/user-attachments/assets/f17f2ac6-1545-48f1-bde9-48d74f102082" />
 
+Rok 2022 przyniósł we wszystkich analizowanych województwach wyraźne zwiększenie wolumenu postępowań przetargowych. W Mazowieckiem liczba przetargów budowlanych wzrosła z 1168 do 1971, w Dolnośląskiem — z 684 do 1053, a w Śląskiem — z 972 do 1454. Wzrost ten można interpretować jako skumulowany efekt: odblokowania inwestycji wstrzymanych w dobie pandemii COVID-19, absorbcji środków z Krajowego Planu Odbudowy oraz przesuniętego w czasie uruchomienia perspektywy finansowej UE 2021–2027. Charakterystycznym novum roku 2022 było masowe pojawienie się kodu CPV 30213100-6 (komputery przenośne) w wielu województwach jednocześnie — Dolnośląskiem (118), Kujawsko-Pomorskiem (101), Lubuskiem (54), Warmińsko-Mazurskiem (77), Zachodniopomorskiem (80) i Wielkopolskiem (161). Zjawisko to niemal z pewnością wiązało się z centralnie koordynowanym programem wyposażenia szkół w sprzęt komputerowy. Odnotowano również wzrost aktywności w zakresie zamówień na urządzenia komputerowe (30200000-1) — m.in. w Podkarpackiem (126) i Podlaskiem (66).
+
 ### 2023
 
 <img width="1213" height="725" alt="obraz" src="https://github.com/user-attachments/assets/e44a4f0d-3b9e-4684-b2c4-ebb24a2cd457" />
+
+W roku 2023 nastąpiła częściowa korekta wolumenu po szczytowym roku poprzednim. W województwie mazowieckim liczba przetargów budowlanych nieznacznie spadła z 1971 do 1861, a w śląskim — z 1454 do 1148. Równocześnie jednak w województwie lubelskim zaobserwowano dynamiczny wzrost kategorii drogowych (CPV 45233120-6: wzrost z 149 do 214; CPV 45233000-9: wzrost ze 143 do 187), co może świadczyć o przesunięciu priorytetów inwestycyjnych w kierunku infrastruktury transportowej na wschodniej flance kraju. Pojawiające się w strukturze zamówień kody CPV 33100000-1 (urządzenia medyczne) w Dolnośląskiem (111) i Kujawsko-Pomorskiem (69) wskazują na kontynuację doposażania placówek ochrony zdrowia, zapoczątkowanego jeszcze w reakcji na pandemię. Kategoria usług ochroniarskich (79710000-4) umocniła swoją pozycję w rankingach większości województw.
 
 ### 2024
 
 <img width="1216" height="728" alt="obraz" src="https://github.com/user-attachments/assets/ce24d1ec-72be-494c-8f42-62f3fba05d9d" />
 
+W roku 2024 wolumeny przetargów utrzymały się na poziomach porównywalnych z rokiem poprzednim, przy czym wyraźne ożywienie zanotowało Mazowieckie (powrót do 1979 postępowań budowlanych) i Łódzkie (wzrost z 809 do 951). Istotnym sygnałem jakościowej zmiany struktury popytu był dynamiczny wzrost zamówień na usługi ubezpieczeniowe (CPV 66510000-8) w województwie kujawsko-pomorskim — z 146 do 212 — co może odzwierciedlać rosnącą świadomość zarządzania ryzykiem w sektorze publicznym. W Małopolskiem po raz pierwszy w czołówce rankingu znalazły się produkty farmaceutyczne (CPV 33600000-6, 187 postępowań), co wpisuje się w systematyczne zwiększanie aktywności przetargowej szpitali regionalnych. Warta odnotowania jest również wyraźna obecność robót remontowych (CPV 45453000-7) w strukturach zamówień Mazowieckiego (292) i Wielkopolskiego (159) — co może sugerować, że dotychczasowy nacisk na nowe inwestycje zaczyna być uzupełniany przez systematyczne utrzymanie istniejącej infrastruktury.
+
 ### 2025
 
 <img width="1211" height="724" alt="obraz" src="https://github.com/user-attachments/assets/7e84bcfe-b486-45f1-8f79-9d1b274c362d" />
 
+Dane za rok 2025 ujawniają dwie wyraziste tendencje jakościowe. Po pierwsze, kategoria CPV 31122000-7 (jednostki prądotwórcze) pojawiła się nagle i z wysokimi wolumenami w województwach: lubelskim (109), podlaskim (79), warmińsko-mazurskim (70) oraz łódzkim (129). Koncentracja geograficzna tego popytu — silna na wschodzie i północnym wschodzie kraju — wskazuje na związek z kontekstem geopolitycznym (bezpośrednie sąsiedztwo z Ukrainą i Białorusią) oraz z realizacją programów wzmacniania odporności infrastrukturalnej. Po drugie, kategoria usług edukacyjnych i szkoleniowych (CPV 80000000-4) zanotowała znaczący wzrost w województwach: lubuskim (138), śląskim (183), łódzkim (146) i lubelskim (110). Może to świadczyć o intensywnej absorpcji środków z Europejskiego Funduszu Społecznego Plus w ramach bieżącej perspektywy finansowej. Warty uwagi jest również wzrost liczby przetargów na samochody osobowe (CPV 34110000-1) w kilku województwach (kujawsko-pomorskie, lubuskie, zachodniopomorskie), co może odzwierciedlać odroczone decyzje o odnowieniu flot pojazdów publicznych po latach cięć inwestycyjnych.
+
 ### Legenda
 
 <img width="1036" height="675" alt="obraz" src="https://github.com/user-attachments/assets/f2af6d88-c725-4257-bf38-5a7f67df0322" />
+
+### Podsumowanie
+
+Strukturalna dominacja budownictwa. W całym analizowanym okresie kod CPV 45000000-7 zajmował bezwzględnie pierwszą pozycję we wszystkich województwach i we wszystkich latach, przy czym udział tej kategorii w rankingach był na tyle przeważający, że uzasadnia traktowanie jej nie jako jednej z kategorii zamówień, lecz jako konstytutywnej cechy polskiego rynku zamówień publicznych. Wartości bezwzględne były przy tym silnie skorelowane z wielkością demograficzno-ekonomiczną regionów: Mazowieckie i Śląskie konsekwentnie odnotowywały wolumeny kilkukrotnie wyższe niż województwa o mniejszym potencjale gospodarczym (Lubuskie, Opolskie, Świętokrzyskie).
+
+Cykliczność z wyraźnym szczytem w roku 2022. Analiza szeregów czasowych wskazuje na wyraźny wzrost wolumenu postępowań w roku 2022, po którym nastąpiła stabilizacja bądź umiarkowany spadek. Wzorzec ten jest spójny z hipotezą kumulacji odroczonego popytu inwestycyjnego i jednoczesnego uruchomienia instrumentów finansowych UE po zakończeniu pandemii.
+
+Rosnące znaczenie usług inżynieryjnych. Systematyczny wzrost wolumenu przetargów na usługi projektowania inżynieryjnego (CPV 71320000-7) w latach 2021–2025 może być interpretowany jako wskaźnik wyprzedzający przyszłych inwestycji budowlanych — faza projektowania poprzedza realizację o jeden do kilku lat. Obserwacja ta sugeruje, że rynek zamówień publicznych w Polsce nie wykazuje jeszcze oznak nasycenia w segmencie infrastrukturalnym.
+Regionalne specjalizacje jako odbicie struktury instytucjonalnej. Trwałe różnice w składzie kategoryzacyjnym zamówień między województwami odzwierciedlają nie tylko warunki geograficzne (odśnieżanie w Małopolsce i Podkarpaciu, infrastruktura drogowa we wschodniej Polsce), lecz również strukturę instytucjonalną zamawiających — koncentrację szpitali klinicznych (produkty farmaceutyczne i wyroby medyczne w Małopolsce i Śląskiem), obecność dużych instytucji edukacyjnych (usługi szkoleniowe w Lubelskim i Łódzkim) czy aktywność samorządów metropolitalnych (ochrona i remonty w Mazowieckiem).
+
+Impulsy zewnętrzne jako czynniki strukturyzujące rynek. Analiza danych wskazuje, że polska struktura zamówień publicznych jest wrażliwa na zewnętrzne impulsy systemowe: zakupy sprzętu ICT dla szkół w 2022 r., wzrost zapotrzebowania na agregaty prądotwórcze w kontekście geopolitycznym w 2025 r. czy intensyfikacja usług szkoleniowych w związku z absorpcją EFS+. Zjawisko to świadczy o wysokiej reaktywności rynku zamówień na decyzje podejmowane na poziomie centralnym lub unijnym, co może być postrzegane zarówno jako cecha adaptacyjna systemu, jak i sygnał ograniczonej autonomii strategicznej zamawiających regionalnych.
 
 ### Tabela zbiorcza
 
