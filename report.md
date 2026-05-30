@@ -19,9 +19,8 @@
   - [Współczynniki trendu i sezonowości](#współczynniki-trendu-i-sezonowości)
     - [Sezonowość](#sezonowość)
     - [Trend](#trend)
-  - [Top5 CPV overall w czasie - czy są zmiany najbardziej popularnych CPV?](#top5-cpv-overall-w-czasie---czy-są-zmiany-najbardziej-popularnych-cpv)
-  - [1. Jak zmienia się ogólna liczba w czasie](#1-jak-zmienia-się-ogólna-liczba-w-czasie)
-  - [2. Które dziedziny wykazują największe wahania, a jakie najmniejsze?](#2-które-dziedziny-wykazują-największe-wahania-a-jakie-najmniejsze)
+  - [Zmiana liczby przetargów w analizowanym zakresie czasu](#zmiana-liczby-przetargów-w-analizowanym-zakresie-czasu)
+  - [Analiza sezonowości dziedzin CPV](#analiza-sezonowości-dziedzin-cpv)
 - [Analiza rozkładu przetargów względem innych czynników](#analiza-rozkładu-przetargów-względem-innych-czynników)
   - [Wstęp](#wstęp-1)
   - [Analiza danych](#analiza-danych)
@@ -196,9 +195,7 @@ Oprócz cyklu rocznego dane wykazują również silną **sezonowość tygodniow�
 ### Trend
 Współczynnik siły trendu `Ft=0.637` (liczony na pełnym zakresie 2021–2025) wskazuje na wyraźny, choć słabszy od sezonowości komponent trendu. Jest on jednak w przeważającej części efektem jednorazowego **rozpędzania zbioru w 2021 roku**, a nie trwałego wzrostu liczby przetargów. Po ograniczeniu analizy do stabilnego okresu **2022–2025** dopasowanie trendu liniowego jest bardzo słabe — współczynnik Pearsona `r=0.241` oraz determinacji `R²=0.058` oznaczają, że model liniowy wyjaśnia zaledwie ok. **6%** zmienności miesięcznych wolumenów. Nachylenie linii trendu wynosi `+28` przetargów na miesiąc (`+337` rocznie), co wobec średniego poziomu ok. **9 000** przetargów miesięcznie jest wartością marginalną. Oznacza to, że po zakończeniu okresu wdrożenia platformy w 2021 roku liczba przetargów ustabilizowała się, a obserwowane wahania mają charakter niemal wyłącznie sezonowy.
 
-## Top5 CPV overall w czasie - czy są zmiany najbardziej popularnych CPV? 
-Czy we wszystkich województwach sytuacja się powtarza? Czy czasami są odstępstwa?+
-## 1. Jak zmienia się ogólna liczba w czasie
+## Zmiana liczby przetargów w analizowanym zakresie czasu
 Liczba publikowanych przetargów wyraźnie wzrosła w pierwszych dwóch latach funkcjonowania zbioru, po czym ustabilizowała się na zbliżonym poziomie.
 W **2021 roku** opublikowano **73 597** przetargów, jednak był to okres rozpędzania platformy — styczeń 2021 to średnio zaledwie **26,5** przetargu dziennie wobec ok. 175–218 w kolejnych latach.
 W **2022 roku** liczba przetargów wzrosła do **113 592**, co oznacza skok o **+54,3%** względem roku poprzedniego i odzwierciedla pełne wdrożenie obowiązkowej elektronizacji zamówień.
@@ -210,7 +207,7 @@ Po ograniczeniu analizy do stabilnego okresu **2022–2025** dopasowanie trendu 
 Nachylenie linii trendu wynosi w tym okresie `+28` przetargów na miesiąc (`+337` rocznie), co wobec średniego poziomu ok. **9 255** przetargów miesięcznie jest wartością marginalną.
 Oznacza to, że po zakończeniu okresu wdrożenia platformy w 2021 roku ogólna liczba przetargów ustabilizowała się, a obserwowane wahania mają charakter niemal wyłącznie sezonowy (zob. [Analiza sezonowości rozkładu przetargów](#analiza-sezonowości-rozkładu-przetargów)).
 
-## 2. Które dziedziny wykazują największe wahania, a jakie najmniejsze?
+## Analiza sezonowości dziedzin CPV
 Aby ocenić sezonowość w przekroju przedmiotowym, dla każdego z **45 działów** zbudowano osobny miesięczny szereg czasowy (dane [`tenders_by_month_and_division`](data/tenders_by_month_and_division.csv)) i policzono dla niego te same miary co dla całego zbioru: **siłę sezonowości STL** (`Fs`, zakres 2021–2025) oraz **indeks sezonowy** wraz z amplitudą szczyt/dołek (lata 2022–2025). Analizę ograniczono do **34 działów o wolumenie ≥ 2000** przetargów, ponieważ dla działów rzadkich współczynniki są zbyt zaszumione, by je interpretować. Wyniki generuje skrypt [`seasonality_by_division.py`](seasonality_by_division.py).
 
 <img width="1500" alt="Sezonowość przetargów w podziale na działy CPV" src="output/seasonality_by_division.png" />
@@ -298,5 +295,14 @@ Anomalię związaną z zawyżonym wynikiem **województwa Mazowieckiego** widać
 W celu lepszego zbadania zasadności korelacji liczby przetargów z PKB należałoby wyłączyć **miasto Warszawę** lub **Warszawski Region Stołeczny** z **województwa Mazowieckiego**, co z przyczyn wyjaśnionych we wstępie nie zostało wykonane.
 
 # Wnioski
-1. Do czego można wykorzystać badania i pracę?
-2. Czy można przewidzieć co się będzie działo w przyszłości?
+1. **Zastosowanie badań i pracy**
+
+   Wyniki analizy mają bezpośrednie zastosowanie praktyczne dla obu stron rynku zamówień. Dla **wykonawców** najważniejszym wnioskiem operacyjnym jest możliwość **planowania kalendarza ofertowego i mocy przerobowych** w oparciu o rozpoznane wzorce sezonowe — wiedza, że usługi kontraktowane cyklicznie rozstrzygane są w **listopadzie**, a dowóz uczniów (dz. 60) w **lipcu**, pozwala z wyprzedzeniem przygotować zespoły i zasoby pod spodziewane szczyty. Drugim kierunkiem jest **rozwój w stronę segmentów rosnących rok do roku**: systematyczny wzrost zamówień na usługi projektowania inżynieryjnego (CPV **71320000-7**) zapowiada przyszłe inwestycje budowlane, a kategorie reagujące na impulsy systemowe (agregaty prądotwórcze, sprzęt ICT dla szkół, usługi szkoleniowe finansowane z EFS+) wskazują obszary o rosnącym popycie, w których warto budować kompetencje. Dla **zamawiających** praktyczną wskazówką jest natomiast **publikowanie postępowań poza listopadowym szczytem** — w okresie mniejszej kumulacji ogłoszeń konkurencja o uwagę wykonawców jest mniej rozproszona, co zwiększa szansę na większą liczbę ofert i korzystniejsze warunki.
+
+2. **Prognozowalność rynku zamówień**
+
+   Prognozowalność rynku zamówień jest dwojaka. **Komponent regularny** — ogólna liczba przetargów — jest dobrze przewidywalny: po zakończeniu wdrożenia platformy wolumen ustabilizował się (`R²=0.058` dla trendu w stabilnym okresie 2022–2025), a jego wahania mają charakter niemal wyłącznie **sezonowy** (`Fs=0.691`) z powtarzalnym rytmem rocznym i tygodniowym. Pozwala to prognozować miesięczne i tygodniowe poziomy aktywności prostym modelem sezonowym. **Komponentu strukturalnego** — tego, *które* kategorie nagle zyskają na znaczeniu — nie da się natomiast przewidzieć z samego szeregu czasowego, ponieważ zależy on od decyzji zewnętrznych: programów centralnych, kontekstu geopolitycznego czy harmonogramu transz unijnych. Wykazana wysoka reaktywność rynku oznacza jednak, że takie zmiany **da się wcześnie wykryć i wyjaśnić**, traktując nietypowe skoki w strukturze przedmiotowej jako sygnał o uruchomieniu konkretnego impulsu systemowego. Rynek jest więc przewidywalny w swoim rytmie, lecz nie w treści szoków popytowych.
+
+3. **Ograniczenia analizy i kierunki dalszych badań**
+
+   Przedstawione wnioski należy odczytywać w świetle **ograniczeń analizy**. Po pierwsze, zbiór obejmuje wyłącznie postępowania **poniżej progu unijnego** (`isTenderAmountBelowEU=True`), poza analizą pozostają zatem największe zamówienia. Po drugie, badano **liczbę** przetargów, a nie ich **wartość** — wyniki opisują aktywność przetargową, lecz nie skalę wydatków. Po trzecie, analiza opierała się **wyłącznie na głównym kodzie CPV** każdego ogłoszenia, a atrybut `procedureResult` zawierał wartości NULL, co uniemożliwiło ocenę rozstrzygnięć i konkurencyjności postępowań. Nierozwiązany pozostał również problem wydzielenia **miasta Warszawy / Warszawskiego Regionu Stołecznego** z województwa mazowieckiego w układzie NUTS 2. Naturalnym kierunkiem dalszych badań jest zatem powiązanie zbioru z **wartościami umów**, **liczbą składanych ofert** (jako miarą intensywności konkurencji) oraz **danymi o zwycięzcach**, co pozwoliłoby przejść od analizy samej aktywności do analizy efektywności i konkurencyjności rynku zamówień publicznych.
