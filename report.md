@@ -1,10 +1,45 @@
+# Spis treści
+- [Dane wejściowe](#dane-wejściowe)
+- [Omówienie i analiza uzyskanych danych](#omówienie-i-analiza-uzyskanych-danych)
+- [Analiza rozkładu przetargów](#analiza-rozkładu-przetargów)
+  - [Wstęp](#wstęp)
+  - [Analiza rozkładu kodów CPV](#analiza-rozkładu-kodów-cpv)
+  - [Analiza rozkładu działów przetargów](#analiza-rozkładu-działów-przetargów)
+  - [Róznice pomiędzy województwami](#róznice-pomiędzy-województwami)
+    - [Najpopularniejsze kody w województwach](#najpopularniejsze-kody-w-województwach)
+    - [Odchylenie pomiędzy województwami](#odchylenie-pomiędzy-województwami)
+    - [2021](#2021)
+    - [2022](#2022)
+    - [2023](#2023)
+    - [2024](#2024)
+    - [2025](#2025)
+    - [Legenda](#legenda)
+    - [Podsumowanie](#podsumowanie)
+- [Analiza sezonowości rozkładu przetargów](#analiza-sezonowości-rozkładu-przetargów)
+  - [Współczynniki trendu i sezonowości](#współczynniki-trendu-i-sezonowości)
+    - [Sezonowość](#sezonowość)
+    - [Trend](#trend)
+  - [Top5 CPV overall w czasie - czy są zmiany najbardziej popularnych CPV?](#top5-cpv-overall-w-czasie---czy-są-zmiany-najbardziej-popularnych-cpv)
+  - [1. Jak zmienia się ogólna liczba w czasie](#1-jak-zmienia-się-ogólna-liczba-w-czasie)
+  - [2. Które dziedziny wykazują największe wahania, a jakie najmniejsze?](#2-które-dziedziny-wykazują-największe-wahania-a-jakie-najmniejsze)
+- [Analiza rozkładu przetargów względem innych czynników](#analiza-rozkładu-przetargów-względem-innych-czynników)
+  - [Wstęp](#wstęp-1)
+  - [Analiza danych](#analiza-danych)
+    - [Liczba przetargów względem PKB województw](#liczba-przetargów-względem-pkb-województw)
+    - [Liczba przetargów względem populacji województw](#liczba-przetargów-względem-populacji-województw)
+    - [Liczba przetargów względem populacji województw z wykluczeniem Warszawy z województwa Mazowieckiego](#liczba-przetargów-względem-populacji-województw-z-wykluczeniem-warszawy-z-województwa-mazowieckiego)
+    - [Populacja względem PKB](#populacja-względem-pkb)
+    - [Liczba przetargów względem PKB per capita](#liczba-przetargów-względem-pkb-per-capita)
+- [Podsumowanie](#podsumowanie-1)
+- [Wnioski](#wnioski)
+
 # Dane wejściowe
 Analizie poddano dane pobrane z portalu [eZamówienia BZP](https://ezamowienia.gov.pl/mo-client-board/bzp) 
 za pomocą API ([eZam-Database-extraction](https://github.com/98CharleS/eZam-Database-extraction)), 
 które zostały następnie sformatowane i opracowane 
 ([eZam-Database-formating](https://github.com/98CharleS/eZam-Database-formating)) 
 w celu uzyskania standaryzacji, czytelności i możliwości obsługi w innych programach.
-Zbiór danych liczy 517 840 elementów i obejmuje przetargi z okresu 01.01.2020–31.12.2025.
+Import danych skonfigurowano od **01.01.2020**, jednak najwcześniejsze dostępne ogłoszenie pochodzi z **2 stycznia 2021 r.** Portal eZamówienia w obecnym kształcie funkcjonuje bowiem dopiero od **1 stycznia 2021 r.**, wraz z wejściem w życie znowelizowanego **Prawa zamówień publicznych**, i nie zawiera wcześniejszych postępowań. Faktyczny zakres czasowy zbioru obejmuje zatem przetargi z okresu **02.01.2021–31.12.2025**, a sam zbiór liczy **517 840** elementów.
 # Omówienie i analiza uzyskanych danych 
 Z pośród dostępnych artrbutów `TenderType` oraz `procedureResult` wszędzie zawierały wartość NULL. Są to atrybuty, które w bazie danych pozostają nieużywane. Dodatkowo wszystkie przetargi w analizowanym zakresie posiadały taką samą wartość `True` w kolumnie `isTenderAmountBelowEU`. Wartość tego atrybutu określa czy wartość przetargu była poniżej wartości **[progu Unijnego](https://www.gov.pl/web/uzp/aktualne-progi-unijne-oraz-ich-rownowartosci-w-zlotych-na-lata-2026-2027)**. Same wartości `True` oznaczają, że wszystkie przetargi z analizowanego zbioru były poniżej **progu Unijnego**.  W celu poprawy czytelnośći i integralności danych, wyżej wspomniane kolumny zostały odrzucone.
 
@@ -71,7 +106,34 @@ We wszystkich województwach najliczniejszym **kodem CPV** były **Roboty budowl
 Następnym pod względem liczebności jest **kod CPV Budowa dróg**, który w pozycjach od 2 do 5 wystąpił w 11 z 16 województw skupiając łącznie 7427 przetargów. Zaraz za tym kodem wystąpił kod **Roboty drogowe**, który wystąpił również w 11 województwach na pozycjach od 2 do 5 i skupił 7403 przetargów. Również podobny, choć nieco mniejszy wynik obserwujemy w przypadku **kodu CPV Usługi projektowania**. Skupił 7034 przetargi i wystąpił tak samo w 11 województwach na pozycjach od 2 do 5.
 
 ### Odchylenie pomiędzy województwami
-Matematyczna analiza struktury kodów w wojwództwach przedstawiająca główne tendencje oraz województwa z największym odchyleniem od średniej. 
+W celu ilościowego porównania struktury przedmiotowej zamówień między województwami dla każdego z nich obliczono udział poszczególnych **45 działów** w ogólnej liczbie jego przetargów, a następnie zestawiono go ze strukturą **krajową**. Jako miarę rozbieżności przyjęto **odległość całkowitego wahania** (Total Variation Distance, TVD = ½·Σ|udział_woj − udział_kraj|), która przyjmuje wartości od 0% do 100% i wyraża, jaki odsetek przetargów danego województwa musiałby zostać przypisany do innych działów, aby jego struktura była identyczna ze strukturą krajową. Im wyższa wartość, tym bardziej profil zamówień województwa odbiega od przeciętnego.
+
+| Województwo | Odchylenie (TVD) | Liczba przetargów |
+|-------------|:----------------:|------------------:|
+| **Lubuskie** | **9,2%** | 12 681 |
+| **Kujawsko-pomorskie** | **9,1%** | 26 891 |
+| Wielkopolskie | 8,0% | 41 803 |
+| Mazowieckie | 7,9% | 91 898 |
+| Pomorskie | 7,8% | 29 471 |
+| Podkarpackie | 7,4% | 29 010 |
+| Podlaskie | 7,2% | 18 300 |
+| Opolskie | 6,5% | 13 748 |
+| Warmińsko-mazurskie | 6,4% | 19 835 |
+| Świętokrzyskie | 6,4% | 18 060 |
+| Zachodniopomorskie | 6,1% | 22 245 |
+| Łódzkie | 6,0% | 30 341 |
+| Małopolskie | 5,9% | 47 809 |
+| Lubelskie | 5,4% | 32 420 |
+| Dolnośląskie | 5,0% | 36 298 |
+| **Śląskie** | **4,0%** | 47 023 |
+
+Odchylenia są **niewielkie** — mieszczą się w przedziale od **4,0% do 9,2%** (średnio **6,8%**, mediana **6,5%**), co oznacza, że struktura przedmiotowa zamówień jest w skali kraju wysoce **jednorodna**. Wynika to bezpośrednio z opisanej wcześniej dominacji działu **45 (Roboty budowlane)**, którego udział we wszystkich województwach pozostaje zbliżony — od **29,1%** (Pomorskie) do **37,5%** (Lubuskie) przy średniej krajowej **32,3%**. Żadne województwo nie ma zatem zasadniczo odmiennego profilu, a różnice dotyczą wyłącznie proporcji działów dalszych pozycji.
+
+Największe odchylenie odnotowały **Lubuskie** (9,2%) oraz **Kujawsko-pomorskie** (9,1%). W przypadku **Lubuskiego** wynika ono z ponadprzeciętnego udziału robót budowlanych (37,5% wobec 32,3% w kraju, +5,3 pp) oraz sprzętu transportowego, przy jednoczesnym niedoreprezentowaniu artykułów spożywczych (2,5% wobec 4,3%) i sprzętu medycznego. **Kujawsko-pomorskie** wyróżnia się natomiast nietypowo wysokim udziałem usług finansowych i ubezpieczeniowych (dz. 66: 4,1% wobec 1,4%, +2,7 pp), sprzętu medycznego i farmaceutycznego (dz. 33: 10,3% wobec 7,7%) oraz usług zdrowotnych — co wskazuje na silniejszą niż przeciętnie obecność zamawiających z sektora ochrony zdrowia i instytucji finansowych.
+
+Osobnego komentarza wymaga **Mazowieckie** (7,9%), którego odchylenie ma charakter wyraźnie **metropolitalny**: ponadprzeciętny udział usług biznesowych i doradczych (dz. 79: 5,2% wobec 3,1%, +2,2 pp), usług informatycznych (dz. 72) oraz pakietów oprogramowania (dz. 48), przy najniższym w tej grupie udziale robót budowlanych (30,1%). Profil ten odzwierciedla koncentrację instytucji centralnych i sektora usług w aglomeracji warszawskiej.
+
+Na przeciwległym biegunie znajduje się **Śląskie** (4,0%) — województwo o strukturze najbliższej średniej krajowej, z jedynie nieznacznie podwyższonym udziałem artykułów spożywczych (6,2% wobec 4,3%). Również **Dolnośląskie** (5,0%) i **Lubelskie** (5,4%) reprezentują profil typowy. Warto zauważyć, że odchylenie nie jest powiązane z wielkością województwa — duże **Mazowieckie** (91 898 przetargów) odbiega od średniej silniej niż znacznie mniejsze **Świętokrzyskie** (18 060), o czym decyduje nie skala, lecz lokalna specyfika gospodarcza i instytucjonalna zamawiających.
 
 ### 2021
 
@@ -120,10 +182,69 @@ Analiza danych wskazuje, że polska struktura zamówień publicznych jest wrażl
 # Analiza sezonowości rozkładu przetargów
 <img width="1261" height="721" alt="obraz" src="https://github.com/user-attachments/assets/b6bceb05-1fa1-423e-a48e-e63c494535c0" />
 
+Dekompozycję sezonowości oraz indeksy miesięczne i tygodniowe przedstawia poniższy wykres wygenerowany skryptem [`seasonality.py`](seasonality.py). Trend i dekompozycję STL policzono na pełnym zakresie 2021–2025, natomiast indeksy sezonowe na latach 2022–2025 — rok 2021 stanowił okres rozpędzania zbioru (styczeń 2021 ≈ 15 przetargów/dzień wobec 175–218 w kolejnych latach), co zaniżałoby profil sezonowy.
+
+<img width="1400" alt="Analiza sezonowości przetargów" src="output/seasonality.png" />
+
+## Współczynniki trendu i sezonowości
+Charakterystykę szeregu czasowego opisano za pomocą dekompozycji STL miesięcznych wolumenów przetargów oraz miar siły trendu i sezonowości (Wang, Smith, Hyndman), przyjmujących wartości z przedziału od 0 do 1.
+
+### Sezonowość
+Współczynnik siły sezonowości `Fs=0.691` wskazuje na silną, regularną sezonowość — ponad **69%** zmienności szeregu po usunięciu trendu jest wyjaśniane przez powtarzalny wzorzec roczny. Potwierdza to amplituda indeksu sezonowego: miesiąc szczytowy (**listopad**, indeks **128,1**) generuje blisko dwukrotnie więcej przetargów (`1,99×`) niż miesiąc o najniższej aktywności (**styczeń**, indeks **64,2**), przy współczynniku zmienności indeksu miesięcznego `CV=15,1%`.
+Oprócz cyklu rocznego dane wykazują również silną **sezonowość tygodniową** — publikacje koncentrują się w dni robocze (szczyt w **czwartek**, indeks **158,6**), a w weekendy aktywność jest znikoma (indeks `≈1,7`).
+
+### Trend
+Współczynnik siły trendu `Ft=0.637` (liczony na pełnym zakresie 2021–2025) wskazuje na wyraźny, choć słabszy od sezonowości komponent trendu. Jest on jednak w przeważającej części efektem jednorazowego **rozpędzania zbioru w 2021 roku**, a nie trwałego wzrostu liczby przetargów. Po ograniczeniu analizy do stabilnego okresu **2022–2025** dopasowanie trendu liniowego jest bardzo słabe — współczynnik Pearsona `r=0.241` oraz determinacji `R²=0.058` oznaczają, że model liniowy wyjaśnia zaledwie ok. **6%** zmienności miesięcznych wolumenów. Nachylenie linii trendu wynosi `+28` przetargów na miesiąc (`+337` rocznie), co wobec średniego poziomu ok. **9 000** przetargów miesięcznie jest wartością marginalną. Oznacza to, że po zakończeniu okresu wdrożenia platformy w 2021 roku liczba przetargów ustabilizowała się, a obserwowane wahania mają charakter niemal wyłącznie sezonowy.
+
 ## Top5 CPV overall w czasie - czy są zmiany najbardziej popularnych CPV? 
 Czy we wszystkich województwach sytuacja się powtarza? Czy czasami są odstępstwa?+
 ## 1. Jak zmienia się ogólna liczba w czasie
+Liczba publikowanych przetargów wyraźnie wzrosła w pierwszych dwóch latach funkcjonowania zbioru, po czym ustabilizowała się na zbliżonym poziomie.
+W **2021 roku** opublikowano **73 597** przetargów, jednak był to okres rozpędzania platformy — styczeń 2021 to średnio zaledwie **26,5** przetargu dziennie wobec ok. 175–218 w kolejnych latach.
+W **2022 roku** liczba przetargów wzrosła do **113 592**, co oznacza skok o **+54,3%** względem roku poprzedniego i odzwierciedla pełne wdrożenie obowiązkowej elektronizacji zamówień.
+W kolejnych latach wolumen utrzymywał się w wąskim przedziale: **104 408** w 2023 r. (**−8,1%**), **108 229** w 2024 r. (**+3,7%**) oraz **118 007** w 2025 r. (**+9,0%**), który był rokiem o najwyższej liczbie przetargów w całym zbiorze.
+
+Dopasowanie trendu liniowego do miesięcznych wolumenów z pełnego zakresu **2021–2025** daje współczynnik Pearsona `r=0.544` oraz determinacji `R²=0.296`, przy nachyleniu `+69` przetargów na miesiąc (`+829` rocznie).
+Wynik ten jest jednak w przeważającej części efektem jednorazowego rozpędzania zbioru w 2021 roku, a nie trwałego wzrostu liczby przetargów.
+Po ograniczeniu analizy do stabilnego okresu **2022–2025** dopasowanie trendu liniowego niemal zanika — współczynnik Pearsona `r=0.241` oraz determinacji `R²=0.058` oznaczają, że model liniowy wyjaśnia zaledwie ok. **6%** zmienności miesięcznych wolumenów.
+Nachylenie linii trendu wynosi w tym okresie `+28` przetargów na miesiąc (`+337` rocznie), co wobec średniego poziomu ok. **9 255** przetargów miesięcznie jest wartością marginalną.
+Oznacza to, że po zakończeniu okresu wdrożenia platformy w 2021 roku ogólna liczba przetargów ustabilizowała się, a obserwowane wahania mają charakter niemal wyłącznie sezonowy (zob. [Analiza sezonowości rozkładu przetargów](#analiza-sezonowości-rozkładu-przetargów)).
+
 ## 2. Które dziedziny wykazują największe wahania, a jakie najmniejsze?
+Aby ocenić sezonowość w przekroju przedmiotowym, dla każdego z **45 działów** zbudowano osobny miesięczny szereg czasowy (dane [`tenders_by_month_and_division`](data/tenders_by_month_and_division.csv)) i policzono dla niego te same miary co dla całego zbioru: **siłę sezonowości STL** (`Fs`, zakres 2021–2025) oraz **indeks sezonowy** wraz z amplitudą szczyt/dołek (lata 2022–2025). Analizę ograniczono do **34 działów o wolumenie ≥ 2000** przetargów, ponieważ dla działów rzadkich współczynniki są zbyt zaszumione, by je interpretować. Wyniki generuje skrypt [`seasonality_by_division.py`](seasonality_by_division.py).
+
+<img width="1500" alt="Sezonowość przetargów w podziale na działy CPV" src="output/seasonality_by_division.png" />
+
+Działy **wyraźnie różnią się** stopniem regularności — siła sezonowości waha się od `Fs=0.98` do niemal zera. Najsilniej sezonowe są **powtarzalne usługi kontraktowane cyklicznie**, najsłabiej — **jednorazowe dostawy sprzętu i maszyn**.
+
+**Działy o najsilniejszej sezonowości:**
+
+| Dział | Fs | Amplituda (szczyt/dołek) | Szczyt → dołek |
+|-------|:--:|:--:|:--:|
+| **60 Usługi transportu drogowego** | **0,98** | 7,8× | lip → kwi |
+| 90 Usługi środowiskowe i sanitarne | 0,96 | 4,8× | lis → sie |
+| 85 Usługi zdrowotne i społeczne | 0,96 | 4,7× | gru → sie |
+| 64 Usługi pocztowe i telekomunikacyjne | 0,95 | **11,6×** | lis → sie |
+| 15 Artykuły spożywcze i napoje | 0,94 | 5,3× | lis → kwi |
+| 66 Usługi finansowe i ubezpieczeniowe | 0,94 | 3,6× | lis → sty |
+| 9 Produkty naftowe, paliwa i energia | 0,91 | 4,7× | lis → kwi |
+
+Dominującym wzorcem jest **szczyt jesienny (listopad)** z dołkiem w okresie wakacyjnym lub na początku roku. Odpowiada to mechanizmowi **kontraktowania usług ciągłych z wyprzedzeniem na kolejny rok kalendarzowy** — ubezpieczenia (dz. 66), dostawy paliw i energii (dz. 9), usługi pocztowe (dz. 64), sanitarne (dz. 90) czy żywieniowe (dz. 15) są rozstrzygane jesienią, aby obowiązywać od stycznia. Pokrywa się to z listopadowym szczytem zaobserwowanym dla całego zbioru. Wyjątkiem jest **transport drogowy** (dz. 60), którego szczyt przypada na **lipiec** — co odpowiada kontraktowaniu dowozu uczniów przed rozpoczęciem roku szkolnego we wrześniu.
+
+**Działy o najsłabszej sezonowości:**
+
+| Dział | Fs | Amplituda (szczyt/dołek) | Szczyt → dołek |
+|-------|:--:|:--:|:--:|
+| 43 Maszyny górnicze | 0,04 | 6,8× | paź → sty |
+| 31 Sprzęt elektryczny | 0,07 | 8,4× | paź → sty |
+| 35 Sprzęt bezpieczeństwa i ochrony | 0,35 | 6,4× | paź → sty |
+| 42 Maszyny przemysłowe | 0,39 | 4,1× | paź → sty |
+| 80 Usługi edukacyjne | 0,46 | 2,1× | mar → gru |
+| 18 Odzież i obuwie | 0,55 | 1,9× | paź → sty |
+
+Najniższe wartości `Fs` osiągają **dostawy sprzętu i maszyn** (sprzęt elektryczny `Fs=0.07`, maszyny górnicze `Fs=0.04`, maszyny przemysłowe `Fs=0.39`), czyli zamówienia o charakterze **jednorazowym i projektowym**, których termin wynika z indywidualnych potrzeb inwestycyjnych, a nie z kalendarza budżetowego. Warto zauważyć, że działy te wykazują przy tym **wysoką amplitudę** (sprzęt elektryczny 8,4×), lecz **niską siłę sezonowości** — oznacza to, że ich wahania mają charakter **nieregularnych skoków**, a nie powtarzalnego wzorca rocznego. Pokazuje to, dlaczego sama amplituda jest myląca, a miara `Fs` (oddzielająca regularną sezonowość od szumu) lepiej oddaje rzeczywistą cykliczność.
+
+Odrębny rytm wykazują **usługi edukacyjne** (dz. 80, `Fs=0.46`) — ich szczyt przypada na **marzec**, a dołek na **grudzień**, co odzwierciedla cykl **akademicki**, a nie budżetowy. Z kolei dominujący w całym zbiorze dział **45 (Roboty budowlane)** plasuje się pośrodku skali (`Fs=0.77`) ze szczytem w **lipcu** i dołkiem w **grudniu**, zgodnie z naturalnym sezonem prac budowlanych.
 
 # Analiza rozkładu przetargów względem innych czynników
 ## Wstęp
@@ -162,8 +283,14 @@ Pomimo relatywnie wysokich wartości **współczynnika Pearsona i determinacji**
 
 # Podsumowanie
 1. Opis danych
+Analizie poddano **517 840** przetargów pochodzących z portalu eZamówienia (BZP) i obejmujących okres **2021–2025**. W ramach przygotowania danych odrzucono atrybuty pozbawione wartości informacyjnej (`TenderType` i `procedureResult` — wyłącznie wartości NULL — oraz `isTenderAmountBelowEU` o stałej wartości `True`), a analizę kodów CPV oparto wyłącznie na głównym kodzie każdego ogłoszenia. Dla celów generalizacji kody CPV zagregowano w **45 działów** zgodnych z Rozporządzeniem Komisji (WE) nr 213/2008.
+
 2. Opis popularności
+Rozkład przetargów — zarówno na poziomie pojedynczych **kodów CPV** (5047 kodów), jak i **działów** — jest silnie **prawoskośny z długim ogonem**. Niekwestionowanym liderem jest kod **45000000-7 (Roboty budowlane)**, skupiający **11,38%** wszystkich przetargów na poziomie CPV oraz **32,25%** na poziomie działów, ponad sześciokrotnie przewyższając kolejną pozycję rankingu. Dominacja robót budowlanych jest powszechna — kod ten zajmował pierwsze miejsce we **wszystkich województwach i we wszystkich latach** — natomiast dalsze pozycje rankingów regionalnych odzwierciedlają specyfikę geograficzną i instytucjonalną poszczególnych województw.
+
 3. Opis zmian w czasie
+Ogólna liczba przetargów wzrosła skokowo w okresie wdrażania platformy (z **73 597** w 2021 r. do **113 592** w 2022 r.), po czym ustabilizowała się w przedziale **104–118 tys.** rocznie. Po wyłączeniu rozpędzania zbioru z 2021 roku trend liniowy praktycznie zanika (`R²=0.058`), co oznacza, że wolumen przetargów osiągnął nasycenie. Zmienność szeregu ma charakter niemal wyłącznie **sezonowy** — siła sezonowości `Fs=0.691`, ze szczytem w **listopadzie** i dołkiem w **styczniu** (różnica blisko dwukrotna) oraz wyraźną koncentracją publikacji w dni robocze. Na poziomie struktury przedmiotowej widoczna jest natomiast wysoka reaktywność rynku na zewnętrzne impulsy systemowe (zakupy sprzętu ICT dla szkół w 2022 r., agregaty prądotwórcze w 2025 r. czy usługi szkoleniowe finansowane z EFS+).
+
 4. Czynniki zewnętrzne
 PKB jest najlepszym czynnikiem, na podstawie którego można przewidzieć liczbę przetargów. Wysoka korelacja liczby przetargów z PKB oznacza, że regiony o silniejszej gospodarce regionalnej generują więcej przetargów. Jest to logiczna zależność, lecz pokazuje, że aktywność przetargowa w Polsce pozostaje silnie skoncentrowana w najbardziej rozwiniętych gospodarczo regionach. Może to świadczyć o utrzymujących się dysproporcjach regionalnych pomimo licznych programów, takich jak **Program Operacyjny Polska Wschodnia 2014–2020 (PO PW)**, **Fundusze Europejskie dla Polski Wschodniej 2021–2027 (FEPW)** oraz **Regionalne Programy Operacyjne (RPO)** finansowane z funduszy UE, które miały na celu wyrównywanie dysproporcji rozwojowych między województwami.
 Tezę o utrzymującej się koncentracji aktywności przetargowej potwierdzają wykresy liczby przetargów do liczby ludności, na których widać liniowy wzrost liczby przetargów wraz z liczbą ludności. Wyjątkiem pozostaje **miasto Warszawa**, które generuje znacznie więcej przetargów na osobę, niż wynikałoby to z trendu. Widać to dokładnie w zawyżonym wyniku **województwa Mazowieckiego** na wykresie drugim oraz na wykresie trzecim z wydzielonym **miastem Warszawa**, którego wartość dopasowania modelu (`R²=0.764`) jest o ponad 18 punktów procentowych niższa niż wykresu z całym **województwem Mazowieckim** (`R²=0.949`).

@@ -1,0 +1,2629 @@
+month;cpv_division;division_name;tender_count
+2021-01;45;Roboty budowlane;145
+2021-01;33;Sprzęt medyczny i farmaceutyczny;59
+2021-01;90;Usługi środowiskowe i sanitarne;34
+2021-01;9;Produkty naftowe, paliwa i energia;28
+2021-01;15;Artykuły spożywcze i napoje;20
+2021-01;66;Usługi finansowe i ubezpieczeniowe;20
+2021-01;79;Usługi biznesowe i doradcze;19
+2021-01;71;Usługi architektoniczne i inżynieryjne;18
+2021-01;34;Sprzęt transportowy i pojazdy;13
+2021-01;24;Produkty chemiczne;7
+2021-01;30;Sprzęt komputerowy i biurowy;7
+2021-01;44;Materiały budowlane;7
+2021-01;80;Usługi edukacyjne;7
+2021-01;85;Usługi zdrowotne i społeczne;7
+2021-01;14;Górnictwo i minerały;6
+2021-01;55;Usługi hotelarskie i restauracyjne;6
+2021-01;60;Usługi transportu drogowego;6
+2021-01;38;Sprzęt laboratoryjny i naukowy;5
+2021-01;72;Usługi informatyczne;5
+2021-01;42;Maszyny przemysłowe;4
+2021-01;50;Usługi napraw i konserwacji;4
+2021-01;98;Pozostałe usługi komunalne i osobiste;4
+2021-01;35;Sprzęt bezpieczeństwa i ochrony;3
+2021-01;64;Usługi pocztowe i telekomunikacyjne;3
+2021-01;77;Usługi rolnicze i leśne;3
+2021-01;3;Produkty rolne, łowieckie i rybne;2
+2021-01;31;Sprzęt elektryczny;2
+2021-01;39;Meble i wyposażenie wnętrz;2
+2021-01;16;Maszyny rolnicze;1
+2021-01;22;Drukowane materiały i produkty poligraficzne;1
+2021-01;32;Sprzęt elektroniczny i telekomunikacyjny;1
+2021-01;70;Usługi w zakresie nieruchomości;1
+2021-02;45;Roboty budowlane;781
+2021-02;33;Sprzęt medyczny i farmaceutyczny;306
+2021-02;71;Usługi architektoniczne i inżynieryjne;166
+2021-02;90;Usługi środowiskowe i sanitarne;120
+2021-02;34;Sprzęt transportowy i pojazdy;98
+2021-02;9;Produkty naftowe, paliwa i energia;94
+2021-02;79;Usługi biznesowe i doradcze;93
+2021-02;30;Sprzęt komputerowy i biurowy;80
+2021-02;80;Usługi edukacyjne;66
+2021-02;15;Artykuły spożywcze i napoje;62
+2021-02;39;Meble i wyposażenie wnętrz;62
+2021-02;66;Usługi finansowe i ubezpieczeniowe;59
+2021-02;50;Usługi napraw i konserwacji;45
+2021-02;24;Produkty chemiczne;44
+2021-02;38;Sprzęt laboratoryjny i naukowy;40
+2021-02;77;Usługi rolnicze i leśne;37
+2021-02;55;Usługi hotelarskie i restauracyjne;35
+2021-02;44;Materiały budowlane;34
+2021-02;14;Górnictwo i minerały;33
+2021-02;60;Usługi transportu drogowego;33
+2021-02;85;Usługi zdrowotne i społeczne;29
+2021-02;48;Pakiety oprogramowania;27
+2021-02;32;Sprzęt elektroniczny i telekomunikacyjny;21
+2021-02;72;Usługi informatyczne;21
+2021-02;3;Produkty rolne, łowieckie i rybne;20
+2021-02;16;Maszyny rolnicze;18
+2021-02;31;Sprzęt elektryczny;12
+2021-02;42;Maszyny przemysłowe;12
+2021-02;18;Odzież i obuwie;11
+2021-02;22;Drukowane materiały i produkty poligraficzne;11
+2021-02;98;Pozostałe usługi komunalne i osobiste;11
+2021-02;64;Usługi pocztowe i telekomunikacyjne;10
+2021-02;70;Usługi w zakresie nieruchomości;10
+2021-02;92;Usługi rekreacyjne i kulturalne;8
+2021-02;35;Sprzęt bezpieczeństwa i ochrony;7
+2021-02;37;Sprzęt sportowy i rekreacyjny;7
+2021-02;43;Maszyny górnicze;6
+2021-02;19;Wyroby skórzane i tekstylne;5
+2021-02;75;Usługi administracji publicznej;4
+2021-02;63;Usługi spedycji i logistyki;3
+2021-02;51;Usługi instalacyjne;2
+2021-02;73;Usługi badawczo-rozwojowe;1
+2021-03;45;Roboty budowlane;1878
+2021-03;33;Sprzęt medyczny i farmaceutyczny;495
+2021-03;71;Usługi architektoniczne i inżynieryjne;399
+2021-03;90;Usługi środowiskowe i sanitarne;184
+2021-03;30;Sprzęt komputerowy i biurowy;160
+2021-03;80;Usługi edukacyjne;160
+2021-03;34;Sprzęt transportowy i pojazdy;145
+2021-03;79;Usługi biznesowe i doradcze;142
+2021-03;50;Usługi napraw i konserwacji;130
+2021-03;39;Meble i wyposażenie wnętrz;114
+2021-03;15;Artykuły spożywcze i napoje;102
+2021-03;9;Produkty naftowe, paliwa i energia;90
+2021-03;66;Usługi finansowe i ubezpieczeniowe;85
+2021-03;77;Usługi rolnicze i leśne;81
+2021-03;38;Sprzęt laboratoryjny i naukowy;73
+2021-03;44;Materiały budowlane;69
+2021-03;24;Produkty chemiczne;68
+2021-03;85;Usługi zdrowotne i społeczne;66
+2021-03;60;Usługi transportu drogowego;55
+2021-03;14;Górnictwo i minerały;53
+2021-03;72;Usługi informatyczne;51
+2021-03;48;Pakiety oprogramowania;47
+2021-03;55;Usługi hotelarskie i restauracyjne;42
+2021-03;42;Maszyny przemysłowe;32
+2021-03;64;Usługi pocztowe i telekomunikacyjne;30
+2021-03;3;Produkty rolne, łowieckie i rybne;29
+2021-03;18;Odzież i obuwie;26
+2021-03;31;Sprzęt elektryczny;26
+2021-03;32;Sprzęt elektroniczny i telekomunikacyjny;26
+2021-03;98;Pozostałe usługi komunalne i osobiste;24
+2021-03;92;Usługi rekreacyjne i kulturalne;22
+2021-03;73;Usługi badawczo-rozwojowe;20
+2021-03;43;Maszyny górnicze;19
+2021-03;16;Maszyny rolnicze;17
+2021-03;22;Drukowane materiały i produkty poligraficzne;15
+2021-03;70;Usługi w zakresie nieruchomości;15
+2021-03;35;Sprzęt bezpieczeństwa i ochrony;12
+2021-03;63;Usługi spedycji i logistyki;11
+2021-03;37;Sprzęt sportowy i rekreacyjny;9
+2021-03;75;Usługi administracji publicznej;9
+2021-03;19;Wyroby skórzane i tekstylne;4
+2021-03;51;Usługi instalacyjne;4
+2021-04;45;Roboty budowlane;2089
+2021-04;33;Sprzęt medyczny i farmaceutyczny;482
+2021-04;71;Usługi architektoniczne i inżynieryjne;403
+2021-04;90;Usługi środowiskowe i sanitarne;191
+2021-04;30;Sprzęt komputerowy i biurowy;165
+2021-04;79;Usługi biznesowe i doradcze;159
+2021-04;34;Sprzęt transportowy i pojazdy;141
+2021-04;80;Usługi edukacyjne;141
+2021-04;50;Usługi napraw i konserwacji;122
+2021-04;39;Meble i wyposażenie wnętrz;104
+2021-04;15;Artykuły spożywcze i napoje;83
+2021-04;77;Usługi rolnicze i leśne;83
+2021-04;9;Produkty naftowe, paliwa i energia;78
+2021-04;38;Sprzęt laboratoryjny i naukowy;77
+2021-04;72;Usługi informatyczne;65
+2021-04;66;Usługi finansowe i ubezpieczeniowe;53
+2021-04;60;Usługi transportu drogowego;50
+2021-04;48;Pakiety oprogramowania;47
+2021-04;44;Materiały budowlane;46
+2021-04;55;Usługi hotelarskie i restauracyjne;46
+2021-04;42;Maszyny przemysłowe;45
+2021-04;24;Produkty chemiczne;44
+2021-04;85;Usługi zdrowotne i społeczne;42
+2021-04;18;Odzież i obuwie;35
+2021-04;32;Sprzęt elektroniczny i telekomunikacyjny;35
+2021-04;31;Sprzęt elektryczny;27
+2021-04;14;Górnictwo i minerały;26
+2021-04;16;Maszyny rolnicze;26
+2021-04;3;Produkty rolne, łowieckie i rybne;23
+2021-04;22;Drukowane materiały i produkty poligraficzne;20
+2021-04;64;Usługi pocztowe i telekomunikacyjne;20
+2021-04;98;Pozostałe usługi komunalne i osobiste;18
+2021-04;35;Sprzęt bezpieczeństwa i ochrony;16
+2021-04;37;Sprzęt sportowy i rekreacyjny;16
+2021-04;73;Usługi badawczo-rozwojowe;16
+2021-04;92;Usługi rekreacyjne i kulturalne;14
+2021-04;43;Maszyny górnicze;13
+2021-04;75;Usługi administracji publicznej;13
+2021-04;70;Usługi w zakresie nieruchomości;10
+2021-04;19;Wyroby skórzane i tekstylne;9
+2021-04;63;Usługi spedycji i logistyki;8
+2021-04;41;Woda i usługi wodne;1
+2021-04;65;Usługi komunalne (gaz, woda, energia);1
+2021-05;45;Roboty budowlane;2555
+2021-05;33;Sprzęt medyczny i farmaceutyczny;432
+2021-05;71;Usługi architektoniczne i inżynieryjne;346
+2021-05;90;Usługi środowiskowe i sanitarne;201
+2021-05;80;Usługi edukacyjne;156
+2021-05;30;Sprzęt komputerowy i biurowy;155
+2021-05;79;Usługi biznesowe i doradcze;135
+2021-05;34;Sprzęt transportowy i pojazdy;123
+2021-05;39;Meble i wyposażenie wnętrz;118
+2021-05;15;Artykuły spożywcze i napoje;113
+2021-05;38;Sprzęt laboratoryjny i naukowy;94
+2021-05;50;Usługi napraw i konserwacji;90
+2021-05;9;Produkty naftowe, paliwa i energia;79
+2021-05;66;Usługi finansowe i ubezpieczeniowe;79
+2021-05;55;Usługi hotelarskie i restauracyjne;65
+2021-05;72;Usługi informatyczne;52
+2021-05;77;Usługi rolnicze i leśne;52
+2021-05;60;Usługi transportu drogowego;50
+2021-05;85;Usługi zdrowotne i społeczne;49
+2021-05;44;Materiały budowlane;43
+2021-05;18;Odzież i obuwie;41
+2021-05;48;Pakiety oprogramowania;37
+2021-05;31;Sprzęt elektryczny;32
+2021-05;42;Maszyny przemysłowe;32
+2021-05;3;Produkty rolne, łowieckie i rybne;28
+2021-05;32;Sprzęt elektroniczny i telekomunikacyjny;28
+2021-05;64;Usługi pocztowe i telekomunikacyjne;24
+2021-05;14;Górnictwo i minerały;23
+2021-05;24;Produkty chemiczne;23
+2021-05;16;Maszyny rolnicze;21
+2021-05;22;Drukowane materiały i produkty poligraficzne;21
+2021-05;73;Usługi badawczo-rozwojowe;21
+2021-05;35;Sprzęt bezpieczeństwa i ochrony;17
+2021-05;37;Sprzęt sportowy i rekreacyjny;15
+2021-05;43;Maszyny górnicze;14
+2021-05;92;Usługi rekreacyjne i kulturalne;14
+2021-05;98;Pozostałe usługi komunalne i osobiste;12
+2021-05;70;Usługi w zakresie nieruchomości;9
+2021-05;75;Usługi administracji publicznej;9
+2021-05;63;Usługi spedycji i logistyki;8
+2021-05;19;Wyroby skórzane i tekstylne;5
+2021-05;65;Usługi komunalne (gaz, woda, energia);3
+2021-05;51;Usługi instalacyjne;2
+2021-05;41;Woda i usługi wodne;1
+2021-06;45;Roboty budowlane;3196
+2021-06;33;Sprzęt medyczny i farmaceutyczny;500
+2021-06;71;Usługi architektoniczne i inżynieryjne;497
+2021-06;34;Sprzęt transportowy i pojazdy;242
+2021-06;30;Sprzęt komputerowy i biurowy;194
+2021-06;90;Usługi środowiskowe i sanitarne;189
+2021-06;39;Meble i wyposażenie wnętrz;172
+2021-06;79;Usługi biznesowe i doradcze;162
+2021-06;15;Artykuły spożywcze i napoje;158
+2021-06;80;Usługi edukacyjne;150
+2021-06;60;Usługi transportu drogowego;133
+2021-06;38;Sprzęt laboratoryjny i naukowy;111
+2021-06;9;Produkty naftowe, paliwa i energia;106
+2021-06;55;Usługi hotelarskie i restauracyjne;105
+2021-06;50;Usługi napraw i konserwacji;101
+2021-06;66;Usługi finansowe i ubezpieczeniowe;97
+2021-06;85;Usługi zdrowotne i społeczne;81
+2021-06;72;Usługi informatyczne;80
+2021-06;48;Pakiety oprogramowania;59
+2021-06;44;Materiały budowlane;53
+2021-06;42;Maszyny przemysłowe;48
+2021-06;32;Sprzęt elektroniczny i telekomunikacyjny;46
+2021-06;77;Usługi rolnicze i leśne;40
+2021-06;3;Produkty rolne, łowieckie i rybne;39
+2021-06;16;Maszyny rolnicze;36
+2021-06;64;Usługi pocztowe i telekomunikacyjne;31
+2021-06;31;Sprzęt elektryczny;30
+2021-06;37;Sprzęt sportowy i rekreacyjny;30
+2021-06;24;Produkty chemiczne;29
+2021-06;18;Odzież i obuwie;26
+2021-06;14;Górnictwo i minerały;24
+2021-06;43;Maszyny górnicze;21
+2021-06;22;Drukowane materiały i produkty poligraficzne;20
+2021-06;92;Usługi rekreacyjne i kulturalne;18
+2021-06;98;Pozostałe usługi komunalne i osobiste;18
+2021-06;35;Sprzęt bezpieczeństwa i ochrony;17
+2021-06;63;Usługi spedycji i logistyki;15
+2021-06;73;Usługi badawczo-rozwojowe;13
+2021-06;51;Usługi instalacyjne;9
+2021-06;19;Wyroby skórzane i tekstylne;8
+2021-06;70;Usługi w zakresie nieruchomości;8
+2021-06;75;Usługi administracji publicznej;4
+2021-06;41;Woda i usługi wodne;1
+2021-06;76;Usługi związane z przemysłem naftowym;1
+2021-07;45;Roboty budowlane;3654
+2021-07;71;Usługi architektoniczne i inżynieryjne;574
+2021-07;33;Sprzęt medyczny i farmaceutyczny;550
+2021-07;60;Usługi transportu drogowego;399
+2021-07;34;Sprzęt transportowy i pojazdy;327
+2021-07;30;Sprzęt komputerowy i biurowy;215
+2021-07;90;Usługi środowiskowe i sanitarne;197
+2021-07;79;Usługi biznesowe i doradcze;185
+2021-07;39;Meble i wyposażenie wnętrz;183
+2021-07;15;Artykuły spożywcze i napoje;153
+2021-07;80;Usługi edukacyjne;147
+2021-07;9;Produkty naftowe, paliwa i energia;142
+2021-07;50;Usługi napraw i konserwacji;133
+2021-07;55;Usługi hotelarskie i restauracyjne;124
+2021-07;38;Sprzęt laboratoryjny i naukowy;118
+2021-07;66;Usługi finansowe i ubezpieczeniowe;105
+2021-07;72;Usługi informatyczne;86
+2021-07;85;Usługi zdrowotne i społeczne;82
+2021-07;42;Maszyny przemysłowe;73
+2021-07;48;Pakiety oprogramowania;73
+2021-07;44;Materiały budowlane;70
+2021-07;32;Sprzęt elektroniczny i telekomunikacyjny;59
+2021-07;24;Produkty chemiczne;57
+2021-07;77;Usługi rolnicze i leśne;56
+2021-07;31;Sprzęt elektryczny;53
+2021-07;16;Maszyny rolnicze;40
+2021-07;37;Sprzęt sportowy i rekreacyjny;39
+2021-07;3;Produkty rolne, łowieckie i rybne;37
+2021-07;43;Maszyny górnicze;32
+2021-07;22;Drukowane materiały i produkty poligraficzne;27
+2021-07;18;Odzież i obuwie;26
+2021-07;98;Pozostałe usługi komunalne i osobiste;26
+2021-07;92;Usługi rekreacyjne i kulturalne;25
+2021-07;70;Usługi w zakresie nieruchomości;23
+2021-07;64;Usługi pocztowe i telekomunikacyjne;21
+2021-07;35;Sprzęt bezpieczeństwa i ochrony;19
+2021-07;14;Górnictwo i minerały;14
+2021-07;19;Wyroby skórzane i tekstylne;13
+2021-07;63;Usługi spedycji i logistyki;11
+2021-07;73;Usługi badawczo-rozwojowe;11
+2021-07;75;Usługi administracji publicznej;11
+2021-07;51;Usługi instalacyjne;6
+2021-07;65;Usługi komunalne (gaz, woda, energia);2
+2021-07;76;Usługi związane z przemysłem naftowym;2
+2021-07;41;Woda i usługi wodne;1
+2021-08;45;Roboty budowlane;3630
+2021-08;33;Sprzęt medyczny i farmaceutyczny;576
+2021-08;71;Usługi architektoniczne i inżynieryjne;527
+2021-08;34;Sprzęt transportowy i pojazdy;335
+2021-08;60;Usługi transportu drogowego;334
+2021-08;90;Usługi środowiskowe i sanitarne;233
+2021-08;30;Sprzęt komputerowy i biurowy;226
+2021-08;39;Meble i wyposażenie wnętrz;226
+2021-08;80;Usługi edukacyjne;224
+2021-08;79;Usługi biznesowe i doradcze;210
+2021-08;15;Artykuły spożywcze i napoje;182
+2021-08;9;Produkty naftowe, paliwa i energia;172
+2021-08;55;Usługi hotelarskie i restauracyjne;170
+2021-08;38;Sprzęt laboratoryjny i naukowy;151
+2021-08;66;Usługi finansowe i ubezpieczeniowe;107
+2021-08;50;Usługi napraw i konserwacji;100
+2021-08;44;Materiały budowlane;82
+2021-08;48;Pakiety oprogramowania;80
+2021-08;77;Usługi rolnicze i leśne;69
+2021-08;85;Usługi zdrowotne i społeczne;69
+2021-08;32;Sprzęt elektroniczny i telekomunikacyjny;59
+2021-08;42;Maszyny przemysłowe;58
+2021-08;72;Usługi informatyczne;58
+2021-08;3;Produkty rolne, łowieckie i rybne;49
+2021-08;31;Sprzęt elektryczny;48
+2021-08;16;Maszyny rolnicze;43
+2021-08;24;Produkty chemiczne;40
+2021-08;18;Odzież i obuwie;36
+2021-08;37;Sprzęt sportowy i rekreacyjny;35
+2021-08;14;Górnictwo i minerały;29
+2021-08;64;Usługi pocztowe i telekomunikacyjne;29
+2021-08;43;Maszyny górnicze;25
+2021-08;92;Usługi rekreacyjne i kulturalne;24
+2021-08;35;Sprzęt bezpieczeństwa i ochrony;23
+2021-08;22;Drukowane materiały i produkty poligraficzne;19
+2021-08;63;Usługi spedycji i logistyki;16
+2021-08;70;Usługi w zakresie nieruchomości;16
+2021-08;98;Pozostałe usługi komunalne i osobiste;13
+2021-08;73;Usługi badawczo-rozwojowe;12
+2021-08;75;Usługi administracji publicznej;7
+2021-08;19;Wyroby skórzane i tekstylne;4
+2021-08;51;Usługi instalacyjne;3
+2021-08;65;Usługi komunalne (gaz, woda, energia);3
+2021-08;41;Woda i usługi wodne;1
+2021-09;45;Roboty budowlane;3270
+2021-09;33;Sprzęt medyczny i farmaceutyczny;683
+2021-09;71;Usługi architektoniczne i inżynieryjne;515
+2021-09;34;Sprzęt transportowy i pojazdy;361
+2021-09;90;Usługi środowiskowe i sanitarne;346
+2021-09;9;Produkty naftowe, paliwa i energia;306
+2021-09;30;Sprzęt komputerowy i biurowy;285
+2021-09;39;Meble i wyposażenie wnętrz;242
+2021-09;80;Usługi edukacyjne;228
+2021-09;79;Usługi biznesowe i doradcze;203
+2021-09;38;Sprzęt laboratoryjny i naukowy;147
+2021-09;15;Artykuły spożywcze i napoje;145
+2021-09;66;Usługi finansowe i ubezpieczeniowe;126
+2021-09;50;Usługi napraw i konserwacji;125
+2021-09;48;Pakiety oprogramowania;117
+2021-09;55;Usługi hotelarskie i restauracyjne;106
+2021-09;32;Sprzęt elektroniczny i telekomunikacyjny;84
+2021-09;85;Usługi zdrowotne i społeczne;81
+2021-09;3;Produkty rolne, łowieckie i rybne;78
+2021-09;44;Materiały budowlane;74
+2021-09;42;Maszyny przemysłowe;71
+2021-09;60;Usługi transportu drogowego;64
+2021-09;72;Usługi informatyczne;64
+2021-09;31;Sprzęt elektryczny;61
+2021-09;77;Usługi rolnicze i leśne;56
+2021-09;24;Produkty chemiczne;54
+2021-09;16;Maszyny rolnicze;47
+2021-09;14;Górnictwo i minerały;40
+2021-09;18;Odzież i obuwie;39
+2021-09;43;Maszyny górnicze;37
+2021-09;37;Sprzęt sportowy i rekreacyjny;34
+2021-09;64;Usługi pocztowe i telekomunikacyjne;34
+2021-09;98;Pozostałe usługi komunalne i osobiste;29
+2021-09;22;Drukowane materiały i produkty poligraficzne;25
+2021-09;35;Sprzęt bezpieczeństwa i ochrony;22
+2021-09;70;Usługi w zakresie nieruchomości;19
+2021-09;92;Usługi rekreacyjne i kulturalne;16
+2021-09;63;Usługi spedycji i logistyki;14
+2021-09;73;Usługi badawczo-rozwojowe;13
+2021-09;51;Usługi instalacyjne;4
+2021-09;19;Wyroby skórzane i tekstylne;3
+2021-09;65;Usługi komunalne (gaz, woda, energia);2
+2021-09;75;Usługi administracji publicznej;2
+2021-10;45;Roboty budowlane;2437
+2021-10;90;Usługi środowiskowe i sanitarne;618
+2021-10;33;Sprzęt medyczny i farmaceutyczny;609
+2021-10;9;Produkty naftowe, paliwa i energia;434
+2021-10;71;Usługi architektoniczne i inżynieryjne;378
+2021-10;30;Sprzęt komputerowy i biurowy;326
+2021-10;34;Sprzęt transportowy i pojazdy;308
+2021-10;79;Usługi biznesowe i doradcze;216
+2021-10;39;Meble i wyposażenie wnętrz;215
+2021-10;15;Artykuły spożywcze i napoje;213
+2021-10;66;Usługi finansowe i ubezpieczeniowe;198
+2021-10;80;Usługi edukacyjne;193
+2021-10;48;Pakiety oprogramowania;143
+2021-10;50;Usługi napraw i konserwacji;142
+2021-10;32;Sprzęt elektroniczny i telekomunikacyjny;136
+2021-10;38;Sprzęt laboratoryjny i naukowy;129
+2021-10;85;Usługi zdrowotne i społeczne;109
+2021-10;55;Usługi hotelarskie i restauracyjne;97
+2021-10;31;Sprzęt elektryczny;75
+2021-10;60;Usługi transportu drogowego;72
+2021-10;72;Usługi informatyczne;72
+2021-10;64;Usługi pocztowe i telekomunikacyjne;70
+2021-10;42;Maszyny przemysłowe;69
+2021-10;77;Usługi rolnicze i leśne;64
+2021-10;44;Materiały budowlane;58
+2021-10;16;Maszyny rolnicze;56
+2021-10;3;Produkty rolne, łowieckie i rybne;48
+2021-10;35;Sprzęt bezpieczeństwa i ochrony;39
+2021-10;14;Górnictwo i minerały;37
+2021-10;22;Drukowane materiały i produkty poligraficzne;36
+2021-10;37;Sprzęt sportowy i rekreacyjny;36
+2021-10;98;Pozostałe usługi komunalne i osobiste;35
+2021-10;24;Produkty chemiczne;31
+2021-10;43;Maszyny górnicze;30
+2021-10;18;Odzież i obuwie;28
+2021-10;92;Usługi rekreacyjne i kulturalne;19
+2021-10;65;Usługi komunalne (gaz, woda, energia);11
+2021-10;70;Usługi w zakresie nieruchomości;11
+2021-10;73;Usługi badawczo-rozwojowe;11
+2021-10;19;Wyroby skórzane i tekstylne;10
+2021-10;51;Usługi instalacyjne;8
+2021-10;63;Usługi spedycji i logistyki;6
+2021-10;75;Usługi administracji publicznej;4
+2021-10;76;Usługi związane z przemysłem naftowym;1
+2021-11;45;Roboty budowlane;1675
+2021-11;90;Usługi środowiskowe i sanitarne;731
+2021-11;9;Produkty naftowe, paliwa i energia;651
+2021-11;33;Sprzęt medyczny i farmaceutyczny;608
+2021-11;15;Artykuły spożywcze i napoje;551
+2021-11;30;Sprzęt komputerowy i biurowy;392
+2021-11;71;Usługi architektoniczne i inżynieryjne;377
+2021-11;79;Usługi biznesowe i doradcze;370
+2021-11;66;Usługi finansowe i ubezpieczeniowe;278
+2021-11;34;Sprzęt transportowy i pojazdy;250
+2021-11;39;Meble i wyposażenie wnętrz;226
+2021-11;64;Usługi pocztowe i telekomunikacyjne;220
+2021-11;85;Usługi zdrowotne i społeczne;206
+2021-11;60;Usługi transportu drogowego;203
+2021-11;55;Usługi hotelarskie i restauracyjne;174
+2021-11;50;Usługi napraw i konserwacji;159
+2021-11;80;Usługi edukacyjne;154
+2021-11;38;Sprzęt laboratoryjny i naukowy;153
+2021-11;48;Pakiety oprogramowania;120
+2021-11;72;Usługi informatyczne;95
+2021-11;32;Sprzęt elektroniczny i telekomunikacyjny;74
+2021-11;3;Produkty rolne, łowieckie i rybne;68
+2021-11;44;Materiały budowlane;64
+2021-11;42;Maszyny przemysłowe;60
+2021-11;16;Maszyny rolnicze;56
+2021-11;77;Usługi rolnicze i leśne;55
+2021-11;98;Pozostałe usługi komunalne i osobiste;52
+2021-11;31;Sprzęt elektryczny;51
+2021-11;24;Produkty chemiczne;46
+2021-11;22;Drukowane materiały i produkty poligraficzne;39
+2021-11;37;Sprzęt sportowy i rekreacyjny;35
+2021-11;92;Usługi rekreacyjne i kulturalne;28
+2021-11;43;Maszyny górnicze;27
+2021-11;35;Sprzęt bezpieczeństwa i ochrony;26
+2021-11;18;Odzież i obuwie;25
+2021-11;14;Górnictwo i minerały;22
+2021-11;63;Usługi spedycji i logistyki;20
+2021-11;70;Usługi w zakresie nieruchomości;17
+2021-11;65;Usługi komunalne (gaz, woda, energia);16
+2021-11;75;Usługi administracji publicznej;15
+2021-11;19;Wyroby skórzane i tekstylne;13
+2021-11;73;Usługi badawczo-rozwojowe;10
+2021-11;51;Usługi instalacyjne;3
+2021-11;41;Woda i usługi wodne;1
+2021-12;45;Roboty budowlane;1218
+2021-12;15;Artykuły spożywcze i napoje;658
+2021-12;9;Produkty naftowe, paliwa i energia;638
+2021-12;90;Usługi środowiskowe i sanitarne;611
+2021-12;33;Sprzęt medyczny i farmaceutyczny;494
+2021-12;71;Usługi architektoniczne i inżynieryjne;333
+2021-12;79;Usługi biznesowe i doradcze;282
+2021-12;39;Meble i wyposażenie wnętrz;242
+2021-12;30;Sprzęt komputerowy i biurowy;229
+2021-12;55;Usługi hotelarskie i restauracyjne;226
+2021-12;85;Usługi zdrowotne i społeczne;221
+2021-12;50;Usługi napraw i konserwacji;207
+2021-12;60;Usługi transportu drogowego;186
+2021-12;64;Usługi pocztowe i telekomunikacyjne;164
+2021-12;34;Sprzęt transportowy i pojazdy;144
+2021-12;80;Usługi edukacyjne;123
+2021-12;66;Usługi finansowe i ubezpieczeniowe;110
+2021-12;38;Sprzęt laboratoryjny i naukowy;96
+2021-12;72;Usługi informatyczne;90
+2021-12;48;Pakiety oprogramowania;83
+2021-12;3;Produkty rolne, łowieckie i rybne;82
+2021-12;98;Pozostałe usługi komunalne i osobiste;80
+2021-12;77;Usługi rolnicze i leśne;72
+2021-12;32;Sprzęt elektroniczny i telekomunikacyjny;52
+2021-12;24;Produkty chemiczne;51
+2021-12;44;Materiały budowlane;44
+2021-12;42;Maszyny przemysłowe;32
+2021-12;18;Odzież i obuwie;29
+2021-12;16;Maszyny rolnicze;26
+2021-12;70;Usługi w zakresie nieruchomości;25
+2021-12;14;Górnictwo i minerały;24
+2021-12;22;Drukowane materiały i produkty poligraficzne;23
+2021-12;31;Sprzęt elektryczny;22
+2021-12;92;Usługi rekreacyjne i kulturalne;18
+2021-12;43;Maszyny górnicze;17
+2021-12;75;Usługi administracji publicznej;15
+2021-12;63;Usługi spedycji i logistyki;14
+2021-12;65;Usługi komunalne (gaz, woda, energia);13
+2021-12;37;Sprzęt sportowy i rekreacyjny;10
+2021-12;19;Wyroby skórzane i tekstylne;9
+2021-12;35;Sprzęt bezpieczeństwa i ochrony;8
+2021-12;73;Usługi badawczo-rozwojowe;8
+2021-12;51;Usługi instalacyjne;6
+2021-12;41;Woda i usługi wodne;1
+2022-01;45;Roboty budowlane;1702
+2022-01;33;Sprzęt medyczny i farmaceutyczny;404
+2022-01;9;Produkty naftowe, paliwa i energia;329
+2022-01;15;Artykuły spożywcze i napoje;314
+2022-01;71;Usługi architektoniczne i inżynieryjne;309
+2022-01;90;Usługi środowiskowe i sanitarne;263
+2022-01;79;Usługi biznesowe i doradcze;202
+2022-01;39;Meble i wyposażenie wnętrz;151
+2022-01;80;Usługi edukacyjne;147
+2022-01;30;Sprzęt komputerowy i biurowy;146
+2022-01;34;Sprzęt transportowy i pojazdy;135
+2022-01;50;Usługi napraw i konserwacji;127
+2022-01;85;Usługi zdrowotne i społeczne;117
+2022-01;55;Usługi hotelarskie i restauracyjne;105
+2022-01;60;Usługi transportu drogowego;91
+2022-01;44;Materiały budowlane;81
+2022-01;77;Usługi rolnicze i leśne;75
+2022-01;64;Usługi pocztowe i telekomunikacyjne;64
+2022-01;66;Usługi finansowe i ubezpieczeniowe;64
+2022-01;72;Usługi informatyczne;63
+2022-01;38;Sprzęt laboratoryjny i naukowy;60
+2022-01;3;Produkty rolne, łowieckie i rybne;51
+2022-01;14;Górnictwo i minerały;46
+2022-01;31;Sprzęt elektryczny;44
+2022-01;48;Pakiety oprogramowania;39
+2022-01;24;Produkty chemiczne;37
+2022-01;98;Pozostałe usługi komunalne i osobiste;34
+2022-01;18;Odzież i obuwie;24
+2022-01;16;Maszyny rolnicze;23
+2022-01;32;Sprzęt elektroniczny i telekomunikacyjny;23
+2022-01;42;Maszyny przemysłowe;21
+2022-01;92;Usługi rekreacyjne i kulturalne;19
+2022-01;19;Wyroby skórzane i tekstylne;13
+2022-01;70;Usługi w zakresie nieruchomości;13
+2022-01;75;Usługi administracji publicznej;13
+2022-01;22;Drukowane materiały i produkty poligraficzne;12
+2022-01;35;Sprzęt bezpieczeństwa i ochrony;11
+2022-01;43;Maszyny górnicze;10
+2022-01;63;Usługi spedycji i logistyki;10
+2022-01;37;Sprzęt sportowy i rekreacyjny;9
+2022-01;51;Usługi instalacyjne;6
+2022-01;73;Usługi badawczo-rozwojowe;3
+2022-01;41;Woda i usługi wodne;1
+2022-01;65;Usługi komunalne (gaz, woda, energia);1
+2022-01;76;Usługi związane z przemysłem naftowym;1
+2022-02;45;Roboty budowlane;2701
+2022-02;33;Sprzęt medyczny i farmaceutyczny;613
+2022-02;71;Usługi architektoniczne i inżynieryjne;524
+2022-02;90;Usługi środowiskowe i sanitarne;321
+2022-02;9;Produkty naftowe, paliwa i energia;273
+2022-02;15;Artykuły spożywcze i napoje;259
+2022-02;34;Sprzęt transportowy i pojazdy;234
+2022-02;79;Usługi biznesowe i doradcze;227
+2022-02;39;Meble i wyposażenie wnętrz;213
+2022-02;30;Sprzęt komputerowy i biurowy;209
+2022-02;80;Usługi edukacyjne;192
+2022-02;50;Usługi napraw i konserwacji;155
+2022-02;85;Usługi zdrowotne i społeczne;128
+2022-02;44;Materiały budowlane;124
+2022-02;55;Usługi hotelarskie i restauracyjne;119
+2022-02;77;Usługi rolnicze i leśne;109
+2022-02;14;Górnictwo i minerały;95
+2022-02;38;Sprzęt laboratoryjny i naukowy;92
+2022-02;24;Produkty chemiczne;82
+2022-02;60;Usługi transportu drogowego;78
+2022-02;66;Usługi finansowe i ubezpieczeniowe;77
+2022-02;3;Produkty rolne, łowieckie i rybne;71
+2022-02;48;Pakiety oprogramowania;65
+2022-02;72;Usługi informatyczne;62
+2022-02;64;Usługi pocztowe i telekomunikacyjne;45
+2022-02;31;Sprzęt elektryczny;44
+2022-02;42;Maszyny przemysłowe;44
+2022-02;32;Sprzęt elektroniczny i telekomunikacyjny;39
+2022-02;16;Maszyny rolnicze;37
+2022-02;18;Odzież i obuwie;36
+2022-02;98;Pozostałe usługi komunalne i osobiste;36
+2022-02;92;Usługi rekreacyjne i kulturalne;27
+2022-02;70;Usługi w zakresie nieruchomości;25
+2022-02;63;Usługi spedycji i logistyki;22
+2022-02;43;Maszyny górnicze;20
+2022-02;37;Sprzęt sportowy i rekreacyjny;18
+2022-02;22;Drukowane materiały i produkty poligraficzne;15
+2022-02;73;Usługi badawczo-rozwojowe;15
+2022-02;19;Wyroby skórzane i tekstylne;14
+2022-02;35;Sprzęt bezpieczeństwa i ochrony;12
+2022-02;75;Usługi administracji publicznej;12
+2022-02;65;Usługi komunalne (gaz, woda, energia);4
+2022-02;41;Woda i usługi wodne;1
+2022-02;51;Usługi instalacyjne;1
+2022-02;76;Usługi związane z przemysłem naftowym;1
+2022-03;45;Roboty budowlane;4109
+2022-03;33;Sprzęt medyczny i farmaceutyczny;809
+2022-03;71;Usługi architektoniczne i inżynieryjne;782
+2022-03;30;Sprzęt komputerowy i biurowy;399
+2022-03;34;Sprzęt transportowy i pojazdy;379
+2022-03;80;Usługi edukacyjne;318
+2022-03;90;Usługi środowiskowe i sanitarne;314
+2022-03;79;Usługi biznesowe i doradcze;288
+2022-03;39;Meble i wyposażenie wnętrz;280
+2022-03;15;Artykuły spożywcze i napoje;274
+2022-03;9;Produkty naftowe, paliwa i energia;217
+2022-03;50;Usługi napraw i konserwacji;194
+2022-03;77;Usługi rolnicze i leśne;167
+2022-03;55;Usługi hotelarskie i restauracyjne;158
+2022-03;85;Usługi zdrowotne i społeczne;156
+2022-03;44;Materiały budowlane;145
+2022-03;38;Sprzęt laboratoryjny i naukowy;132
+2022-03;66;Usługi finansowe i ubezpieczeniowe;111
+2022-03;24;Produkty chemiczne;102
+2022-03;14;Górnictwo i minerały;97
+2022-03;72;Usługi informatyczne;91
+2022-03;60;Usługi transportu drogowego;83
+2022-03;48;Pakiety oprogramowania;76
+2022-03;42;Maszyny przemysłowe;75
+2022-03;18;Odzież i obuwie;70
+2022-03;32;Sprzęt elektroniczny i telekomunikacyjny;61
+2022-03;64;Usługi pocztowe i telekomunikacyjne;57
+2022-03;98;Pozostałe usługi komunalne i osobiste;57
+2022-03;3;Produkty rolne, łowieckie i rybne;53
+2022-03;16;Maszyny rolnicze;53
+2022-03;31;Sprzęt elektryczny;53
+2022-03;92;Usługi rekreacyjne i kulturalne;38
+2022-03;22;Drukowane materiały i produkty poligraficzne;35
+2022-03;63;Usługi spedycji i logistyki;31
+2022-03;43;Maszyny górnicze;28
+2022-03;70;Usługi w zakresie nieruchomości;27
+2022-03;37;Sprzęt sportowy i rekreacyjny;26
+2022-03;35;Sprzęt bezpieczeństwa i ochrony;23
+2022-03;19;Wyroby skórzane i tekstylne;20
+2022-03;75;Usługi administracji publicznej;17
+2022-03;73;Usługi badawczo-rozwojowe;13
+2022-03;51;Usługi instalacyjne;5
+2022-03;65;Usługi komunalne (gaz, woda, energia);2
+2022-03;41;Woda i usługi wodne;1
+2022-04;45;Roboty budowlane;4160
+2022-04;71;Usługi architektoniczne i inżynieryjne;697
+2022-04;33;Sprzęt medyczny i farmaceutyczny;634
+2022-04;30;Sprzęt komputerowy i biurowy;420
+2022-04;34;Sprzęt transportowy i pojazdy;345
+2022-04;79;Usługi biznesowe i doradcze;265
+2022-04;80;Usługi edukacyjne;261
+2022-04;39;Meble i wyposażenie wnętrz;233
+2022-04;90;Usługi środowiskowe i sanitarne;227
+2022-04;15;Artykuły spożywcze i napoje;218
+2022-04;9;Produkty naftowe, paliwa i energia;194
+2022-04;55;Usługi hotelarskie i restauracyjne;170
+2022-04;50;Usługi napraw i konserwacji;155
+2022-04;38;Sprzęt laboratoryjny i naukowy;140
+2022-04;85;Usługi zdrowotne i społeczne;135
+2022-04;77;Usługi rolnicze i leśne;124
+2022-04;44;Materiały budowlane;104
+2022-04;66;Usługi finansowe i ubezpieczeniowe;79
+2022-04;72;Usługi informatyczne;71
+2022-04;31;Sprzęt elektryczny;65
+2022-04;48;Pakiety oprogramowania;65
+2022-04;60;Usługi transportu drogowego;65
+2022-04;42;Maszyny przemysłowe;64
+2022-04;24;Produkty chemiczne;63
+2022-04;14;Górnictwo i minerały;57
+2022-04;3;Produkty rolne, łowieckie i rybne;55
+2022-04;18;Odzież i obuwie;54
+2022-04;32;Sprzęt elektroniczny i telekomunikacyjny;52
+2022-04;16;Maszyny rolnicze;42
+2022-04;64;Usługi pocztowe i telekomunikacyjne;38
+2022-04;63;Usługi spedycji i logistyki;37
+2022-04;98;Pozostałe usługi komunalne i osobiste;36
+2022-04;22;Drukowane materiały i produkty poligraficzne;31
+2022-04;37;Sprzęt sportowy i rekreacyjny;26
+2022-04;92;Usługi rekreacyjne i kulturalne;23
+2022-04;43;Maszyny górnicze;21
+2022-04;73;Usługi badawczo-rozwojowe;21
+2022-04;35;Sprzęt bezpieczeństwa i ochrony;20
+2022-04;75;Usługi administracji publicznej;18
+2022-04;19;Wyroby skórzane i tekstylne;14
+2022-04;70;Usługi w zakresie nieruchomości;14
+2022-04;51;Usługi instalacyjne;6
+2022-04;65;Usługi komunalne (gaz, woda, energia);3
+2022-04;41;Woda i usługi wodne;1
+2022-05;45;Roboty budowlane;3922
+2022-05;33;Sprzęt medyczny i farmaceutyczny;716
+2022-05;71;Usługi architektoniczne i inżynieryjne;658
+2022-05;30;Sprzęt komputerowy i biurowy;534
+2022-05;34;Sprzęt transportowy i pojazdy;359
+2022-05;15;Artykuły spożywcze i napoje;308
+2022-05;39;Meble i wyposażenie wnętrz;270
+2022-05;90;Usługi środowiskowe i sanitarne;252
+2022-05;80;Usługi edukacyjne;245
+2022-05;79;Usługi biznesowe i doradcze;218
+2022-05;9;Produkty naftowe, paliwa i energia;210
+2022-05;55;Usługi hotelarskie i restauracyjne;167
+2022-05;38;Sprzęt laboratoryjny i naukowy;136
+2022-05;50;Usługi napraw i konserwacji;126
+2022-05;85;Usługi zdrowotne i społeczne;120
+2022-05;48;Pakiety oprogramowania;117
+2022-05;44;Materiały budowlane;96
+2022-05;77;Usługi rolnicze i leśne;96
+2022-05;72;Usługi informatyczne;94
+2022-05;60;Usługi transportu drogowego;91
+2022-05;66;Usługi finansowe i ubezpieczeniowe;85
+2022-05;42;Maszyny przemysłowe;80
+2022-05;32;Sprzęt elektroniczny i telekomunikacyjny;67
+2022-05;3;Produkty rolne, łowieckie i rybne;66
+2022-05;24;Produkty chemiczne;62
+2022-05;31;Sprzęt elektryczny;55
+2022-05;18;Odzież i obuwie;50
+2022-05;14;Górnictwo i minerały;46
+2022-05;64;Usługi pocztowe i telekomunikacyjne;45
+2022-05;98;Pozostałe usługi komunalne i osobiste;43
+2022-05;37;Sprzęt sportowy i rekreacyjny;40
+2022-05;63;Usługi spedycji i logistyki;36
+2022-05;22;Drukowane materiały i produkty poligraficzne;34
+2022-05;92;Usługi rekreacyjne i kulturalne;31
+2022-05;73;Usługi badawczo-rozwojowe;30
+2022-05;16;Maszyny rolnicze;29
+2022-05;35;Sprzęt bezpieczeństwa i ochrony;25
+2022-05;43;Maszyny górnicze;22
+2022-05;75;Usługi administracji publicznej;22
+2022-05;70;Usługi w zakresie nieruchomości;19
+2022-05;19;Wyroby skórzane i tekstylne;16
+2022-05;51;Usługi instalacyjne;9
+2022-05;65;Usługi komunalne (gaz, woda, energia);3
+2022-05;41;Woda i usługi wodne;2
+2022-05;76;Usługi związane z przemysłem naftowym;2
+2022-06;45;Roboty budowlane;4257
+2022-06;33;Sprzęt medyczny i farmaceutyczny;752
+2022-06;71;Usługi architektoniczne i inżynieryjne;705
+2022-06;30;Sprzęt komputerowy i biurowy;651
+2022-06;34;Sprzęt transportowy i pojazdy;391
+2022-06;15;Artykuły spożywcze i napoje;310
+2022-06;39;Meble i wyposażenie wnętrz;278
+2022-06;60;Usługi transportu drogowego;260
+2022-06;90;Usługi środowiskowe i sanitarne;246
+2022-06;79;Usługi biznesowe i doradcze;227
+2022-06;80;Usługi edukacyjne;223
+2022-06;55;Usługi hotelarskie i restauracyjne;214
+2022-06;9;Produkty naftowe, paliwa i energia;208
+2022-06;38;Sprzęt laboratoryjny i naukowy;173
+2022-06;50;Usługi napraw i konserwacji;145
+2022-06;48;Pakiety oprogramowania;137
+2022-06;85;Usługi zdrowotne i społeczne;111
+2022-06;44;Materiały budowlane;109
+2022-06;32;Sprzęt elektroniczny i telekomunikacyjny;99
+2022-06;72;Usługi informatyczne;93
+2022-06;66;Usługi finansowe i ubezpieczeniowe;88
+2022-06;42;Maszyny przemysłowe;86
+2022-06;31;Sprzęt elektryczny;81
+2022-06;24;Produkty chemiczne;78
+2022-06;77;Usługi rolnicze i leśne;75
+2022-06;3;Produkty rolne, łowieckie i rybne;51
+2022-06;14;Górnictwo i minerały;46
+2022-06;18;Odzież i obuwie;46
+2022-06;92;Usługi rekreacyjne i kulturalne;45
+2022-06;64;Usługi pocztowe i telekomunikacyjne;42
+2022-06;98;Pozostałe usługi komunalne i osobiste;41
+2022-06;37;Sprzęt sportowy i rekreacyjny;34
+2022-06;16;Maszyny rolnicze;26
+2022-06;43;Maszyny górnicze;26
+2022-06;22;Drukowane materiały i produkty poligraficzne;25
+2022-06;63;Usługi spedycji i logistyki;25
+2022-06;35;Sprzęt bezpieczeństwa i ochrony;20
+2022-06;73;Usługi badawczo-rozwojowe;20
+2022-06;70;Usługi w zakresie nieruchomości;17
+2022-06;19;Wyroby skórzane i tekstylne;15
+2022-06;75;Usługi administracji publicznej;8
+2022-06;51;Usługi instalacyjne;6
+2022-06;41;Woda i usługi wodne;3
+2022-06;65;Usługi komunalne (gaz, woda, energia);2
+2022-07;45;Roboty budowlane;4499
+2022-07;33;Sprzęt medyczny i farmaceutyczny;637
+2022-07;71;Usługi architektoniczne i inżynieryjne;637
+2022-07;30;Sprzęt komputerowy i biurowy;573
+2022-07;60;Usługi transportu drogowego;501
+2022-07;34;Sprzęt transportowy i pojazdy;329
+2022-07;39;Meble i wyposażenie wnętrz;304
+2022-07;15;Artykuły spożywcze i napoje;267
+2022-07;9;Produkty naftowe, paliwa i energia;246
+2022-07;55;Usługi hotelarskie i restauracyjne;230
+2022-07;80;Usługi edukacyjne;215
+2022-07;79;Usługi biznesowe i doradcze;212
+2022-07;90;Usługi środowiskowe i sanitarne;185
+2022-07;48;Pakiety oprogramowania;166
+2022-07;38;Sprzęt laboratoryjny i naukowy;157
+2022-07;50;Usługi napraw i konserwacji;119
+2022-07;44;Materiały budowlane;98
+2022-07;66;Usługi finansowe i ubezpieczeniowe;95
+2022-07;85;Usługi zdrowotne i społeczne;93
+2022-07;32;Sprzęt elektroniczny i telekomunikacyjny;91
+2022-07;72;Usługi informatyczne;84
+2022-07;77;Usługi rolnicze i leśne;79
+2022-07;42;Maszyny przemysłowe;68
+2022-07;31;Sprzęt elektryczny;67
+2022-07;3;Produkty rolne, łowieckie i rybne;50
+2022-07;24;Produkty chemiczne;43
+2022-07;14;Górnictwo i minerały;42
+2022-07;64;Usługi pocztowe i telekomunikacyjne;40
+2022-07;98;Pozostałe usługi komunalne i osobiste;39
+2022-07;63;Usługi spedycji i logistyki;38
+2022-07;37;Sprzęt sportowy i rekreacyjny;36
+2022-07;16;Maszyny rolnicze;32
+2022-07;22;Drukowane materiały i produkty poligraficzne;32
+2022-07;73;Usługi badawczo-rozwojowe;32
+2022-07;18;Odzież i obuwie;31
+2022-07;43;Maszyny górnicze;26
+2022-07;92;Usługi rekreacyjne i kulturalne;26
+2022-07;35;Sprzęt bezpieczeństwa i ochrony;23
+2022-07;70;Usługi w zakresie nieruchomości;19
+2022-07;19;Wyroby skórzane i tekstylne;15
+2022-07;75;Usługi administracji publicznej;10
+2022-07;51;Usługi instalacyjne;8
+2022-07;41;Woda i usługi wodne;3
+2022-07;65;Usługi komunalne (gaz, woda, energia);1
+2022-08;45;Roboty budowlane;3828
+2022-08;33;Sprzęt medyczny i farmaceutyczny;659
+2022-08;71;Usługi architektoniczne i inżynieryjne;627
+2022-08;30;Sprzęt komputerowy i biurowy;506
+2022-08;60;Usługi transportu drogowego;362
+2022-08;9;Produkty naftowe, paliwa i energia;349
+2022-08;15;Artykuły spożywcze i napoje;303
+2022-08;34;Sprzęt transportowy i pojazdy;291
+2022-08;55;Usługi hotelarskie i restauracyjne;261
+2022-08;79;Usługi biznesowe i doradcze;244
+2022-08;80;Usługi edukacyjne;236
+2022-08;39;Meble i wyposażenie wnętrz;226
+2022-08;90;Usługi środowiskowe i sanitarne;212
+2022-08;38;Sprzęt laboratoryjny i naukowy;179
+2022-08;48;Pakiety oprogramowania;148
+2022-08;50;Usługi napraw i konserwacji;111
+2022-08;72;Usługi informatyczne;99
+2022-08;32;Sprzęt elektroniczny i telekomunikacyjny;97
+2022-08;3;Produkty rolne, łowieckie i rybne;85
+2022-08;42;Maszyny przemysłowe;81
+2022-08;66;Usługi finansowe i ubezpieczeniowe;80
+2022-08;44;Materiały budowlane;77
+2022-08;77;Usługi rolnicze i leśne;77
+2022-08;85;Usługi zdrowotne i społeczne;74
+2022-08;24;Produkty chemiczne;64
+2022-08;31;Sprzęt elektryczny;60
+2022-08;37;Sprzęt sportowy i rekreacyjny;44
+2022-08;22;Drukowane materiały i produkty poligraficzne;38
+2022-08;18;Odzież i obuwie;32
+2022-08;14;Górnictwo i minerały;31
+2022-08;63;Usługi spedycji i logistyki;29
+2022-08;16;Maszyny rolnicze;28
+2022-08;43;Maszyny górnicze;28
+2022-08;92;Usługi rekreacyjne i kulturalne;26
+2022-08;98;Pozostałe usługi komunalne i osobiste;25
+2022-08;64;Usługi pocztowe i telekomunikacyjne;23
+2022-08;73;Usługi badawczo-rozwojowe;21
+2022-08;70;Usługi w zakresie nieruchomości;16
+2022-08;19;Wyroby skórzane i tekstylne;13
+2022-08;35;Sprzęt bezpieczeństwa i ochrony;13
+2022-08;75;Usługi administracji publicznej;11
+2022-08;51;Usługi instalacyjne;4
+2022-08;65;Usługi komunalne (gaz, woda, energia);4
+2022-08;41;Woda i usługi wodne;2
+2022-09;45;Roboty budowlane;3526
+2022-09;33;Sprzęt medyczny i farmaceutyczny;736
+2022-09;30;Sprzęt komputerowy i biurowy;535
+2022-09;9;Produkty naftowe, paliwa i energia;530
+2022-09;71;Usługi architektoniczne i inżynieryjne;527
+2022-09;90;Usługi środowiskowe i sanitarne;429
+2022-09;34;Sprzęt transportowy i pojazdy;365
+2022-09;39;Meble i wyposażenie wnętrz;265
+2022-09;79;Usługi biznesowe i doradcze;245
+2022-09;48;Pakiety oprogramowania;215
+2022-09;80;Usługi edukacyjne;212
+2022-09;15;Artykuły spożywcze i napoje;206
+2022-09;55;Usługi hotelarskie i restauracyjne;178
+2022-09;38;Sprzęt laboratoryjny i naukowy;149
+2022-09;50;Usługi napraw i konserwacji;124
+2022-09;44;Materiały budowlane;110
+2022-09;72;Usługi informatyczne;104
+2022-09;32;Sprzęt elektroniczny i telekomunikacyjny;101
+2022-09;42;Maszyny przemysłowe;99
+2022-09;66;Usługi finansowe i ubezpieczeniowe;96
+2022-09;60;Usługi transportu drogowego;89
+2022-09;77;Usługi rolnicze i leśne;83
+2022-09;31;Sprzęt elektryczny;81
+2022-09;85;Usługi zdrowotne i społeczne;79
+2022-09;3;Produkty rolne, łowieckie i rybne;75
+2022-09;24;Produkty chemiczne;62
+2022-09;37;Sprzęt sportowy i rekreacyjny;56
+2022-09;18;Odzież i obuwie;46
+2022-09;14;Górnictwo i minerały;45
+2022-09;16;Maszyny rolnicze;45
+2022-09;22;Drukowane materiały i produkty poligraficzne;45
+2022-09;64;Usługi pocztowe i telekomunikacyjne;39
+2022-09;98;Pozostałe usługi komunalne i osobiste;39
+2022-09;63;Usługi spedycji i logistyki;32
+2022-09;43;Maszyny górnicze;29
+2022-09;92;Usługi rekreacyjne i kulturalne;23
+2022-09;70;Usługi w zakresie nieruchomości;22
+2022-09;35;Sprzęt bezpieczeństwa i ochrony;21
+2022-09;73;Usługi badawczo-rozwojowe;16
+2022-09;19;Wyroby skórzane i tekstylne;13
+2022-09;51;Usługi instalacyjne;10
+2022-09;75;Usługi administracji publicznej;7
+2022-09;65;Usługi komunalne (gaz, woda, energia);4
+2022-09;41;Woda i usługi wodne;1
+2022-10;45;Roboty budowlane;2832
+2022-10;33;Sprzęt medyczny i farmaceutyczny;765
+2022-10;90;Usługi środowiskowe i sanitarne;673
+2022-10;30;Sprzęt komputerowy i biurowy;601
+2022-10;9;Produkty naftowe, paliwa i energia;565
+2022-10;71;Usługi architektoniczne i inżynieryjne;444
+2022-10;34;Sprzęt transportowy i pojazdy;369
+2022-10;15;Artykuły spożywcze i napoje;328
+2022-10;79;Usługi biznesowe i doradcze;322
+2022-10;39;Meble i wyposażenie wnętrz;305
+2022-10;48;Pakiety oprogramowania;264
+2022-10;80;Usługi edukacyjne;210
+2022-10;55;Usługi hotelarskie i restauracyjne;174
+2022-10;50;Usługi napraw i konserwacji;151
+2022-10;38;Sprzęt laboratoryjny i naukowy;148
+2022-10;66;Usługi finansowe i ubezpieczeniowe;142
+2022-10;32;Sprzęt elektroniczny i telekomunikacyjny;114
+2022-10;85;Usługi zdrowotne i społeczne;111
+2022-10;72;Usługi informatyczne;108
+2022-10;60;Usługi transportu drogowego;103
+2022-10;3;Produkty rolne, łowieckie i rybne;95
+2022-10;64;Usługi pocztowe i telekomunikacyjne;90
+2022-10;44;Materiały budowlane;82
+2022-10;77;Usługi rolnicze i leśne;81
+2022-10;31;Sprzęt elektryczny;76
+2022-10;42;Maszyny przemysłowe;72
+2022-10;98;Pozostałe usługi komunalne i osobiste;56
+2022-10;24;Produkty chemiczne;51
+2022-10;18;Odzież i obuwie;47
+2022-10;16;Maszyny rolnicze;46
+2022-10;22;Drukowane materiały i produkty poligraficzne;45
+2022-10;14;Górnictwo i minerały;42
+2022-10;37;Sprzęt sportowy i rekreacyjny;42
+2022-10;35;Sprzęt bezpieczeństwa i ochrony;33
+2022-10;92;Usługi rekreacyjne i kulturalne;31
+2022-10;43;Maszyny górnicze;29
+2022-10;63;Usługi spedycji i logistyki;18
+2022-10;73;Usługi badawczo-rozwojowe;17
+2022-10;70;Usługi w zakresie nieruchomości;13
+2022-10;19;Wyroby skórzane i tekstylne;11
+2022-10;75;Usługi administracji publicznej;11
+2022-10;51;Usługi instalacyjne;10
+2022-10;65;Usługi komunalne (gaz, woda, energia);4
+2022-10;41;Woda i usługi wodne;1
+2022-10;76;Usługi związane z przemysłem naftowym;1
+2022-11;45;Roboty budowlane;1878
+2022-11;9;Produkty naftowe, paliwa i energia;975
+2022-11;90;Usługi środowiskowe i sanitarne;942
+2022-11;15;Artykuły spożywcze i napoje;849
+2022-11;33;Sprzęt medyczny i farmaceutyczny;718
+2022-11;30;Sprzęt komputerowy i biurowy;637
+2022-11;79;Usługi biznesowe i doradcze;520
+2022-11;71;Usługi architektoniczne i inżynieryjne;386
+2022-11;34;Sprzęt transportowy i pojazdy;364
+2022-11;55;Usługi hotelarskie i restauracyjne;315
+2022-11;64;Usługi pocztowe i telekomunikacyjne;286
+2022-11;48;Pakiety oprogramowania;278
+2022-11;39;Meble i wyposażenie wnętrz;259
+2022-11;85;Usługi zdrowotne i społeczne;243
+2022-11;66;Usługi finansowe i ubezpieczeniowe;234
+2022-11;60;Usługi transportu drogowego;216
+2022-11;50;Usługi napraw i konserwacji;205
+2022-11;38;Sprzęt laboratoryjny i naukowy;159
+2022-11;80;Usługi edukacyjne;140
+2022-11;32;Sprzęt elektroniczny i telekomunikacyjny;133
+2022-11;72;Usługi informatyczne;110
+2022-11;3;Produkty rolne, łowieckie i rybne;103
+2022-11;98;Pozostałe usługi komunalne i osobiste;89
+2022-11;42;Maszyny przemysłowe;84
+2022-11;31;Sprzęt elektryczny;81
+2022-11;22;Drukowane materiały i produkty poligraficzne;70
+2022-11;44;Materiały budowlane;67
+2022-11;77;Usługi rolnicze i leśne;65
+2022-11;24;Produkty chemiczne;49
+2022-11;16;Maszyny rolnicze;48
+2022-11;14;Górnictwo i minerały;40
+2022-11;18;Odzież i obuwie;37
+2022-11;43;Maszyny górnicze;34
+2022-11;35;Sprzęt bezpieczeństwa i ochrony;33
+2022-11;75;Usługi administracji publicznej;30
+2022-11;92;Usługi rekreacyjne i kulturalne;30
+2022-11;37;Sprzęt sportowy i rekreacyjny;28
+2022-11;63;Usługi spedycji i logistyki;22
+2022-11;73;Usługi badawczo-rozwojowe;14
+2022-11;19;Wyroby skórzane i tekstylne;12
+2022-11;65;Usługi komunalne (gaz, woda, energia);12
+2022-11;70;Usługi w zakresie nieruchomości;10
+2022-11;51;Usługi instalacyjne;6
+2022-11;41;Woda i usługi wodne;3
+2022-11;76;Usługi związane z przemysłem naftowym;1
+2022-12;45;Roboty budowlane;1595
+2022-12;15;Artykuły spożywcze i napoje;1185
+2022-12;9;Produkty naftowe, paliwa i energia;992
+2022-12;90;Usługi środowiskowe i sanitarne;849
+2022-12;33;Sprzęt medyczny i farmaceutyczny;665
+2022-12;79;Usługi biznesowe i doradcze;428
+2022-12;30;Sprzęt komputerowy i biurowy;417
+2022-12;55;Usługi hotelarskie i restauracyjne;393
+2022-12;71;Usługi architektoniczne i inżynieryjne;387
+2022-12;85;Usługi zdrowotne i społeczne;347
+2022-12;60;Usługi transportu drogowego;303
+2022-12;50;Usługi napraw i konserwacji;247
+2022-12;64;Usługi pocztowe i telekomunikacyjne;243
+2022-12;34;Sprzęt transportowy i pojazdy;233
+2022-12;39;Meble i wyposażenie wnętrz;196
+2022-12;48;Pakiety oprogramowania;143
+2022-12;66;Usługi finansowe i ubezpieczeniowe;140
+2022-12;98;Pozostałe usługi komunalne i osobiste;137
+2022-12;80;Usługi edukacyjne;133
+2022-12;72;Usługi informatyczne;124
+2022-12;3;Produkty rolne, łowieckie i rybne;120
+2022-12;38;Sprzęt laboratoryjny i naukowy;114
+2022-12;77;Usługi rolnicze i leśne;91
+2022-12;24;Produkty chemiczne;66
+2022-12;44;Materiały budowlane;65
+2022-12;32;Sprzęt elektroniczny i telekomunikacyjny;60
+2022-12;42;Maszyny przemysłowe;58
+2022-12;31;Sprzęt elektryczny;36
+2022-12;14;Górnictwo i minerały;34
+2022-12;18;Odzież i obuwie;33
+2022-12;22;Drukowane materiały i produkty poligraficzne;32
+2022-12;92;Usługi rekreacyjne i kulturalne;31
+2022-12;63;Usługi spedycji i logistyki;28
+2022-12;70;Usługi w zakresie nieruchomości;28
+2022-12;16;Maszyny rolnicze;27
+2022-12;37;Sprzęt sportowy i rekreacyjny;25
+2022-12;75;Usługi administracji publicznej;24
+2022-12;73;Usługi badawczo-rozwojowe;19
+2022-12;35;Sprzęt bezpieczeństwa i ochrony;17
+2022-12;43;Maszyny górnicze;13
+2022-12;19;Wyroby skórzane i tekstylne;12
+2022-12;65;Usługi komunalne (gaz, woda, energia);10
+2022-12;51;Usługi instalacyjne;5
+2022-12;41;Woda i usługi wodne;1
+2023-01;45;Roboty budowlane;1713
+2023-01;33;Sprzęt medyczny i farmaceutyczny;510
+2023-01;9;Produkty naftowe, paliwa i energia;398
+2023-01;15;Artykuły spożywcze i napoje;335
+2023-01;71;Usługi architektoniczne i inżynieryjne;265
+2023-01;90;Usługi środowiskowe i sanitarne;257
+2023-01;79;Usługi biznesowe i doradcze;229
+2023-01;30;Sprzęt komputerowy i biurowy;214
+2023-01;50;Usługi napraw i konserwacji;138
+2023-01;85;Usługi zdrowotne i społeczne;129
+2023-01;55;Usługi hotelarskie i restauracyjne;125
+2023-01;34;Sprzęt transportowy i pojazdy;124
+2023-01;80;Usługi edukacyjne;119
+2023-01;39;Meble i wyposażenie wnętrz;115
+2023-01;60;Usługi transportu drogowego;99
+2023-01;77;Usługi rolnicze i leśne;84
+2023-01;66;Usługi finansowe i ubezpieczeniowe;64
+2023-01;38;Sprzęt laboratoryjny i naukowy;62
+2023-01;72;Usługi informatyczne;61
+2023-01;14;Górnictwo i minerały;58
+2023-01;44;Materiały budowlane;56
+2023-01;48;Pakiety oprogramowania;56
+2023-01;24;Produkty chemiczne;53
+2023-01;98;Pozostałe usługi komunalne i osobiste;52
+2023-01;3;Produkty rolne, łowieckie i rybne;39
+2023-01;64;Usługi pocztowe i telekomunikacyjne;39
+2023-01;18;Odzież i obuwie;35
+2023-01;42;Maszyny przemysłowe;29
+2023-01;32;Sprzęt elektroniczny i telekomunikacyjny;26
+2023-01;31;Sprzęt elektryczny;24
+2023-01;75;Usługi administracji publicznej;23
+2023-01;92;Usługi rekreacyjne i kulturalne;19
+2023-01;63;Usługi spedycji i logistyki;17
+2023-01;70;Usługi w zakresie nieruchomości;16
+2023-01;16;Maszyny rolnicze;15
+2023-01;22;Drukowane materiały i produkty poligraficzne;13
+2023-01;43;Maszyny górnicze;12
+2023-01;35;Sprzęt bezpieczeństwa i ochrony;10
+2023-01;73;Usługi badawczo-rozwojowe;8
+2023-01;37;Sprzęt sportowy i rekreacyjny;7
+2023-01;19;Wyroby skórzane i tekstylne;3
+2023-01;51;Usługi instalacyjne;3
+2023-01;65;Usługi komunalne (gaz, woda, energia);2
+2023-01;41;Woda i usługi wodne;1
+2023-01;76;Usługi związane z przemysłem naftowym;1
+2023-02;45;Roboty budowlane;3092
+2023-02;33;Sprzęt medyczny i farmaceutyczny;587
+2023-02;71;Usługi architektoniczne i inżynieryjne;421
+2023-02;9;Produkty naftowe, paliwa i energia;296
+2023-02;90;Usługi środowiskowe i sanitarne;266
+2023-02;30;Sprzęt komputerowy i biurowy;264
+2023-02;15;Artykuły spożywcze i napoje;257
+2023-02;79;Usługi biznesowe i doradcze;235
+2023-02;34;Sprzęt transportowy i pojazdy;185
+2023-02;80;Usługi edukacyjne;164
+2023-02;55;Usługi hotelarskie i restauracyjne;150
+2023-02;39;Meble i wyposażenie wnętrz;147
+2023-02;50;Usługi napraw i konserwacji;139
+2023-02;85;Usługi zdrowotne i społeczne;111
+2023-02;77;Usługi rolnicze i leśne;107
+2023-02;44;Materiały budowlane;106
+2023-02;38;Sprzęt laboratoryjny i naukowy;99
+2023-02;66;Usługi finansowe i ubezpieczeniowe;95
+2023-02;48;Pakiety oprogramowania;86
+2023-02;14;Górnictwo i minerały;81
+2023-02;60;Usługi transportu drogowego;73
+2023-02;3;Produkty rolne, łowieckie i rybne;61
+2023-02;24;Produkty chemiczne;59
+2023-02;72;Usługi informatyczne;55
+2023-02;42;Maszyny przemysłowe;50
+2023-02;31;Sprzęt elektryczny;49
+2023-02;32;Sprzęt elektroniczny i telekomunikacyjny;47
+2023-02;18;Odzież i obuwie;42
+2023-02;64;Usługi pocztowe i telekomunikacyjne;35
+2023-02;98;Pozostałe usługi komunalne i osobiste;35
+2023-02;16;Maszyny rolnicze;29
+2023-02;22;Drukowane materiały i produkty poligraficzne;28
+2023-02;63;Usługi spedycji i logistyki;25
+2023-02;37;Sprzęt sportowy i rekreacyjny;23
+2023-02;92;Usługi rekreacyjne i kulturalne;22
+2023-02;35;Sprzęt bezpieczeństwa i ochrony;21
+2023-02;43;Maszyny górnicze;17
+2023-02;70;Usługi w zakresie nieruchomości;16
+2023-02;19;Wyroby skórzane i tekstylne;14
+2023-02;75;Usługi administracji publicznej;10
+2023-02;73;Usługi badawczo-rozwojowe;8
+2023-02;51;Usługi instalacyjne;5
+2023-02;65;Usługi komunalne (gaz, woda, energia);2
+2023-03;45;Roboty budowlane;3903
+2023-03;33;Sprzęt medyczny i farmaceutyczny;799
+2023-03;71;Usługi architektoniczne i inżynieryjne;641
+2023-03;34;Sprzęt transportowy i pojazdy;417
+2023-03;30;Sprzęt komputerowy i biurowy;367
+2023-03;15;Artykuły spożywcze i napoje;305
+2023-03;79;Usługi biznesowe i doradcze;305
+2023-03;90;Usługi środowiskowe i sanitarne;294
+2023-03;9;Produkty naftowe, paliwa i energia;278
+2023-03;39;Meble i wyposażenie wnętrz;231
+2023-03;80;Usługi edukacyjne;225
+2023-03;55;Usługi hotelarskie i restauracyjne;221
+2023-03;50;Usługi napraw i konserwacji;184
+2023-03;77;Usługi rolnicze i leśne;161
+2023-03;38;Sprzęt laboratoryjny i naukowy;151
+2023-03;85;Usługi zdrowotne i społeczne;148
+2023-03;48;Pakiety oprogramowania;132
+2023-03;44;Materiały budowlane;127
+2023-03;24;Produkty chemiczne;111
+2023-03;60;Usługi transportu drogowego;96
+2023-03;66;Usługi finansowe i ubezpieczeniowe;92
+2023-03;72;Usługi informatyczne;91
+2023-03;14;Górnictwo i minerały;89
+2023-03;32;Sprzęt elektroniczny i telekomunikacyjny;88
+2023-03;42;Maszyny przemysłowe;74
+2023-03;31;Sprzęt elektryczny;66
+2023-03;3;Produkty rolne, łowieckie i rybne;54
+2023-03;98;Pozostałe usługi komunalne i osobiste;50
+2023-03;18;Odzież i obuwie;49
+2023-03;22;Drukowane materiały i produkty poligraficzne;45
+2023-03;64;Usługi pocztowe i telekomunikacyjne;38
+2023-03;92;Usługi rekreacyjne i kulturalne;37
+2023-03;16;Maszyny rolnicze;34
+2023-03;63;Usługi spedycji i logistyki;34
+2023-03;43;Maszyny górnicze;30
+2023-03;37;Sprzęt sportowy i rekreacyjny;22
+2023-03;75;Usługi administracji publicznej;21
+2023-03;70;Usługi w zakresie nieruchomości;20
+2023-03;35;Sprzęt bezpieczeństwa i ochrony;17
+2023-03;73;Usługi badawczo-rozwojowe;14
+2023-03;19;Wyroby skórzane i tekstylne;13
+2023-03;41;Woda i usługi wodne;5
+2023-03;65;Usługi komunalne (gaz, woda, energia);4
+2023-03;51;Usługi instalacyjne;3
+2023-04;45;Roboty budowlane;3160
+2023-04;33;Sprzęt medyczny i farmaceutyczny;667
+2023-04;71;Usługi architektoniczne i inżynieryjne;551
+2023-04;34;Sprzęt transportowy i pojazdy;419
+2023-04;30;Sprzęt komputerowy i biurowy;332
+2023-04;79;Usługi biznesowe i doradcze;244
+2023-04;39;Meble i wyposażenie wnętrz;218
+2023-04;90;Usługi środowiskowe i sanitarne;216
+2023-04;55;Usługi hotelarskie i restauracyjne;196
+2023-04;80;Usługi edukacyjne;195
+2023-04;9;Produkty naftowe, paliwa i energia;189
+2023-04;15;Artykuły spożywcze i napoje;187
+2023-04;50;Usługi napraw i konserwacji;179
+2023-04;48;Pakiety oprogramowania;118
+2023-04;77;Usługi rolnicze i leśne;115
+2023-04;38;Sprzęt laboratoryjny i naukowy;106
+2023-04;44;Materiały budowlane;106
+2023-04;72;Usługi informatyczne;103
+2023-04;66;Usługi finansowe i ubezpieczeniowe;92
+2023-04;85;Usługi zdrowotne i społeczne;81
+2023-04;32;Sprzęt elektroniczny i telekomunikacyjny;75
+2023-04;60;Usługi transportu drogowego;65
+2023-04;42;Maszyny przemysłowe;64
+2023-04;24;Produkty chemiczne;58
+2023-04;3;Produkty rolne, łowieckie i rybne;55
+2023-04;31;Sprzęt elektryczny;54
+2023-04;98;Pozostałe usługi komunalne i osobiste;48
+2023-04;18;Odzież i obuwie;45
+2023-04;22;Drukowane materiały i produkty poligraficzne;40
+2023-04;43;Maszyny górnicze;39
+2023-04;64;Usługi pocztowe i telekomunikacyjne;39
+2023-04;14;Górnictwo i minerały;38
+2023-04;63;Usługi spedycji i logistyki;34
+2023-04;92;Usługi rekreacyjne i kulturalne;32
+2023-04;16;Maszyny rolnicze;27
+2023-04;37;Sprzęt sportowy i rekreacyjny;23
+2023-04;35;Sprzęt bezpieczeństwa i ochrony;22
+2023-04;70;Usługi w zakresie nieruchomości;19
+2023-04;73;Usługi badawczo-rozwojowe;15
+2023-04;75;Usługi administracji publicznej;15
+2023-04;51;Usługi instalacyjne;13
+2023-04;19;Wyroby skórzane i tekstylne;11
+2023-04;65;Usługi komunalne (gaz, woda, energia);2
+2023-05;45;Roboty budowlane;2994
+2023-05;33;Sprzęt medyczny i farmaceutyczny;726
+2023-05;71;Usługi architektoniczne i inżynieryjne;542
+2023-05;34;Sprzęt transportowy i pojazdy;407
+2023-05;15;Artykuły spożywcze i napoje;368
+2023-05;30;Sprzęt komputerowy i biurowy;361
+2023-05;39;Meble i wyposażenie wnętrz;264
+2023-05;9;Produkty naftowe, paliwa i energia;223
+2023-05;79;Usługi biznesowe i doradcze;219
+2023-05;90;Usługi środowiskowe i sanitarne;215
+2023-05;80;Usługi edukacyjne;180
+2023-05;55;Usługi hotelarskie i restauracyjne;153
+2023-05;38;Sprzęt laboratoryjny i naukowy;143
+2023-05;50;Usługi napraw i konserwacji;135
+2023-05;48;Pakiety oprogramowania;126
+2023-05;44;Materiały budowlane;102
+2023-05;60;Usługi transportu drogowego;100
+2023-05;66;Usługi finansowe i ubezpieczeniowe;93
+2023-05;72;Usługi informatyczne;85
+2023-05;77;Usługi rolnicze i leśne;83
+2023-05;42;Maszyny przemysłowe;78
+2023-05;85;Usługi zdrowotne i społeczne;62
+2023-05;3;Produkty rolne, łowieckie i rybne;61
+2023-05;14;Górnictwo i minerały;60
+2023-05;98;Pozostałe usługi komunalne i osobiste;60
+2023-05;32;Sprzęt elektroniczny i telekomunikacyjny;58
+2023-05;31;Sprzęt elektryczny;56
+2023-05;64;Usługi pocztowe i telekomunikacyjne;53
+2023-05;18;Odzież i obuwie;48
+2023-05;24;Produkty chemiczne;42
+2023-05;63;Usługi spedycji i logistyki;33
+2023-05;37;Sprzęt sportowy i rekreacyjny;32
+2023-05;22;Drukowane materiały i produkty poligraficzne;30
+2023-05;16;Maszyny rolnicze;29
+2023-05;92;Usługi rekreacyjne i kulturalne;26
+2023-05;43;Maszyny górnicze;22
+2023-05;35;Sprzęt bezpieczeństwa i ochrony;21
+2023-05;73;Usługi badawczo-rozwojowe;21
+2023-05;70;Usługi w zakresie nieruchomości;14
+2023-05;75;Usługi administracji publicznej;12
+2023-05;19;Wyroby skórzane i tekstylne;10
+2023-05;41;Woda i usługi wodne;3
+2023-05;65;Usługi komunalne (gaz, woda, energia);3
+2023-05;51;Usługi instalacyjne;2
+2023-06;45;Roboty budowlane;3583
+2023-06;33;Sprzęt medyczny i farmaceutyczny;737
+2023-06;71;Usługi architektoniczne i inżynieryjne;499
+2023-06;30;Sprzęt komputerowy i biurowy;400
+2023-06;15;Artykuły spożywcze i napoje;392
+2023-06;34;Sprzęt transportowy i pojazdy;350
+2023-06;39;Meble i wyposażenie wnętrz;283
+2023-06;60;Usługi transportu drogowego;280
+2023-06;9;Produkty naftowe, paliwa i energia;268
+2023-06;79;Usługi biznesowe i doradcze;246
+2023-06;90;Usługi środowiskowe i sanitarne;244
+2023-06;55;Usługi hotelarskie i restauracyjne;202
+2023-06;38;Sprzęt laboratoryjny i naukowy;176
+2023-06;50;Usługi napraw i konserwacji;168
+2023-06;80;Usługi edukacyjne;151
+2023-06;48;Pakiety oprogramowania;127
+2023-06;44;Materiały budowlane;109
+2023-06;66;Usługi finansowe i ubezpieczeniowe;102
+2023-06;42;Maszyny przemysłowe;87
+2023-06;31;Sprzęt elektryczny;85
+2023-06;72;Usługi informatyczne;84
+2023-06;32;Sprzęt elektroniczny i telekomunikacyjny;68
+2023-06;85;Usługi zdrowotne i społeczne;68
+2023-06;77;Usługi rolnicze i leśne;65
+2023-06;3;Produkty rolne, łowieckie i rybne;63
+2023-06;24;Produkty chemiczne;60
+2023-06;37;Sprzęt sportowy i rekreacyjny;51
+2023-06;64;Usługi pocztowe i telekomunikacyjne;50
+2023-06;18;Odzież i obuwie;46
+2023-06;98;Pozostałe usługi komunalne i osobiste;43
+2023-06;92;Usługi rekreacyjne i kulturalne;30
+2023-06;22;Drukowane materiały i produkty poligraficzne;29
+2023-06;14;Górnictwo i minerały;27
+2023-06;16;Maszyny rolnicze;25
+2023-06;43;Maszyny górnicze;25
+2023-06;63;Usługi spedycji i logistyki;24
+2023-06;35;Sprzęt bezpieczeństwa i ochrony;20
+2023-06;70;Usługi w zakresie nieruchomości;20
+2023-06;73;Usługi badawczo-rozwojowe;16
+2023-06;19;Wyroby skórzane i tekstylne;11
+2023-06;51;Usługi instalacyjne;11
+2023-06;75;Usługi administracji publicznej;8
+2023-06;65;Usługi komunalne (gaz, woda, energia);5
+2023-06;41;Woda i usługi wodne;3
+2023-06;76;Usługi związane z przemysłem naftowym;1
+2023-07;45;Roboty budowlane;3313
+2023-07;33;Sprzęt medyczny i farmaceutyczny;667
+2023-07;60;Usługi transportu drogowego;515
+2023-07;71;Usługi architektoniczne i inżynieryjne;502
+2023-07;30;Sprzęt komputerowy i biurowy;388
+2023-07;34;Sprzęt transportowy i pojazdy;287
+2023-07;15;Artykuły spożywcze i napoje;278
+2023-07;39;Meble i wyposażenie wnętrz;276
+2023-07;55;Usługi hotelarskie i restauracyjne;231
+2023-07;79;Usługi biznesowe i doradcze;222
+2023-07;90;Usługi środowiskowe i sanitarne;207
+2023-07;9;Produkty naftowe, paliwa i energia;201
+2023-07;48;Pakiety oprogramowania;153
+2023-07;80;Usługi edukacyjne;143
+2023-07;38;Sprzęt laboratoryjny i naukowy;136
+2023-07;50;Usługi napraw i konserwacji;127
+2023-07;72;Usługi informatyczne;97
+2023-07;32;Sprzęt elektroniczny i telekomunikacyjny;95
+2023-07;66;Usługi finansowe i ubezpieczeniowe;92
+2023-07;42;Maszyny przemysłowe;88
+2023-07;31;Sprzęt elektryczny;87
+2023-07;44;Materiały budowlane;84
+2023-07;85;Usługi zdrowotne i społeczne;68
+2023-07;77;Usługi rolnicze i leśne;66
+2023-07;24;Produkty chemiczne;54
+2023-07;3;Produkty rolne, łowieckie i rybne;37
+2023-07;22;Drukowane materiały i produkty poligraficzne;37
+2023-07;37;Sprzęt sportowy i rekreacyjny;37
+2023-07;64;Usługi pocztowe i telekomunikacyjne;37
+2023-07;18;Odzież i obuwie;35
+2023-07;35;Sprzęt bezpieczeństwa i ochrony;32
+2023-07;43;Maszyny górnicze;31
+2023-07;98;Pozostałe usługi komunalne i osobiste;31
+2023-07;16;Maszyny rolnicze;26
+2023-07;14;Górnictwo i minerały;25
+2023-07;63;Usługi spedycji i logistyki;24
+2023-07;92;Usługi rekreacyjne i kulturalne;21
+2023-07;73;Usługi badawczo-rozwojowe;19
+2023-07;70;Usługi w zakresie nieruchomości;16
+2023-07;19;Wyroby skórzane i tekstylne;8
+2023-07;75;Usługi administracji publicznej;7
+2023-07;51;Usługi instalacyjne;6
+2023-07;41;Woda i usługi wodne;2
+2023-07;76;Usługi związane z przemysłem naftowym;1
+2023-08;45;Roboty budowlane;3402
+2023-08;33;Sprzęt medyczny i farmaceutyczny;685
+2023-08;71;Usługi architektoniczne i inżynieryjne;404
+2023-08;60;Usługi transportu drogowego;323
+2023-08;30;Sprzęt komputerowy i biurowy;308
+2023-08;34;Sprzęt transportowy i pojazdy;290
+2023-08;15;Artykuły spożywcze i napoje;273
+2023-08;39;Meble i wyposażenie wnętrz;246
+2023-08;9;Produkty naftowe, paliwa i energia;235
+2023-08;79;Usługi biznesowe i doradcze;225
+2023-08;90;Usługi środowiskowe i sanitarne;217
+2023-08;55;Usługi hotelarskie i restauracyjne;205
+2023-08;48;Pakiety oprogramowania;143
+2023-08;38;Sprzęt laboratoryjny i naukowy;139
+2023-08;80;Usługi edukacyjne;122
+2023-08;50;Usługi napraw i konserwacji;119
+2023-08;32;Sprzęt elektroniczny i telekomunikacyjny;107
+2023-08;31;Sprzęt elektryczny;92
+2023-08;66;Usługi finansowe i ubezpieczeniowe;91
+2023-08;72;Usługi informatyczne;87
+2023-08;42;Maszyny przemysłowe;78
+2023-08;3;Produkty rolne, łowieckie i rybne;77
+2023-08;24;Produkty chemiczne;67
+2023-08;77;Usługi rolnicze i leśne;65
+2023-08;44;Materiały budowlane;63
+2023-08;85;Usługi zdrowotne i społeczne;59
+2023-08;35;Sprzęt bezpieczeństwa i ochrony;37
+2023-08;37;Sprzęt sportowy i rekreacyjny;37
+2023-08;14;Górnictwo i minerały;36
+2023-08;22;Drukowane materiały i produkty poligraficzne;35
+2023-08;16;Maszyny rolnicze;33
+2023-08;98;Pozostałe usługi komunalne i osobiste;27
+2023-08;18;Odzież i obuwie;26
+2023-08;63;Usługi spedycji i logistyki;26
+2023-08;64;Usługi pocztowe i telekomunikacyjne;23
+2023-08;92;Usługi rekreacyjne i kulturalne;23
+2023-08;43;Maszyny górnicze;16
+2023-08;73;Usługi badawczo-rozwojowe;15
+2023-08;70;Usługi w zakresie nieruchomości;14
+2023-08;75;Usługi administracji publicznej;10
+2023-08;51;Usługi instalacyjne;5
+2023-08;19;Wyroby skórzane i tekstylne;4
+2023-08;41;Woda i usługi wodne;1
+2023-08;65;Usługi komunalne (gaz, woda, energia);1
+2023-08;76;Usługi związane z przemysłem naftowym;1
+2023-09;45;Roboty budowlane;3101
+2023-09;33;Sprzęt medyczny i farmaceutyczny;676
+2023-09;71;Usługi architektoniczne i inżynieryjne;420
+2023-09;90;Usługi środowiskowe i sanitarne;380
+2023-09;9;Produkty naftowe, paliwa i energia;338
+2023-09;30;Sprzęt komputerowy i biurowy;333
+2023-09;34;Sprzęt transportowy i pojazdy;332
+2023-09;39;Meble i wyposażenie wnętrz;247
+2023-09;79;Usługi biznesowe i doradcze;204
+2023-09;15;Artykuły spożywcze i napoje;196
+2023-09;38;Sprzęt laboratoryjny i naukowy;178
+2023-09;48;Pakiety oprogramowania;159
+2023-09;80;Usługi edukacyjne;156
+2023-09;50;Usługi napraw i konserwacji;131
+2023-09;55;Usługi hotelarskie i restauracyjne;129
+2023-09;66;Usługi finansowe i ubezpieczeniowe;125
+2023-09;32;Sprzęt elektroniczny i telekomunikacyjny;108
+2023-09;31;Sprzęt elektryczny;91
+2023-09;3;Produkty rolne, łowieckie i rybne;89
+2023-09;72;Usługi informatyczne;84
+2023-09;44;Materiały budowlane;82
+2023-09;42;Maszyny przemysłowe;79
+2023-09;77;Usługi rolnicze i leśne;78
+2023-09;60;Usługi transportu drogowego;72
+2023-09;85;Usługi zdrowotne i społeczne;59
+2023-09;24;Produkty chemiczne;55
+2023-09;14;Górnictwo i minerały;50
+2023-09;18;Odzież i obuwie;47
+2023-09;37;Sprzęt sportowy i rekreacyjny;47
+2023-09;98;Pozostałe usługi komunalne i osobiste;44
+2023-09;64;Usługi pocztowe i telekomunikacyjne;41
+2023-09;16;Maszyny rolnicze;40
+2023-09;22;Drukowane materiały i produkty poligraficzne;32
+2023-09;35;Sprzęt bezpieczeństwa i ochrony;32
+2023-09;43;Maszyny górnicze;29
+2023-09;92;Usługi rekreacyjne i kulturalne;18
+2023-09;70;Usługi w zakresie nieruchomości;17
+2023-09;63;Usługi spedycji i logistyki;16
+2023-09;73;Usługi badawczo-rozwojowe;13
+2023-09;19;Wyroby skórzane i tekstylne;5
+2023-09;51;Usługi instalacyjne;4
+2023-09;75;Usługi administracji publicznej;3
+2023-09;65;Usługi komunalne (gaz, woda, energia);2
+2023-10;45;Roboty budowlane;3029
+2023-10;33;Sprzęt medyczny i farmaceutyczny;906
+2023-10;90;Usługi środowiskowe i sanitarne;819
+2023-10;9;Produkty naftowe, paliwa i energia;558
+2023-10;30;Sprzęt komputerowy i biurowy;428
+2023-10;34;Sprzęt transportowy i pojazdy;417
+2023-10;71;Usługi architektoniczne i inżynieryjne;417
+2023-10;15;Artykuły spożywcze i napoje;362
+2023-10;79;Usługi biznesowe i doradcze;323
+2023-10;39;Meble i wyposażenie wnętrz;322
+2023-10;38;Sprzęt laboratoryjny i naukowy;186
+2023-10;48;Pakiety oprogramowania;186
+2023-10;55;Usługi hotelarskie i restauracyjne;182
+2023-10;66;Usługi finansowe i ubezpieczeniowe;171
+2023-10;50;Usługi napraw i konserwacji;165
+2023-10;32;Sprzęt elektroniczny i telekomunikacyjny;135
+2023-10;85;Usługi zdrowotne i społeczne;114
+2023-10;77;Usługi rolnicze i leśne;103
+2023-10;31;Sprzęt elektryczny;92
+2023-10;44;Materiały budowlane;90
+2023-10;3;Produkty rolne, łowieckie i rybne;88
+2023-10;64;Usługi pocztowe i telekomunikacyjne;87
+2023-10;72;Usługi informatyczne;86
+2023-10;60;Usługi transportu drogowego;82
+2023-10;80;Usługi edukacyjne;82
+2023-10;42;Maszyny przemysłowe;79
+2023-10;98;Pozostałe usługi komunalne i osobiste;59
+2023-10;24;Produkty chemiczne;51
+2023-10;16;Maszyny rolnicze;50
+2023-10;22;Drukowane materiały i produkty poligraficzne;50
+2023-10;35;Sprzęt bezpieczeństwa i ochrony;48
+2023-10;37;Sprzęt sportowy i rekreacyjny;43
+2023-10;18;Odzież i obuwie;41
+2023-10;14;Górnictwo i minerały;34
+2023-10;92;Usługi rekreacyjne i kulturalne;31
+2023-10;43;Maszyny górnicze;28
+2023-10;70;Usługi w zakresie nieruchomości;23
+2023-10;73;Usługi badawczo-rozwojowe;22
+2023-10;63;Usługi spedycji i logistyki;20
+2023-10;75;Usługi administracji publicznej;9
+2023-10;19;Wyroby skórzane i tekstylne;8
+2023-10;51;Usługi instalacyjne;8
+2023-10;65;Usługi komunalne (gaz, woda, energia);2
+2023-10;41;Woda i usługi wodne;1
+2023-11;45;Roboty budowlane;2097
+2023-11;15;Artykuły spożywcze i napoje;1045
+2023-11;90;Usługi środowiskowe i sanitarne;1038
+2023-11;9;Produkty naftowe, paliwa i energia;899
+2023-11;33;Sprzęt medyczny i farmaceutyczny;862
+2023-11;79;Usługi biznesowe i doradcze;542
+2023-11;30;Sprzęt komputerowy i biurowy;486
+2023-11;55;Usługi hotelarskie i restauracyjne;396
+2023-11;34;Sprzęt transportowy i pojazdy;381
+2023-11;71;Usługi architektoniczne i inżynieryjne;377
+2023-11;66;Usługi finansowe i ubezpieczeniowe;316
+2023-11;64;Usługi pocztowe i telekomunikacyjne;314
+2023-11;50;Usługi napraw i konserwacji;270
+2023-11;85;Usługi zdrowotne i społeczne;269
+2023-11;60;Usługi transportu drogowego;264
+2023-11;39;Meble i wyposażenie wnętrz;258
+2023-11;38;Sprzęt laboratoryjny i naukowy;175
+2023-11;48;Pakiety oprogramowania;173
+2023-11;72;Usługi informatyczne;120
+2023-11;32;Sprzęt elektroniczny i telekomunikacyjny;115
+2023-11;98;Pozostałe usługi komunalne i osobiste;111
+2023-11;3;Produkty rolne, łowieckie i rybne;98
+2023-11;44;Materiały budowlane;97
+2023-11;31;Sprzęt elektryczny;78
+2023-11;42;Maszyny przemysłowe;72
+2023-11;77;Usługi rolnicze i leśne;70
+2023-11;16;Maszyny rolnicze;66
+2023-11;80;Usługi edukacyjne;54
+2023-11;22;Drukowane materiały i produkty poligraficzne;53
+2023-11;24;Produkty chemiczne;50
+2023-11;18;Odzież i obuwie;49
+2023-11;35;Sprzęt bezpieczeństwa i ochrony;40
+2023-11;14;Górnictwo i minerały;38
+2023-11;37;Sprzęt sportowy i rekreacyjny;33
+2023-11;92;Usługi rekreacyjne i kulturalne;33
+2023-11;75;Usługi administracji publicznej;31
+2023-11;43;Maszyny górnicze;29
+2023-11;63;Usługi spedycji i logistyki;16
+2023-11;70;Usługi w zakresie nieruchomości;16
+2023-11;19;Wyroby skórzane i tekstylne;14
+2023-11;65;Usługi komunalne (gaz, woda, energia);10
+2023-11;73;Usługi badawczo-rozwojowe;8
+2023-11;51;Usługi instalacyjne;5
+2023-11;41;Woda i usługi wodne;3
+2023-12;45;Roboty budowlane;1333
+2023-12;15;Artykuły spożywcze i napoje;888
+2023-12;9;Produkty naftowe, paliwa i energia;739
+2023-12;90;Usługi środowiskowe i sanitarne;687
+2023-12;33;Sprzęt medyczny i farmaceutyczny;559
+2023-12;55;Usługi hotelarskie i restauracyjne;359
+2023-12;79;Usługi biznesowe i doradcze;325
+2023-12;85;Usługi zdrowotne i społeczne;312
+2023-12;71;Usługi architektoniczne i inżynieryjne;297
+2023-12;60;Usługi transportu drogowego;245
+2023-12;34;Sprzęt transportowy i pojazdy;216
+2023-12;64;Usługi pocztowe i telekomunikacyjne;213
+2023-12;50;Usługi napraw i konserwacji;212
+2023-12;30;Sprzęt komputerowy i biurowy;182
+2023-12;66;Usługi finansowe i ubezpieczeniowe;141
+2023-12;39;Meble i wyposażenie wnętrz;138
+2023-12;98;Pozostałe usługi komunalne i osobiste;118
+2023-12;3;Produkty rolne, łowieckie i rybne;91
+2023-12;38;Sprzęt laboratoryjny i naukowy;91
+2023-12;48;Pakiety oprogramowania;83
+2023-12;72;Usługi informatyczne;83
+2023-12;77;Usługi rolnicze i leśne;70
+2023-12;24;Produkty chemiczne;52
+2023-12;44;Materiały budowlane;48
+2023-12;42;Maszyny przemysłowe;42
+2023-12;80;Usługi edukacyjne;42
+2023-12;32;Sprzęt elektroniczny i telekomunikacyjny;39
+2023-12;31;Sprzęt elektryczny;29
+2023-12;16;Maszyny rolnicze;28
+2023-12;14;Górnictwo i minerały;27
+2023-12;92;Usługi rekreacyjne i kulturalne;26
+2023-12;18;Odzież i obuwie;25
+2023-12;70;Usługi w zakresie nieruchomości;22
+2023-12;22;Drukowane materiały i produkty poligraficzne;21
+2023-12;35;Sprzęt bezpieczeństwa i ochrony;17
+2023-12;43;Maszyny górnicze;17
+2023-12;63;Usługi spedycji i logistyki;14
+2023-12;37;Sprzęt sportowy i rekreacyjny;13
+2023-12;75;Usługi administracji publicznej;12
+2023-12;19;Wyroby skórzane i tekstylne;11
+2023-12;65;Usługi komunalne (gaz, woda, energia);11
+2023-12;73;Usługi badawczo-rozwojowe;10
+2023-12;51;Usługi instalacyjne;4
+2023-12;41;Woda i usługi wodne;3
+2024-01;45;Roboty budowlane;2253
+2024-01;33;Sprzęt medyczny i farmaceutyczny;599
+2024-01;9;Produkty naftowe, paliwa i energia;385
+2024-01;71;Usługi architektoniczne i inżynieryjne;366
+2024-01;15;Artykuły spożywcze i napoje;364
+2024-01;90;Usługi środowiskowe i sanitarne;331
+2024-01;79;Usługi biznesowe i doradcze;233
+2024-01;34;Sprzęt transportowy i pojazdy;219
+2024-01;55;Usługi hotelarskie i restauracyjne;173
+2024-01;50;Usługi napraw i konserwacji;168
+2024-01;30;Sprzęt komputerowy i biurowy;148
+2024-01;39;Meble i wyposażenie wnętrz;146
+2024-01;85;Usługi zdrowotne i społeczne;134
+2024-01;14;Górnictwo i minerały;101
+2024-01;77;Usługi rolnicze i leśne;100
+2024-01;66;Usługi finansowe i ubezpieczeniowe;92
+2024-01;60;Usługi transportu drogowego;87
+2024-01;44;Materiały budowlane;85
+2024-01;72;Usługi informatyczne;77
+2024-01;98;Pozostałe usługi komunalne i osobiste;75
+2024-01;24;Produkty chemiczne;66
+2024-01;38;Sprzęt laboratoryjny i naukowy;64
+2024-01;3;Produkty rolne, łowieckie i rybne;63
+2024-01;80;Usługi edukacyjne;63
+2024-01;64;Usługi pocztowe i telekomunikacyjne;51
+2024-01;48;Pakiety oprogramowania;38
+2024-01;18;Odzież i obuwie;30
+2024-01;31;Sprzęt elektryczny;28
+2024-01;42;Maszyny przemysłowe;28
+2024-01;63;Usługi spedycji i logistyki;28
+2024-01;22;Drukowane materiały i produkty poligraficzne;24
+2024-01;16;Maszyny rolnicze;20
+2024-01;32;Sprzęt elektroniczny i telekomunikacyjny;17
+2024-01;37;Sprzęt sportowy i rekreacyjny;16
+2024-01;75;Usługi administracji publicznej;15
+2024-01;92;Usługi rekreacyjne i kulturalne;15
+2024-01;70;Usługi w zakresie nieruchomości;10
+2024-01;43;Maszyny górnicze;9
+2024-01;19;Wyroby skórzane i tekstylne;8
+2024-01;35;Sprzęt bezpieczeństwa i ochrony;8
+2024-01;51;Usługi instalacyjne;8
+2024-01;73;Usługi badawczo-rozwojowe;7
+2024-01;65;Usługi komunalne (gaz, woda, energia);5
+2024-01;41;Woda i usługi wodne;3
+2024-02;45;Roboty budowlane;3218
+2024-02;33;Sprzęt medyczny i farmaceutyczny;773
+2024-02;71;Usługi architektoniczne i inżynieryjne;603
+2024-02;90;Usługi środowiskowe i sanitarne;322
+2024-02;15;Artykuły spożywcze i napoje;306
+2024-02;34;Sprzęt transportowy i pojazdy;273
+2024-02;79;Usługi biznesowe i doradcze;271
+2024-02;50;Usługi napraw i konserwacji;221
+2024-02;30;Sprzęt komputerowy i biurowy;213
+2024-02;55;Usługi hotelarskie i restauracyjne;197
+2024-02;9;Produkty naftowe, paliwa i energia;188
+2024-02;39;Meble i wyposażenie wnętrz;188
+2024-02;85;Usługi zdrowotne i społeczne;148
+2024-02;44;Materiały budowlane;143
+2024-02;80;Usługi edukacyjne;137
+2024-02;77;Usługi rolnicze i leśne;129
+2024-02;14;Górnictwo i minerały;120
+2024-02;60;Usługi transportu drogowego;113
+2024-02;24;Produkty chemiczne;102
+2024-02;66;Usługi finansowe i ubezpieczeniowe;93
+2024-02;38;Sprzęt laboratoryjny i naukowy;85
+2024-02;72;Usługi informatyczne;67
+2024-02;42;Maszyny przemysłowe;61
+2024-02;48;Pakiety oprogramowania;60
+2024-02;3;Produkty rolne, łowieckie i rybne;58
+2024-02;31;Sprzęt elektryczny;58
+2024-02;64;Usługi pocztowe i telekomunikacyjne;47
+2024-02;98;Pozostałe usługi komunalne i osobiste;43
+2024-02;22;Drukowane materiały i produkty poligraficzne;41
+2024-02;32;Sprzęt elektroniczny i telekomunikacyjny;39
+2024-02;63;Usługi spedycji i logistyki;39
+2024-02;18;Odzież i obuwie;33
+2024-02;16;Maszyny rolnicze;31
+2024-02;92;Usługi rekreacyjne i kulturalne;31
+2024-02;43;Maszyny górnicze;26
+2024-02;75;Usługi administracji publicznej;26
+2024-02;70;Usługi w zakresie nieruchomości;23
+2024-02;35;Sprzęt bezpieczeństwa i ochrony;18
+2024-02;37;Sprzęt sportowy i rekreacyjny;18
+2024-02;19;Wyroby skórzane i tekstylne;11
+2024-02;73;Usługi badawczo-rozwojowe;9
+2024-02;51;Usługi instalacyjne;6
+2024-02;65;Usługi komunalne (gaz, woda, energia);3
+2024-02;41;Woda i usługi wodne;2
+2024-03;45;Roboty budowlane;3333
+2024-03;33;Sprzęt medyczny i farmaceutyczny;720
+2024-03;71;Usługi architektoniczne i inżynieryjne;720
+2024-03;34;Sprzęt transportowy i pojazdy;297
+2024-03;90;Usługi środowiskowe i sanitarne;290
+2024-03;15;Artykuły spożywcze i napoje;257
+2024-03;79;Usługi biznesowe i doradcze;253
+2024-03;30;Sprzęt komputerowy i biurowy;221
+2024-03;55;Usługi hotelarskie i restauracyjne;193
+2024-03;9;Produkty naftowe, paliwa i energia;184
+2024-03;39;Meble i wyposażenie wnętrz;183
+2024-03;50;Usługi napraw i konserwacji;169
+2024-03;77;Usługi rolnicze i leśne;152
+2024-03;44;Materiały budowlane;133
+2024-03;80;Usługi edukacyjne;131
+2024-03;85;Usługi zdrowotne i społeczne;126
+2024-03;38;Sprzęt laboratoryjny i naukowy;107
+2024-03;24;Produkty chemiczne;102
+2024-03;66;Usługi finansowe i ubezpieczeniowe;97
+2024-03;60;Usługi transportu drogowego;90
+2024-03;72;Usługi informatyczne;72
+2024-03;48;Pakiety oprogramowania;65
+2024-03;14;Górnictwo i minerały;63
+2024-03;31;Sprzęt elektryczny;58
+2024-03;18;Odzież i obuwie;55
+2024-03;3;Produkty rolne, łowieckie i rybne;54
+2024-03;42;Maszyny przemysłowe;53
+2024-03;64;Usługi pocztowe i telekomunikacyjne;53
+2024-03;22;Drukowane materiały i produkty poligraficzne;50
+2024-03;32;Sprzęt elektroniczny i telekomunikacyjny;43
+2024-03;98;Pozostałe usługi komunalne i osobiste;41
+2024-03;63;Usługi spedycji i logistyki;39
+2024-03;92;Usługi rekreacyjne i kulturalne;29
+2024-03;16;Maszyny rolnicze;25
+2024-03;43;Maszyny górnicze;23
+2024-03;75;Usługi administracji publicznej;23
+2024-03;37;Sprzęt sportowy i rekreacyjny;22
+2024-03;35;Sprzęt bezpieczeństwa i ochrony;17
+2024-03;19;Wyroby skórzane i tekstylne;15
+2024-03;70;Usługi w zakresie nieruchomości;15
+2024-03;73;Usługi badawczo-rozwojowe;13
+2024-03;51;Usługi instalacyjne;5
+2024-03;65;Usługi komunalne (gaz, woda, energia);3
+2024-04;45;Roboty budowlane;3112
+2024-04;33;Sprzęt medyczny i farmaceutyczny;771
+2024-04;71;Usługi architektoniczne i inżynieryjne;622
+2024-04;79;Usługi biznesowe i doradcze;296
+2024-04;34;Sprzęt transportowy i pojazdy;278
+2024-04;30;Sprzęt komputerowy i biurowy;276
+2024-04;90;Usługi środowiskowe i sanitarne;236
+2024-04;39;Meble i wyposażenie wnętrz;231
+2024-04;55;Usługi hotelarskie i restauracyjne;206
+2024-04;15;Artykuły spożywcze i napoje;201
+2024-04;50;Usługi napraw i konserwacji;198
+2024-04;9;Produkty naftowe, paliwa i energia;191
+2024-04;77;Usługi rolnicze i leśne;135
+2024-04;80;Usługi edukacyjne;132
+2024-04;38;Sprzęt laboratoryjny i naukowy;112
+2024-04;66;Usługi finansowe i ubezpieczeniowe;105
+2024-04;85;Usługi zdrowotne i społeczne;99
+2024-04;44;Materiały budowlane;91
+2024-04;24;Produkty chemiczne;86
+2024-04;72;Usługi informatyczne;83
+2024-04;60;Usługi transportu drogowego;79
+2024-04;31;Sprzęt elektryczny;73
+2024-04;48;Pakiety oprogramowania;72
+2024-04;42;Maszyny przemysłowe;58
+2024-04;32;Sprzęt elektroniczny i telekomunikacyjny;50
+2024-04;98;Pozostałe usługi komunalne i osobiste;50
+2024-04;3;Produkty rolne, łowieckie i rybne;47
+2024-04;14;Górnictwo i minerały;47
+2024-04;64;Usługi pocztowe i telekomunikacyjne;47
+2024-04;18;Odzież i obuwie;46
+2024-04;22;Drukowane materiały i produkty poligraficzne;39
+2024-04;37;Sprzęt sportowy i rekreacyjny;34
+2024-04;92;Usługi rekreacyjne i kulturalne;34
+2024-04;16;Maszyny rolnicze;31
+2024-04;63;Usługi spedycji i logistyki;25
+2024-04;35;Sprzęt bezpieczeństwa i ochrony;24
+2024-04;43;Maszyny górnicze;18
+2024-04;70;Usługi w zakresie nieruchomości;17
+2024-04;73;Usługi badawczo-rozwojowe;17
+2024-04;75;Usługi administracji publicznej;14
+2024-04;19;Wyroby skórzane i tekstylne;10
+2024-04;51;Usługi instalacyjne;6
+2024-04;41;Woda i usługi wodne;2
+2024-04;65;Usługi komunalne (gaz, woda, energia);2
+2024-04;76;Usługi związane z przemysłem naftowym;1
+2024-05;45;Roboty budowlane;3278
+2024-05;33;Sprzęt medyczny i farmaceutyczny;744
+2024-05;71;Usługi architektoniczne i inżynieryjne;546
+2024-05;15;Artykuły spożywcze i napoje;353
+2024-05;34;Sprzęt transportowy i pojazdy;277
+2024-05;90;Usługi środowiskowe i sanitarne;259
+2024-05;79;Usługi biznesowe i doradcze;234
+2024-05;39;Meble i wyposażenie wnętrz;228
+2024-05;30;Sprzęt komputerowy i biurowy;197
+2024-05;55;Usługi hotelarskie i restauracyjne;190
+2024-05;9;Produkty naftowe, paliwa i energia;175
+2024-05;50;Usługi napraw i konserwacji;153
+2024-05;38;Sprzęt laboratoryjny i naukowy;116
+2024-05;60;Usługi transportu drogowego;105
+2024-05;80;Usługi edukacyjne;103
+2024-05;85;Usługi zdrowotne i społeczne;99
+2024-05;66;Usługi finansowe i ubezpieczeniowe;94
+2024-05;48;Pakiety oprogramowania;84
+2024-05;31;Sprzęt elektryczny;75
+2024-05;44;Materiały budowlane;71
+2024-05;72;Usługi informatyczne;71
+2024-05;77;Usługi rolnicze i leśne;63
+2024-05;3;Produkty rolne, łowieckie i rybne;62
+2024-05;18;Odzież i obuwie;56
+2024-05;32;Sprzęt elektroniczny i telekomunikacyjny;56
+2024-05;42;Maszyny przemysłowe;51
+2024-05;64;Usługi pocztowe i telekomunikacyjne;51
+2024-05;98;Pozostałe usługi komunalne i osobiste;48
+2024-05;24;Produkty chemiczne;46
+2024-05;14;Górnictwo i minerały;36
+2024-05;22;Drukowane materiały i produkty poligraficzne;36
+2024-05;92;Usługi rekreacyjne i kulturalne;31
+2024-05;35;Sprzęt bezpieczeństwa i ochrony;29
+2024-05;37;Sprzęt sportowy i rekreacyjny;27
+2024-05;43;Maszyny górnicze;24
+2024-05;16;Maszyny rolnicze;23
+2024-05;63;Usługi spedycji i logistyki;23
+2024-05;73;Usługi badawczo-rozwojowe;20
+2024-05;75;Usługi administracji publicznej;19
+2024-05;51;Usługi instalacyjne;12
+2024-05;19;Wyroby skórzane i tekstylne;10
+2024-05;70;Usługi w zakresie nieruchomości;8
+2024-05;41;Woda i usługi wodne;1
+2024-05;65;Usługi komunalne (gaz, woda, energia);1
+2024-06;45;Roboty budowlane;4273
+2024-06;33;Sprzęt medyczny i farmaceutyczny;753
+2024-06;71;Usługi architektoniczne i inżynieryjne;607
+2024-06;15;Artykuły spożywcze i napoje;360
+2024-06;34;Sprzęt transportowy i pojazdy;298
+2024-06;60;Usługi transportu drogowego;278
+2024-06;90;Usługi środowiskowe i sanitarne;253
+2024-06;39;Meble i wyposażenie wnętrz;250
+2024-06;55;Usługi hotelarskie i restauracyjne;230
+2024-06;30;Sprzęt komputerowy i biurowy;228
+2024-06;79;Usługi biznesowe i doradcze;212
+2024-06;50;Usługi napraw i konserwacji;177
+2024-06;9;Produkty naftowe, paliwa i energia;173
+2024-06;38;Sprzęt laboratoryjny i naukowy;135
+2024-06;80;Usługi edukacyjne;108
+2024-06;48;Pakiety oprogramowania;98
+2024-06;66;Usługi finansowe i ubezpieczeniowe;97
+2024-06;85;Usługi zdrowotne i społeczne;96
+2024-06;44;Materiały budowlane;87
+2024-06;31;Sprzęt elektryczny;84
+2024-06;3;Produkty rolne, łowieckie i rybne;80
+2024-06;42;Maszyny przemysłowe;78
+2024-06;72;Usługi informatyczne;76
+2024-06;32;Sprzęt elektroniczny i telekomunikacyjny;73
+2024-06;77;Usługi rolnicze i leśne;69
+2024-06;24;Produkty chemiczne;66
+2024-06;64;Usługi pocztowe i telekomunikacyjne;51
+2024-06;98;Pozostałe usługi komunalne i osobiste;47
+2024-06;18;Odzież i obuwie;46
+2024-06;37;Sprzęt sportowy i rekreacyjny;41
+2024-06;92;Usługi rekreacyjne i kulturalne;35
+2024-06;14;Górnictwo i minerały;33
+2024-06;35;Sprzęt bezpieczeństwa i ochrony;33
+2024-06;22;Drukowane materiały i produkty poligraficzne;31
+2024-06;16;Maszyny rolnicze;25
+2024-06;63;Usługi spedycji i logistyki;22
+2024-06;75;Usługi administracji publicznej;21
+2024-06;43;Maszyny górnicze;18
+2024-06;73;Usługi badawczo-rozwojowe;17
+2024-06;70;Usługi w zakresie nieruchomości;16
+2024-06;19;Wyroby skórzane i tekstylne;14
+2024-06;51;Usługi instalacyjne;8
+2024-06;41;Woda i usługi wodne;3
+2024-06;65;Usługi komunalne (gaz, woda, energia);1
+2024-07;45;Roboty budowlane;4618
+2024-07;33;Sprzęt medyczny i farmaceutyczny;726
+2024-07;71;Usługi architektoniczne i inżynieryjne;710
+2024-07;60;Usługi transportu drogowego;581
+2024-07;34;Sprzęt transportowy i pojazdy;383
+2024-07;55;Usługi hotelarskie i restauracyjne;326
+2024-07;39;Meble i wyposażenie wnętrz;325
+2024-07;15;Artykuły spożywcze i napoje;312
+2024-07;30;Sprzęt komputerowy i biurowy;289
+2024-07;79;Usługi biznesowe i doradcze;251
+2024-07;90;Usługi środowiskowe i sanitarne;232
+2024-07;9;Produkty naftowe, paliwa i energia;180
+2024-07;50;Usługi napraw i konserwacji;149
+2024-07;38;Sprzęt laboratoryjny i naukowy;137
+2024-07;80;Usługi edukacyjne;128
+2024-07;85;Usługi zdrowotne i społeczne;117
+2024-07;48;Pakiety oprogramowania;116
+2024-07;31;Sprzęt elektryczny;106
+2024-07;44;Materiały budowlane;92
+2024-07;42;Maszyny przemysłowe;91
+2024-07;66;Usługi finansowe i ubezpieczeniowe;84
+2024-07;72;Usługi informatyczne;79
+2024-07;32;Sprzęt elektroniczny i telekomunikacyjny;69
+2024-07;77;Usługi rolnicze i leśne;67
+2024-07;24;Produkty chemiczne;62
+2024-07;3;Produkty rolne, łowieckie i rybne;57
+2024-07;18;Odzież i obuwie;49
+2024-07;64;Usługi pocztowe i telekomunikacyjne;49
+2024-07;37;Sprzęt sportowy i rekreacyjny;45
+2024-07;98;Pozostałe usługi komunalne i osobiste;45
+2024-07;63;Usługi spedycji i logistyki;42
+2024-07;22;Drukowane materiały i produkty poligraficzne;36
+2024-07;14;Górnictwo i minerały;35
+2024-07;92;Usługi rekreacyjne i kulturalne;34
+2024-07;16;Maszyny rolnicze;30
+2024-07;35;Sprzęt bezpieczeństwa i ochrony;30
+2024-07;70;Usługi w zakresie nieruchomości;19
+2024-07;43;Maszyny górnicze;18
+2024-07;73;Usługi badawczo-rozwojowe;17
+2024-07;51;Usługi instalacyjne;9
+2024-07;19;Wyroby skórzane i tekstylne;7
+2024-07;75;Usługi administracji publicznej;3
+2024-07;41;Woda i usługi wodne;1
+2024-07;65;Usługi komunalne (gaz, woda, energia);1
+2024-08;45;Roboty budowlane;2733
+2024-08;33;Sprzęt medyczny i farmaceutyczny;666
+2024-08;71;Usługi architektoniczne i inżynieryjne;573
+2024-08;34;Sprzęt transportowy i pojazdy;397
+2024-08;60;Usługi transportu drogowego;293
+2024-08;39;Meble i wyposażenie wnętrz;263
+2024-08;55;Usługi hotelarskie i restauracyjne;251
+2024-08;15;Artykuły spożywcze i napoje;244
+2024-08;9;Produkty naftowe, paliwa i energia;225
+2024-08;90;Usługi środowiskowe i sanitarne;222
+2024-08;30;Sprzęt komputerowy i biurowy;220
+2024-08;79;Usługi biznesowe i doradcze;210
+2024-08;50;Usługi napraw i konserwacji;127
+2024-08;31;Sprzęt elektryczny;126
+2024-08;48;Pakiety oprogramowania;125
+2024-08;80;Usługi edukacyjne;115
+2024-08;38;Sprzęt laboratoryjny i naukowy;108
+2024-08;85;Usługi zdrowotne i społeczne;100
+2024-08;66;Usługi finansowe i ubezpieczeniowe;87
+2024-08;77;Usługi rolnicze i leśne;81
+2024-08;32;Sprzęt elektroniczny i telekomunikacyjny;80
+2024-08;72;Usługi informatyczne;72
+2024-08;42;Maszyny przemysłowe;65
+2024-08;44;Materiały budowlane;60
+2024-08;24;Produkty chemiczne;54
+2024-08;22;Drukowane materiały i produkty poligraficzne;49
+2024-08;3;Produkty rolne, łowieckie i rybne;43
+2024-08;14;Górnictwo i minerały;40
+2024-08;35;Sprzęt bezpieczeństwa i ochrony;37
+2024-08;16;Maszyny rolnicze;36
+2024-08;98;Pozostałe usługi komunalne i osobiste;34
+2024-08;18;Odzież i obuwie;33
+2024-08;37;Sprzęt sportowy i rekreacyjny;31
+2024-08;92;Usługi rekreacyjne i kulturalne;27
+2024-08;63;Usługi spedycji i logistyki;26
+2024-08;64;Usługi pocztowe i telekomunikacyjne;24
+2024-08;43;Maszyny górnicze;21
+2024-08;73;Usługi badawczo-rozwojowe;11
+2024-08;70;Usługi w zakresie nieruchomości;10
+2024-08;19;Wyroby skórzane i tekstylne;6
+2024-08;75;Usługi administracji publicznej;6
+2024-08;51;Usługi instalacyjne;5
+2024-08;41;Woda i usługi wodne;1
+2024-08;65;Usługi komunalne (gaz, woda, energia);1
+2024-09;45;Roboty budowlane;2730
+2024-09;33;Sprzęt medyczny i farmaceutyczny;721
+2024-09;71;Usługi architektoniczne i inżynieryjne;537
+2024-09;34;Sprzęt transportowy i pojazdy;490
+2024-09;90;Usługi środowiskowe i sanitarne;388
+2024-09;39;Meble i wyposażenie wnętrz;318
+2024-09;9;Produkty naftowe, paliwa i energia;293
+2024-09;30;Sprzęt komputerowy i biurowy;277
+2024-09;31;Sprzęt elektryczny;269
+2024-09;79;Usługi biznesowe i doradcze;222
+2024-09;15;Artykuły spożywcze i napoje;206
+2024-09;55;Usługi hotelarskie i restauracyjne;176
+2024-09;38;Sprzęt laboratoryjny i naukowy;162
+2024-09;80;Usługi edukacyjne;155
+2024-09;50;Usługi napraw i konserwacji;154
+2024-09;66;Usługi finansowe i ubezpieczeniowe;142
+2024-09;48;Pakiety oprogramowania;133
+2024-09;44;Materiały budowlane;111
+2024-09;85;Usługi zdrowotne i społeczne;111
+2024-09;72;Usługi informatyczne;104
+2024-09;32;Sprzęt elektroniczny i telekomunikacyjny;91
+2024-09;3;Produkty rolne, łowieckie i rybne;89
+2024-09;77;Usługi rolnicze i leśne;83
+2024-09;42;Maszyny przemysłowe;82
+2024-09;60;Usługi transportu drogowego;80
+2024-09;18;Odzież i obuwie;61
+2024-09;64;Usługi pocztowe i telekomunikacyjne;55
+2024-09;35;Sprzęt bezpieczeństwa i ochrony;49
+2024-09;14;Górnictwo i minerały;44
+2024-09;24;Produkty chemiczne;44
+2024-09;98;Pozostałe usługi komunalne i osobiste;40
+2024-09;37;Sprzęt sportowy i rekreacyjny;37
+2024-09;16;Maszyny rolnicze;34
+2024-09;22;Drukowane materiały i produkty poligraficzne;33
+2024-09;92;Usługi rekreacyjne i kulturalne;31
+2024-09;43;Maszyny górnicze;27
+2024-09;63;Usługi spedycji i logistyki;27
+2024-09;70;Usługi w zakresie nieruchomości;18
+2024-09;19;Wyroby skórzane i tekstylne;10
+2024-09;73;Usługi badawczo-rozwojowe;9
+2024-09;75;Usługi administracji publicznej;8
+2024-09;51;Usługi instalacyjne;3
+2024-09;41;Woda i usługi wodne;1
+2024-09;65;Usługi komunalne (gaz, woda, energia);1
+2024-10;45;Roboty budowlane;2559
+2024-10;33;Sprzęt medyczny i farmaceutyczny;951
+2024-10;90;Usługi środowiskowe i sanitarne;928
+2024-10;71;Usługi architektoniczne i inżynieryjne;681
+2024-10;34;Sprzęt transportowy i pojazdy;590
+2024-10;9;Produkty naftowe, paliwa i energia;566
+2024-10;30;Sprzęt komputerowy i biurowy;463
+2024-10;79;Usługi biznesowe i doradcze;413
+2024-10;39;Meble i wyposażenie wnętrz;409
+2024-10;15;Artykuły spożywcze i napoje;402
+2024-10;48;Pakiety oprogramowania;241
+2024-10;55;Usługi hotelarskie i restauracyjne;227
+2024-10;50;Usługi napraw i konserwacji;221
+2024-10;66;Usługi finansowe i ubezpieczeniowe;216
+2024-10;38;Sprzęt laboratoryjny i naukowy;204
+2024-10;85;Usługi zdrowotne i społeczne;199
+2024-10;32;Sprzęt elektroniczny i telekomunikacyjny;169
+2024-10;80;Usługi edukacyjne;168
+2024-10;64;Usługi pocztowe i telekomunikacyjne;126
+2024-10;44;Materiały budowlane;113
+2024-10;31;Sprzęt elektryczny;106
+2024-10;72;Usługi informatyczne;101
+2024-10;60;Usługi transportu drogowego;100
+2024-10;77;Usługi rolnicze i leśne;87
+2024-10;3;Produkty rolne, łowieckie i rybne;84
+2024-10;42;Maszyny przemysłowe;83
+2024-10;98;Pozostałe usługi komunalne i osobiste;73
+2024-10;35;Sprzęt bezpieczeństwa i ochrony;65
+2024-10;24;Produkty chemiczne;61
+2024-10;18;Odzież i obuwie;55
+2024-10;22;Drukowane materiały i produkty poligraficzne;55
+2024-10;14;Górnictwo i minerały;50
+2024-10;16;Maszyny rolnicze;48
+2024-10;92;Usługi rekreacyjne i kulturalne;47
+2024-10;37;Sprzęt sportowy i rekreacyjny;43
+2024-10;43;Maszyny górnicze;31
+2024-10;63;Usługi spedycji i logistyki;18
+2024-10;70;Usługi w zakresie nieruchomości;18
+2024-10;19;Wyroby skórzane i tekstylne;16
+2024-10;75;Usługi administracji publicznej;15
+2024-10;73;Usługi badawczo-rozwojowe;12
+2024-10;51;Usługi instalacyjne;11
+2024-10;65;Usługi komunalne (gaz, woda, energia);2
+2024-11;45;Roboty budowlane;1227
+2024-11;15;Artykuły spożywcze i napoje;1201
+2024-11;90;Usługi środowiskowe i sanitarne;1031
+2024-11;9;Produkty naftowe, paliwa i energia;828
+2024-11;33;Sprzęt medyczny i farmaceutyczny;741
+2024-11;30;Sprzęt komputerowy i biurowy;560
+2024-11;71;Usługi architektoniczne i inżynieryjne;528
+2024-11;34;Sprzęt transportowy i pojazdy;507
+2024-11;79;Usługi biznesowe i doradcze;500
+2024-11;55;Usługi hotelarskie i restauracyjne;428
+2024-11;85;Usługi zdrowotne i społeczne;366
+2024-11;66;Usługi finansowe i ubezpieczeniowe;326
+2024-11;39;Meble i wyposażenie wnętrz;323
+2024-11;64;Usługi pocztowe i telekomunikacyjne;310
+2024-11;48;Pakiety oprogramowania;279
+2024-11;60;Usługi transportu drogowego;259
+2024-11;50;Usługi napraw i konserwacji;244
+2024-11;38;Sprzęt laboratoryjny i naukowy;179
+2024-11;32;Sprzęt elektroniczny i telekomunikacyjny;148
+2024-11;3;Produkty rolne, łowieckie i rybne;147
+2024-11;98;Pozostałe usługi komunalne i osobiste;139
+2024-11;72;Usługi informatyczne;130
+2024-11;80;Usługi edukacyjne;119
+2024-11;42;Maszyny przemysłowe;85
+2024-11;37;Sprzęt sportowy i rekreacyjny;80
+2024-11;16;Maszyny rolnicze;78
+2024-11;44;Materiały budowlane;74
+2024-11;77;Usługi rolnicze i leśne;74
+2024-11;31;Sprzęt elektryczny;64
+2024-11;35;Sprzęt bezpieczeństwa i ochrony;64
+2024-11;22;Drukowane materiały i produkty poligraficzne;60
+2024-11;24;Produkty chemiczne;58
+2024-11;18;Odzież i obuwie;45
+2024-11;75;Usługi administracji publicznej;40
+2024-11;92;Usługi rekreacyjne i kulturalne;40
+2024-11;43;Maszyny górnicze;38
+2024-11;63;Usługi spedycji i logistyki;33
+2024-11;14;Górnictwo i minerały;32
+2024-11;70;Usługi w zakresie nieruchomości;23
+2024-11;65;Usługi komunalne (gaz, woda, energia);14
+2024-11;19;Wyroby skórzane i tekstylne;12
+2024-11;73;Usługi badawczo-rozwojowe;11
+2024-11;51;Usługi instalacyjne;7
+2024-11;76;Usługi związane z przemysłem naftowym;1
+2024-12;15;Artykuły spożywcze i napoje;933
+2024-12;45;Roboty budowlane;879
+2024-12;90;Usługi środowiskowe i sanitarne;671
+2024-12;9;Produkty naftowe, paliwa i energia;621
+2024-12;33;Sprzęt medyczny i farmaceutyczny;573
+2024-12;71;Usługi architektoniczne i inżynieryjne;501
+2024-12;85;Usługi zdrowotne i społeczne;438
+2024-12;55;Usługi hotelarskie i restauracyjne;378
+2024-12;79;Usługi biznesowe i doradcze;355
+2024-12;30;Sprzęt komputerowy i biurowy;244
+2024-12;34;Sprzęt transportowy i pojazdy;242
+2024-12;60;Usługi transportu drogowego;242
+2024-12;50;Usługi napraw i konserwacji;223
+2024-12;39;Meble i wyposażenie wnętrz;215
+2024-12;64;Usługi pocztowe i telekomunikacyjne;215
+2024-12;66;Usługi finansowe i ubezpieczeniowe;179
+2024-12;48;Pakiety oprogramowania;178
+2024-12;98;Pozostałe usługi komunalne i osobiste;134
+2024-12;72;Usługi informatyczne;130
+2024-12;3;Produkty rolne, łowieckie i rybne;105
+2024-12;38;Sprzęt laboratoryjny i naukowy;93
+2024-12;80;Usługi edukacyjne;91
+2024-12;77;Usługi rolnicze i leśne;87
+2024-12;32;Sprzęt elektroniczny i telekomunikacyjny;65
+2024-12;44;Materiały budowlane;49
+2024-12;24;Produkty chemiczne;45
+2024-12;42;Maszyny przemysłowe;40
+2024-12;31;Sprzęt elektryczny;34
+2024-12;63;Usługi spedycji i logistyki;34
+2024-12;18;Odzież i obuwie;32
+2024-12;22;Drukowane materiały i produkty poligraficzne;29
+2024-12;92;Usługi rekreacyjne i kulturalne;29
+2024-12;16;Maszyny rolnicze;28
+2024-12;70;Usługi w zakresie nieruchomości;26
+2024-12;37;Sprzęt sportowy i rekreacyjny;20
+2024-12;43;Maszyny górnicze;18
+2024-12;14;Górnictwo i minerały;17
+2024-12;35;Sprzęt bezpieczeństwa i ochrony;16
+2024-12;75;Usługi administracji publicznej;16
+2024-12;73;Usługi badawczo-rozwojowe;11
+2024-12;19;Wyroby skórzane i tekstylne;9
+2024-12;51;Usługi instalacyjne;9
+2024-12;65;Usługi komunalne (gaz, woda, energia);5
+2024-12;41;Woda i usługi wodne;2
+2025-01;45;Roboty budowlane;1388
+2025-01;33;Sprzęt medyczny i farmaceutyczny;621
+2025-01;71;Usługi architektoniczne i inżynieryjne;520
+2025-01;90;Usługi środowiskowe i sanitarne;356
+2025-01;15;Artykuły spożywcze i napoje;341
+2025-01;9;Produkty naftowe, paliwa i energia;301
+2025-01;79;Usługi biznesowe i doradcze;222
+2025-01;34;Sprzęt transportowy i pojazdy;209
+2025-01;39;Meble i wyposażenie wnętrz;190
+2025-01;85;Usługi zdrowotne i społeczne;187
+2025-01;50;Usługi napraw i konserwacji;178
+2025-01;30;Sprzęt komputerowy i biurowy;158
+2025-01;55;Usługi hotelarskie i restauracyjne;149
+2025-01;80;Usługi edukacyjne;148
+2025-01;60;Usługi transportu drogowego;102
+2025-01;48;Pakiety oprogramowania;101
+2025-01;44;Materiały budowlane;99
+2025-01;66;Usługi finansowe i ubezpieczeniowe;97
+2025-01;77;Usługi rolnicze i leśne;92
+2025-01;14;Górnictwo i minerały;91
+2025-01;24;Produkty chemiczne;85
+2025-01;38;Sprzęt laboratoryjny i naukowy;82
+2025-01;3;Produkty rolne, łowieckie i rybne;62
+2025-01;72;Usługi informatyczne;61
+2025-01;98;Pozostałe usługi komunalne i osobiste;52
+2025-01;63;Usługi spedycji i logistyki;50
+2025-01;64;Usługi pocztowe i telekomunikacyjne;46
+2025-01;42;Maszyny przemysłowe;43
+2025-01;18;Odzież i obuwie;42
+2025-01;32;Sprzęt elektroniczny i telekomunikacyjny;40
+2025-01;35;Sprzęt bezpieczeństwa i ochrony;28
+2025-01;31;Sprzęt elektryczny;27
+2025-01;75;Usługi administracji publicznej;25
+2025-01;92;Usługi rekreacyjne i kulturalne;25
+2025-01;16;Maszyny rolnicze;21
+2025-01;70;Usługi w zakresie nieruchomości;20
+2025-01;22;Drukowane materiały i produkty poligraficzne;19
+2025-01;43;Maszyny górnicze;19
+2025-01;37;Sprzęt sportowy i rekreacyjny;15
+2025-01;19;Wyroby skórzane i tekstylne;12
+2025-01;41;Woda i usługi wodne;7
+2025-01;73;Usługi badawczo-rozwojowe;6
+2025-01;65;Usługi komunalne (gaz, woda, energia);4
+2025-01;51;Usługi instalacyjne;2
+2025-02;45;Roboty budowlane;2137
+2025-02;71;Usługi architektoniczne i inżynieryjne;676
+2025-02;33;Sprzęt medyczny i farmaceutyczny;662
+2025-02;90;Usługi środowiskowe i sanitarne;309
+2025-02;34;Sprzęt transportowy i pojazdy;296
+2025-02;79;Usługi biznesowe i doradcze;275
+2025-02;15;Artykuły spożywcze i napoje;259
+2025-02;39;Meble i wyposażenie wnętrz;240
+2025-02;30;Sprzęt komputerowy i biurowy;229
+2025-02;80;Usługi edukacyjne;216
+2025-02;55;Usługi hotelarskie i restauracyjne;211
+2025-02;9;Produkty naftowe, paliwa i energia;194
+2025-02;50;Usługi napraw i konserwacji;188
+2025-02;85;Usługi zdrowotne i społeczne;152
+2025-02;77;Usługi rolnicze i leśne;136
+2025-02;66;Usługi finansowe i ubezpieczeniowe;134
+2025-02;48;Pakiety oprogramowania;126
+2025-02;38;Sprzęt laboratoryjny i naukowy;103
+2025-02;44;Materiały budowlane;100
+2025-02;72;Usługi informatyczne;88
+2025-02;14;Górnictwo i minerały;85
+2025-02;60;Usługi transportu drogowego;85
+2025-02;24;Produkty chemiczne;79
+2025-02;18;Odzież i obuwie;67
+2025-02;31;Sprzęt elektryczny;64
+2025-02;32;Sprzęt elektroniczny i telekomunikacyjny;58
+2025-02;42;Maszyny przemysłowe;56
+2025-02;3;Produkty rolne, łowieckie i rybne;54
+2025-02;98;Pozostałe usługi komunalne i osobiste;46
+2025-02;63;Usługi spedycji i logistyki;45
+2025-02;64;Usługi pocztowe i telekomunikacyjne;43
+2025-02;22;Drukowane materiały i produkty poligraficzne;33
+2025-02;16;Maszyny rolnicze;30
+2025-02;35;Sprzęt bezpieczeństwa i ochrony;29
+2025-02;75;Usługi administracji publicznej;28
+2025-02;92;Usługi rekreacyjne i kulturalne;27
+2025-02;43;Maszyny górnicze;20
+2025-02;37;Sprzęt sportowy i rekreacyjny;16
+2025-02;70;Usługi w zakresie nieruchomości;15
+2025-02;73;Usługi badawczo-rozwojowe;13
+2025-02;19;Wyroby skórzane i tekstylne;7
+2025-02;51;Usługi instalacyjne;5
+2025-02;65;Usługi komunalne (gaz, woda, energia);5
+2025-02;41;Woda i usługi wodne;4
+2025-02;76;Usługi związane z przemysłem naftowym;1
+2025-03;45;Roboty budowlane;2807
+2025-03;71;Usługi architektoniczne i inżynieryjne;884
+2025-03;33;Sprzęt medyczny i farmaceutyczny;752
+2025-03;39;Meble i wyposażenie wnętrz;329
+2025-03;34;Sprzęt transportowy i pojazdy;322
+2025-03;30;Sprzęt komputerowy i biurowy;299
+2025-03;80;Usługi edukacyjne;296
+2025-03;90;Usługi środowiskowe i sanitarne;291
+2025-03;79;Usługi biznesowe i doradcze;285
+2025-03;15;Artykuły spożywcze i napoje;236
+2025-03;55;Usługi hotelarskie i restauracyjne;219
+2025-03;50;Usługi napraw i konserwacji;211
+2025-03;9;Produkty naftowe, paliwa i energia;193
+2025-03;48;Pakiety oprogramowania;181
+2025-03;77;Usługi rolnicze i leśne;175
+2025-03;85;Usługi zdrowotne i społeczne;157
+2025-03;38;Sprzęt laboratoryjny i naukowy;138
+2025-03;44;Materiały budowlane;138
+2025-03;66;Usługi finansowe i ubezpieczeniowe;117
+2025-03;72;Usługi informatyczne;105
+2025-03;32;Sprzęt elektroniczny i telekomunikacyjny;93
+2025-03;14;Górnictwo i minerały;88
+2025-03;60;Usługi transportu drogowego;86
+2025-03;24;Produkty chemiczne;85
+2025-03;31;Sprzęt elektryczny;73
+2025-03;18;Odzież i obuwie;71
+2025-03;42;Maszyny przemysłowe;67
+2025-03;3;Produkty rolne, łowieckie i rybne;63
+2025-03;22;Drukowane materiały i produkty poligraficzne;53
+2025-03;98;Pozostałe usługi komunalne i osobiste;49
+2025-03;16;Maszyny rolnicze;42
+2025-03;64;Usługi pocztowe i telekomunikacyjne;40
+2025-03;92;Usługi rekreacyjne i kulturalne;36
+2025-03;63;Usługi spedycji i logistyki;35
+2025-03;43;Maszyny górnicze;33
+2025-03;35;Sprzęt bezpieczeństwa i ochrony;30
+2025-03;70;Usługi w zakresie nieruchomości;23
+2025-03;75;Usługi administracji publicznej;23
+2025-03;37;Sprzęt sportowy i rekreacyjny;19
+2025-03;19;Wyroby skórzane i tekstylne;17
+2025-03;73;Usługi badawczo-rozwojowe;9
+2025-03;51;Usługi instalacyjne;2
+2025-03;65;Usługi komunalne (gaz, woda, energia);2
+2025-03;41;Woda i usługi wodne;1
+2025-04;45;Roboty budowlane;3300
+2025-04;71;Usługi architektoniczne i inżynieryjne;778
+2025-04;33;Sprzęt medyczny i farmaceutyczny;722
+2025-04;30;Sprzęt komputerowy i biurowy;320
+2025-04;39;Meble i wyposażenie wnętrz;320
+2025-04;34;Sprzęt transportowy i pojazdy;309
+2025-04;79;Usługi biznesowe i doradcze;299
+2025-04;80;Usługi edukacyjne;272
+2025-04;90;Usługi środowiskowe i sanitarne;245
+2025-04;55;Usługi hotelarskie i restauracyjne;228
+2025-04;15;Artykuły spożywcze i napoje;191
+2025-04;50;Usługi napraw i konserwacji;191
+2025-04;48;Pakiety oprogramowania;176
+2025-04;9;Produkty naftowe, paliwa i energia;160
+2025-04;38;Sprzęt laboratoryjny i naukowy;143
+2025-04;85;Usługi zdrowotne i społeczne;140
+2025-04;44;Materiały budowlane;119
+2025-04;77;Usługi rolnicze i leśne;118
+2025-04;66;Usługi finansowe i ubezpieczeniowe;107
+2025-04;32;Sprzęt elektroniczny i telekomunikacyjny;103
+2025-04;72;Usługi informatyczne;91
+2025-04;60;Usługi transportu drogowego;82
+2025-04;42;Maszyny przemysłowe;75
+2025-04;18;Odzież i obuwie;74
+2025-04;31;Sprzęt elektryczny;73
+2025-04;24;Produkty chemiczne;65
+2025-04;63;Usługi spedycji i logistyki;63
+2025-04;14;Górnictwo i minerały;58
+2025-04;98;Pozostałe usługi komunalne i osobiste;55
+2025-04;3;Produkty rolne, łowieckie i rybne;54
+2025-04;16;Maszyny rolnicze;48
+2025-04;92;Usługi rekreacyjne i kulturalne;46
+2025-04;35;Sprzęt bezpieczeństwa i ochrony;45
+2025-04;22;Drukowane materiały i produkty poligraficzne;40
+2025-04;43;Maszyny górnicze;36
+2025-04;64;Usługi pocztowe i telekomunikacyjne;36
+2025-04;37;Sprzęt sportowy i rekreacyjny;26
+2025-04;70;Usługi w zakresie nieruchomości;22
+2025-04;75;Usługi administracji publicznej;19
+2025-04;73;Usługi badawczo-rozwojowe;17
+2025-04;19;Wyroby skórzane i tekstylne;10
+2025-04;51;Usługi instalacyjne;4
+2025-04;65;Usługi komunalne (gaz, woda, energia);3
+2025-04;41;Woda i usługi wodne;2
+2025-04;76;Usługi związane z przemysłem naftowym;1
+2025-05;45;Roboty budowlane;3198
+2025-05;33;Sprzęt medyczny i farmaceutyczny;793
+2025-05;71;Usługi architektoniczne i inżynieryjne;786
+2025-05;15;Artykuły spożywcze i napoje;355
+2025-05;39;Meble i wyposażenie wnętrz;350
+2025-05;34;Sprzęt transportowy i pojazdy;324
+2025-05;30;Sprzęt komputerowy i biurowy;322
+2025-05;80;Usługi edukacyjne;268
+2025-05;90;Usługi środowiskowe i sanitarne;255
+2025-05;79;Usługi biznesowe i doradcze;238
+2025-05;55;Usługi hotelarskie i restauracyjne;211
+2025-05;50;Usługi napraw i konserwacji;184
+2025-05;48;Pakiety oprogramowania;178
+2025-05;38;Sprzęt laboratoryjny i naukowy;159
+2025-05;9;Produkty naftowe, paliwa i energia;147
+2025-05;85;Usługi zdrowotne i społeczne;141
+2025-05;66;Usługi finansowe i ubezpieczeniowe;120
+2025-05;60;Usługi transportu drogowego;118
+2025-05;31;Sprzęt elektryczny;111
+2025-05;72;Usługi informatyczne;104
+2025-05;44;Materiały budowlane;95
+2025-05;32;Sprzęt elektroniczny i telekomunikacyjny;92
+2025-05;42;Maszyny przemysłowe;86
+2025-05;77;Usługi rolnicze i leśne;76
+2025-05;35;Sprzęt bezpieczeństwa i ochrony;68
+2025-05;63;Usługi spedycji i logistyki;62
+2025-05;24;Produkty chemiczne;57
+2025-05;3;Produkty rolne, łowieckie i rybne;55
+2025-05;18;Odzież i obuwie;47
+2025-05;16;Maszyny rolnicze;44
+2025-05;14;Górnictwo i minerały;43
+2025-05;37;Sprzęt sportowy i rekreacyjny;43
+2025-05;43;Maszyny górnicze;41
+2025-05;64;Usługi pocztowe i telekomunikacyjne;37
+2025-05;22;Drukowane materiały i produkty poligraficzne;36
+2025-05;98;Pozostałe usługi komunalne i osobiste;36
+2025-05;73;Usługi badawczo-rozwojowe;19
+2025-05;75;Usługi administracji publicznej;14
+2025-05;92;Usługi rekreacyjne i kulturalne;13
+2025-05;70;Usługi w zakresie nieruchomości;12
+2025-05;51;Usługi instalacyjne;11
+2025-05;19;Wyroby skórzane i tekstylne;9
+2025-05;41;Woda i usługi wodne;3
+2025-05;65;Usługi komunalne (gaz, woda, energia);3
+2025-06;45;Roboty budowlane;3567
+2025-06;71;Usługi architektoniczne i inżynieryjne;710
+2025-06;33;Sprzęt medyczny i farmaceutyczny;698
+2025-06;39;Meble i wyposażenie wnętrz;392
+2025-06;15;Artykuły spożywcze i napoje;366
+2025-06;34;Sprzęt transportowy i pojazdy;340
+2025-06;30;Sprzęt komputerowy i biurowy;275
+2025-06;55;Usługi hotelarskie i restauracyjne;252
+2025-06;60;Usługi transportu drogowego;252
+2025-06;79;Usługi biznesowe i doradcze;237
+2025-06;90;Usługi środowiskowe i sanitarne;230
+2025-06;80;Usługi edukacyjne;225
+2025-06;48;Pakiety oprogramowania;224
+2025-06;50;Usługi napraw i konserwacji;171
+2025-06;38;Sprzęt laboratoryjny i naukowy;153
+2025-06;9;Produkty naftowe, paliwa i energia;152
+2025-06;85;Usługi zdrowotne i społeczne;131
+2025-06;66;Usługi finansowe i ubezpieczeniowe;115
+2025-06;32;Sprzęt elektroniczny i telekomunikacyjny;106
+2025-06;31;Sprzęt elektryczny;104
+2025-06;72;Usługi informatyczne;97
+2025-06;42;Maszyny przemysłowe;92
+2025-06;44;Materiały budowlane;92
+2025-06;77;Usługi rolnicze i leśne;70
+2025-06;3;Produkty rolne, łowieckie i rybne;61
+2025-06;18;Odzież i obuwie;50
+2025-06;37;Sprzęt sportowy i rekreacyjny;50
+2025-06;64;Usługi pocztowe i telekomunikacyjne;50
+2025-06;24;Produkty chemiczne;48
+2025-06;63;Usługi spedycji i logistyki;43
+2025-06;98;Pozostałe usługi komunalne i osobiste;43
+2025-06;92;Usługi rekreacyjne i kulturalne;41
+2025-06;35;Sprzęt bezpieczeństwa i ochrony;40
+2025-06;14;Górnictwo i minerały;37
+2025-06;22;Drukowane materiały i produkty poligraficzne;36
+2025-06;43;Maszyny górnicze;34
+2025-06;16;Maszyny rolnicze;32
+2025-06;70;Usługi w zakresie nieruchomości;18
+2025-06;73;Usługi badawczo-rozwojowe;12
+2025-06;51;Usługi instalacyjne;8
+2025-06;75;Usługi administracji publicznej;8
+2025-06;19;Wyroby skórzane i tekstylne;6
+2025-06;65;Usługi komunalne (gaz, woda, energia);2
+2025-07;45;Roboty budowlane;4175
+2025-07;71;Usługi architektoniczne i inżynieryjne;830
+2025-07;33;Sprzęt medyczny i farmaceutyczny;735
+2025-07;60;Usługi transportu drogowego;664
+2025-07;34;Sprzęt transportowy i pojazdy;473
+2025-07;39;Meble i wyposażenie wnętrz;442
+2025-07;15;Artykuły spożywcze i napoje;389
+2025-07;30;Sprzęt komputerowy i biurowy;364
+2025-07;55;Usługi hotelarskie i restauracyjne;326
+2025-07;79;Usługi biznesowe i doradcze;293
+2025-07;80;Usługi edukacyjne;269
+2025-07;48;Pakiety oprogramowania;262
+2025-07;90;Usługi środowiskowe i sanitarne;255
+2025-07;38;Sprzęt laboratoryjny i naukowy;206
+2025-07;9;Produkty naftowe, paliwa i energia;192
+2025-07;50;Usługi napraw i konserwacji;191
+2025-07;32;Sprzęt elektroniczny i telekomunikacyjny;133
+2025-07;44;Materiały budowlane;125
+2025-07;85;Usługi zdrowotne i społeczne;125
+2025-07;72;Usługi informatyczne;118
+2025-07;42;Maszyny przemysłowe;103
+2025-07;31;Sprzęt elektryczny;100
+2025-07;66;Usługi finansowe i ubezpieczeniowe;86
+2025-07;37;Sprzęt sportowy i rekreacyjny;73
+2025-07;77;Usługi rolnicze i leśne;67
+2025-07;43;Maszyny górnicze;65
+2025-07;24;Produkty chemiczne;57
+2025-07;63;Usługi spedycji i logistyki;57
+2025-07;35;Sprzęt bezpieczeństwa i ochrony;45
+2025-07;22;Drukowane materiały i produkty poligraficzne;43
+2025-07;3;Produkty rolne, łowieckie i rybne;40
+2025-07;16;Maszyny rolnicze;39
+2025-07;18;Odzież i obuwie;38
+2025-07;98;Pozostałe usługi komunalne i osobiste;36
+2025-07;64;Usługi pocztowe i telekomunikacyjne;33
+2025-07;92;Usługi rekreacyjne i kulturalne;32
+2025-07;14;Górnictwo i minerały;30
+2025-07;73;Usługi badawczo-rozwojowe;29
+2025-07;51;Usługi instalacyjne;12
+2025-07;75;Usługi administracji publicznej;11
+2025-07;70;Usługi w zakresie nieruchomości;9
+2025-07;19;Wyroby skórzane i tekstylne;6
+2025-07;65;Usługi komunalne (gaz, woda, energia);4
+2025-07;41;Woda i usługi wodne;3
+2025-08;45;Roboty budowlane;3190
+2025-08;33;Sprzęt medyczny i farmaceutyczny;622
+2025-08;71;Usługi architektoniczne i inżynieryjne;550
+2025-08;34;Sprzęt transportowy i pojazdy;533
+2025-08;39;Meble i wyposażenie wnętrz;370
+2025-08;30;Sprzęt komputerowy i biurowy;293
+2025-08;55;Usługi hotelarskie i restauracyjne;268
+2025-08;80;Usługi edukacyjne;262
+2025-08;60;Usługi transportu drogowego;228
+2025-08;15;Artykuły spożywcze i napoje;211
+2025-08;79;Usługi biznesowe i doradcze;200
+2025-08;48;Pakiety oprogramowania;182
+2025-08;9;Produkty naftowe, paliwa i energia;181
+2025-08;90;Usługi środowiskowe i sanitarne;181
+2025-08;50;Usługi napraw i konserwacji;145
+2025-08;38;Sprzęt laboratoryjny i naukowy;142
+2025-08;32;Sprzęt elektroniczny i telekomunikacyjny;118
+2025-08;85;Usługi zdrowotne i społeczne;103
+2025-08;31;Sprzęt elektryczny;100
+2025-08;72;Usługi informatyczne;98
+2025-08;66;Usługi finansowe i ubezpieczeniowe;88
+2025-08;42;Maszyny przemysłowe;81
+2025-08;77;Usługi rolnicze i leśne;75
+2025-08;35;Sprzęt bezpieczeństwa i ochrony;74
+2025-08;37;Sprzęt sportowy i rekreacyjny;70
+2025-08;44;Materiały budowlane;66
+2025-08;18;Odzież i obuwie;64
+2025-08;3;Produkty rolne, łowieckie i rybne;58
+2025-08;43;Maszyny górnicze;53
+2025-08;63;Usługi spedycji i logistyki;48
+2025-08;16;Maszyny rolnicze;46
+2025-08;22;Drukowane materiały i produkty poligraficzne;41
+2025-08;98;Pozostałe usługi komunalne i osobiste;41
+2025-08;24;Produkty chemiczne;32
+2025-08;64;Usługi pocztowe i telekomunikacyjne;32
+2025-08;14;Górnictwo i minerały;23
+2025-08;92;Usługi rekreacyjne i kulturalne;21
+2025-08;73;Usługi badawczo-rozwojowe;17
+2025-08;70;Usługi w zakresie nieruchomości;11
+2025-08;75;Usługi administracji publicznej;10
+2025-08;51;Usługi instalacyjne;8
+2025-08;19;Wyroby skórzane i tekstylne;7
+2025-08;65;Usługi komunalne (gaz, woda, energia);3
+2025-08;41;Woda i usługi wodne;1
+2025-09;45;Roboty budowlane;3517
+2025-09;33;Sprzęt medyczny i farmaceutyczny;705
+2025-09;34;Sprzęt transportowy i pojazdy;666
+2025-09;71;Usługi architektoniczne i inżynieryjne;578
+2025-09;90;Usługi środowiskowe i sanitarne;400
+2025-09;30;Sprzęt komputerowy i biurowy;394
+2025-09;39;Meble i wyposażenie wnętrz;368
+2025-09;9;Produkty naftowe, paliwa i energia;307
+2025-09;80;Usługi edukacyjne;291
+2025-09;79;Usługi biznesowe i doradcze;257
+2025-09;48;Pakiety oprogramowania;241
+2025-09;15;Artykuły spożywcze i napoje;230
+2025-09;31;Sprzęt elektryczny;229
+2025-09;38;Sprzęt laboratoryjny i naukowy;212
+2025-09;55;Usługi hotelarskie i restauracyjne;196
+2025-09;50;Usługi napraw i konserwacji;160
+2025-09;43;Maszyny górnicze;145
+2025-09;42;Maszyny przemysłowe;144
+2025-09;32;Sprzęt elektroniczny i telekomunikacyjny;127
+2025-09;66;Usługi finansowe i ubezpieczeniowe;115
+2025-09;85;Usługi zdrowotne i społeczne;108
+2025-09;44;Materiały budowlane;103
+2025-09;60;Usługi transportu drogowego;98
+2025-09;77;Usługi rolnicze i leśne;97
+2025-09;35;Sprzęt bezpieczeństwa i ochrony;95
+2025-09;72;Usługi informatyczne;89
+2025-09;3;Produkty rolne, łowieckie i rybne;84
+2025-09;37;Sprzęt sportowy i rekreacyjny;70
+2025-09;18;Odzież i obuwie;65
+2025-09;16;Maszyny rolnicze;59
+2025-09;14;Górnictwo i minerały;47
+2025-09;24;Produkty chemiczne;44
+2025-09;22;Drukowane materiały i produkty poligraficzne;41
+2025-09;64;Usługi pocztowe i telekomunikacyjne;37
+2025-09;98;Pozostałe usługi komunalne i osobiste;34
+2025-09;63;Usługi spedycji i logistyki;21
+2025-09;92;Usługi rekreacyjne i kulturalne;21
+2025-09;70;Usługi w zakresie nieruchomości;17
+2025-09;73;Usługi badawczo-rozwojowe;16
+2025-09;75;Usługi administracji publicznej;12
+2025-09;19;Wyroby skórzane i tekstylne;11
+2025-09;51;Usługi instalacyjne;8
+2025-09;65;Usługi komunalne (gaz, woda, energia);5
+2025-09;41;Woda i usługi wodne;1
+2025-10;45;Roboty budowlane;2790
+2025-10;33;Sprzęt medyczny i farmaceutyczny;937
+2025-10;90;Usługi środowiskowe i sanitarne;827
+2025-10;34;Sprzęt transportowy i pojazdy;818
+2025-10;31;Sprzęt elektryczny;759
+2025-10;71;Usługi architektoniczne i inżynieryjne;599
+2025-10;9;Produkty naftowe, paliwa i energia;586
+2025-10;30;Sprzęt komputerowy i biurowy;551
+2025-10;39;Meble i wyposażenie wnętrz;544
+2025-10;15;Artykuły spożywcze i napoje;452
+2025-10;79;Usługi biznesowe i doradcze;381
+2025-10;80;Usługi edukacyjne;344
+2025-10;48;Pakiety oprogramowania;321
+2025-10;42;Maszyny przemysłowe;261
+2025-10;38;Sprzęt laboratoryjny i naukowy;253
+2025-10;43;Maszyny górnicze;252
+2025-10;44;Materiały budowlane;242
+2025-10;55;Usługi hotelarskie i restauracyjne;227
+2025-10;35;Sprzęt bezpieczeństwa i ochrony;219
+2025-10;50;Usługi napraw i konserwacji;194
+2025-10;66;Usługi finansowe i ubezpieczeniowe;190
+2025-10;32;Sprzęt elektroniczny i telekomunikacyjny;187
+2025-10;85;Usługi zdrowotne i społeczne;182
+2025-10;16;Maszyny rolnicze;153
+2025-10;72;Usługi informatyczne;150
+2025-10;64;Usługi pocztowe i telekomunikacyjne;137
+2025-10;18;Odzież i obuwie;106
+2025-10;60;Usługi transportu drogowego;97
+2025-10;3;Produkty rolne, łowieckie i rybne;96
+2025-10;77;Usługi rolnicze i leśne;88
+2025-10;37;Sprzęt sportowy i rekreacyjny;76
+2025-10;98;Pozostałe usługi komunalne i osobiste;59
+2025-10;24;Produkty chemiczne;55
+2025-10;22;Drukowane materiały i produkty poligraficzne;47
+2025-10;92;Usługi rekreacyjne i kulturalne;47
+2025-10;63;Usługi spedycji i logistyki;39
+2025-10;14;Górnictwo i minerały;38
+2025-10;70;Usługi w zakresie nieruchomości;19
+2025-10;75;Usługi administracji publicznej;15
+2025-10;51;Usługi instalacyjne;14
+2025-10;65;Usługi komunalne (gaz, woda, energia);14
+2025-10;73;Usługi badawczo-rozwojowe;12
+2025-10;19;Wyroby skórzane i tekstylne;11
+2025-10;41;Woda i usługi wodne;2
+2025-11;45;Roboty budowlane;1366
+2025-11;15;Artykuły spożywcze i napoje;1096
+2025-11;90;Usługi środowiskowe i sanitarne;960
+2025-11;33;Sprzęt medyczny i farmaceutyczny;899
+2025-11;34;Sprzęt transportowy i pojazdy;833
+2025-11;31;Sprzęt elektryczny;725
+2025-11;9;Produkty naftowe, paliwa i energia;723
+2025-11;30;Sprzęt komputerowy i biurowy;523
+2025-11;79;Usługi biznesowe i doradcze;465
+2025-11;71;Usługi architektoniczne i inżynieryjne;446
+2025-11;55;Usługi hotelarskie i restauracyjne;442
+2025-11;39;Meble i wyposażenie wnętrz;441
+2025-11;48;Pakiety oprogramowania;338
+2025-11;85;Usługi zdrowotne i społeczne;337
+2025-11;66;Usługi finansowe i ubezpieczeniowe;276
+2025-11;64;Usługi pocztowe i telekomunikacyjne;273
+2025-11;60;Usługi transportu drogowego;243
+2025-11;50;Usługi napraw i konserwacji;217
+2025-11;80;Usługi edukacyjne;210
+2025-11;42;Maszyny przemysłowe;200
+2025-11;43;Maszyny górnicze;196
+2025-11;35;Sprzęt bezpieczeństwa i ochrony;195
+2025-11;38;Sprzęt laboratoryjny i naukowy;182
+2025-11;44;Materiały budowlane;168
+2025-11;32;Sprzęt elektroniczny i telekomunikacyjny;165
+2025-11;72;Usługi informatyczne;141
+2025-11;16;Maszyny rolnicze;130
+2025-11;3;Produkty rolne, łowieckie i rybne;125
+2025-11;98;Pozostałe usługi komunalne i osobiste;117
+2025-11;18;Odzież i obuwie;100
+2025-11;77;Usługi rolnicze i leśne;62
+2025-11;24;Produkty chemiczne;57
+2025-11;22;Drukowane materiały i produkty poligraficzne;56
+2025-11;37;Sprzęt sportowy i rekreacyjny;50
+2025-11;92;Usługi rekreacyjne i kulturalne;49
+2025-11;63;Usługi spedycji i logistyki;38
+2025-11;75;Usługi administracji publicznej;34
+2025-11;14;Górnictwo i minerały;28
+2025-11;70;Usługi w zakresie nieruchomości;18
+2025-11;19;Wyroby skórzane i tekstylne;12
+2025-11;51;Usługi instalacyjne;12
+2025-11;73;Usługi badawczo-rozwojowe;12
+2025-11;65;Usługi komunalne (gaz, woda, energia);8
+2025-11;41;Woda i usługi wodne;1
+2025-12;45;Roboty budowlane;1105
+2025-12;15;Artykuły spożywcze i napoje;907
+2025-12;33;Sprzęt medyczny i farmaceutyczny;676
+2025-12;90;Usługi środowiskowe i sanitarne;663
+2025-12;9;Produkty naftowe, paliwa i energia;595
+2025-12;71;Usługi architektoniczne i inżynieryjne;476
+2025-12;85;Usługi zdrowotne i społeczne;472
+2025-12;55;Usługi hotelarskie i restauracyjne;443
+2025-12;79;Usługi biznesowe i doradcze;360
+2025-12;34;Sprzęt transportowy i pojazdy;277
+2025-12;30;Sprzęt komputerowy i biurowy;273
+2025-12;39;Meble i wyposażenie wnętrz;252
+2025-12;50;Usługi napraw i konserwacji;243
+2025-12;60;Usługi transportu drogowego;227
+2025-12;48;Pakiety oprogramowania;223
+2025-12;80;Usługi edukacyjne;203
+2025-12;64;Usługi pocztowe i telekomunikacyjne;196
+2025-12;31;Sprzęt elektryczny;154
+2025-12;66;Usługi finansowe i ubezpieczeniowe;152
+2025-12;38;Sprzęt laboratoryjny i naukowy;142
+2025-12;72;Usługi informatyczne;131
+2025-12;98;Pozostałe usługi komunalne i osobiste;112
+2025-12;32;Sprzęt elektroniczny i telekomunikacyjny;101
+2025-12;3;Produkty rolne, łowieckie i rybne;82
+2025-12;42;Maszyny przemysłowe;76
+2025-12;77;Usługi rolnicze i leśne;75
+2025-12;44;Materiały budowlane;67
+2025-12;43;Maszyny górnicze;58
+2025-12;35;Sprzęt bezpieczeństwa i ochrony;56
+2025-12;24;Produkty chemiczne;54
+2025-12;18;Odzież i obuwie;46
+2025-12;92;Usługi rekreacyjne i kulturalne;40
+2025-12;16;Maszyny rolnicze;38
+2025-12;63;Usługi spedycji i logistyki;38
+2025-12;70;Usługi w zakresie nieruchomości;28
+2025-12;37;Sprzęt sportowy i rekreacyjny;25
+2025-12;14;Górnictwo i minerały;23
+2025-12;22;Drukowane materiały i produkty poligraficzne;22
+2025-12;75;Usługi administracji publicznej;22
+2025-12;73;Usługi badawczo-rozwojowe;12
+2025-12;19;Wyroby skórzane i tekstylne;10
+2025-12;65;Usługi komunalne (gaz, woda, energia);7
+2025-12;51;Usługi instalacyjne;3
+2025-12;41;Woda i usługi wodne;1
