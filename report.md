@@ -1,4 +1,5 @@
 # Spis treści
+- [Streszczenie](#streszczenie)
 - [Dane wejściowe](#dane-wejściowe)
 - [Omówienie i analiza uzyskanych danych](#omówienie-i-analiza-uzyskanych-danych)
 - [Analiza rozkładu przetargów](#analiza-rozkładu-przetargów)
@@ -31,6 +32,11 @@
     - [Liczba przetargów względem PKB per capita](#liczba-przetargów-względem-pkb-per-capita)
 - [Podsumowanie](#podsumowanie-1)
 - [Wnioski](#wnioski)
+
+# Streszczenie
+Niniejsza praca stanowi analizę **517 840** ogłoszeń o zamówieniach publicznych poniżej progu unijnego, opublikowanych na platformie **eZamówienia (BZP)** w latach **2021–2025**. Celem opracowania jest ilościowa charakterystyka rynku zamówień publicznych w Polsce w trzech wymiarach — **przedmiotowym** (rozkład według kodów i działów CPV), **przestrzennym** (zróżnicowanie między województwami) oraz **czasowym** (trend i sezonowość) — a także zbadanie zależności między aktywnością przetargową a regionalnymi czynnikami gospodarczymi (PKB i liczbą ludności). Analizę oparto na głównym kodzie CPV każdego ogłoszenia, zagregowanym w **45 działów** zgodnych z Rozporządzeniem Komisji (WE) nr 213/2008. Wykorzystano metody statystyki opisowej, odległość całkowitego wahania (TVD) do porównania struktury przedmiotowej województw, dekompozycję STL wraz z miarami siły trendu i sezonowości (`Fs`, `Ft`) oraz indeksami sezonowymi, a także regresję liniową i współczynnik korelacji Pearsona dla zależności ekonomicznych.
+
+Wyniki wskazują, że rozkład zamówień jest silnie **prawoskośny** i zdominowany przez roboty budowlane (kod **45000000-7** — 11,38% przetargów; dział **45** — 32,25%). Struktura przedmiotowa zamówień jest w skali kraju wysoce **jednorodna** (odchylenia między województwami w przedziale 4,0–9,2%). Po okresie wdrażania platformy w 2021 roku ogólna liczba przetargów **ustabilizowała się** (model trendu wyjaśnia jedynie ok. 6% zmienności w stabilnym okresie 2022–2025), a jej wahania mają charakter niemal wyłącznie **sezonowy** (`Fs=0.691`) — ze szczytem w listopadzie, dołkiem w styczniu i wyraźną koncentracją publikacji w dni robocze; sezonowość poszczególnych działów odzwierciedla natomiast cykle kontraktowania usług. Liczba przetargów jest **silnie skorelowana z PKB** województwa (`r=0.974`), przy czym miasto Warszawa stanowi wyraźny wyjątek o ponadprzeciętnej aktywności przetargowej na mieszkańca. Rynek wykazuje przy tym wysoką **reaktywność na zewnętrzne impulsy systemowe** — programy centralne, środki unijne i kontekst geopolityczny.
 
 # Dane wejściowe
 Analizie poddano dane pobrane z portalu [eZamówienia BZP](https://ezamowienia.gov.pl/mo-client-board/bzp) 
